@@ -1,0 +1,253 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "WheatFieldMill",
+  "items": [
+    {
+      "weight": 0.27,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.5,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:wheat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.34,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:hay_block",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:mattock",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StatsOriginal": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "HarvestLevelAxe": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 5.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "HarvestLevelShovel": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 30
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.9
+                }
+              }
+            },
+            "Stats": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "HarvestLevelAxe": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 5.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "HarvestLevelShovel": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 30
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 1
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.9
+                }
+              }
+            },
+            "Special": {
+              "nbtType": "compound",
+              "nbt": {
+                "Categories": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "harvest"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "tool"
+                    }
+                  ]
+                }
+              }
+            },
+            "TinkerData": {
+              "nbtType": "compound",
+              "nbt": {
+                "Materials": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "flint"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "flint"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "flint"
+                    }
+                  ]
+                },
+                "Modifiers": {
+                  "nbtType": "list",
+                  "nbt": []
+                }
+              }
+            },
+            "Modifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "crude"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -9868951
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 3
+                    },
+                    "crude1": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    },
+                    "crude2": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            },
+            "Traits": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "string",
+                  "nbt": "crude1"
+                },
+                {
+                  "nbtType": "string",
+                  "nbt": "crude2"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "immersiveengineering:seed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "rockhounding_surface:ricegrassSeeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "corn:kernels",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

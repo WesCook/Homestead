@@ -1,0 +1,35 @@
+Rock List
+---------
+igneous0: Red Granite
+igneous1: Black Granite
+igneous2: Rhyolite
+igneous3: Andesite
+igneous4: Gabbro
+igneous5: Basalt
+igneous6: Komatiite
+igneous7: Dacite
+metamorphic0: Gneiss
+metamorphic1: Eclogite
+metamorphic2: Marble
+metamorphic3: Quartzite
+metamorphic4: Blueschist
+metamorphic5: Greenschist
+metamorphic6: Soapstone
+metamorphic7: Migmatite
+sedimentary0: Limestone
+sedimentary1: Chalk
+sedimentary2: Shale
+sedimentary3: Siltstone
+sedimentary4: Lignite
+sedimentary5: Dolomite
+sedimentary6: Greywacke
+sedimentary7: Chert
+
+Tentative Ore Distributions
+---------------------------
+Iron: igneous, metamorphic, Limestone, Shale, Siltstone, Lignite, Dolomite, Greywacke, Chert (all but Chalk)
+Gold: igneous, sedimentary
+Lead: igneous, metamorphic
+Silver: igneous, metamorphic
+Nickel: igneous, metamorphic
+Bauxite: Red Granite, Black Granite, Basalt, Gneiss, Limestone, Shale, Dolomite

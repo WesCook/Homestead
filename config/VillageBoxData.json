@@ -1,0 +1,3142 @@
+{
+  "professions": [
+    {
+      "id": 0,
+      "name": "villager0",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,apple,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,egg,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,bread,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,4,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        3,
+        25,
+        29,
+        21
+      ],
+      "upgradeRequirements": [
+        "minecraft,book,1,0"
+      ],
+      "holdItems": [
+        "minecraft,apple,1,0",
+        "minecraft,egg,1,0"
+      ],
+      "texture": "villager0"
+    },
+    {
+      "id": 1,
+      "name": "villager1",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,apple,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,egg,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,bread,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,4,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        3,
+        25,
+        29,
+        21
+      ],
+      "upgradeRequirements": [
+        "minecraft,book,1,0"
+      ],
+      "holdItems": [
+        "minecraft,apple,1,0",
+        "minecraft,egg,1,0"
+      ],
+      "texture": "villager1"
+    },
+    {
+      "id": 2,
+      "name": "villager2",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,apple,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,egg,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,bread,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,4,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "minecraft,apple,2,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        3,
+        25,
+        29,
+        21
+      ],
+      "upgradeRequirements": [
+        "minecraft,book,1,0"
+      ],
+      "holdItems": [
+        "minecraft,apple,1,0",
+        "minecraft,egg,1,0"
+      ],
+      "texture": "villager2"
+    },
+    {
+      "id": 3,
+      "name": "peasant",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,wheat,10,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,carrot,3,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,potato,3,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,pumpkin,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,wheat_seed,5,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,wheat_seeds,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        16,
+        18,
+        20,
+        15,
+        27,
+        26
+      ],
+      "upgradeRequirements": [
+        "villagebox,bronze_coin,20,0",
+        "minecraft,wheat_seed,5,0"
+      ],
+      "holdItems": [
+        "minecraft,iron_hoe,1,0"
+      ],
+      "texture": "peasant"
+    },
+    {
+      "id": 25,
+      "name": "worker",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "minecraft,wheat_seed,5,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,crafting_table,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        32,
+        11,
+        9,
+        4,
+        14
+      ],
+      "upgradeRequirements": [
+        "villagebox,bronze_coin,25,0",
+        "minecraft,crafting_table,1,0"
+      ],
+      "holdItems": [
+        "minecraft,crafting_table,1,0"
+      ],
+      "texture": "worker"
+    },
+    {
+      "id": 29,
+      "name": "banker",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,64,0"
+          ],
+          "output": "villagebox,silver_coin,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,64,0"
+          ],
+          "output": "villagebox,gold_coin,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bronze_coin,64,0"
+        },
+        {
+          "inputs": [
+            "villagebox,gold_coin,1,0"
+          ],
+          "output": "villagebox,silver_coin,64,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,diamond,1,0"
+          ],
+          "rewards": [
+            "villagebox,silver_coin,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,emerald,1,0"
+          ],
+          "rewards": [
+            "villagebox,silver_coin,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,diamond,1,0"
+          ],
+          "rewards": [
+            "minecraft,ender_pearl,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,bronze_coin,32,0"
+      ],
+      "holdItems": [
+        "villagebox,silver_coin,1,0",
+        "villagebox,gold_coin,1,0"
+      ],
+      "texture": "banker"
+    },
+    {
+      "id": 21,
+      "name": "scholar",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0"
+          ],
+          "output": "minecraft,book,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,3,0"
+          ],
+          "output": "minecraft,paper,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "minecraft,paper,1,0"
+          ],
+          "output": "villagebox,reset_scroll,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,book,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,5,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,book,5,0"
+          ],
+          "rewards": [
+            "villagebox,reset_scroll,1,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        28,
+        24,
+        19
+      ],
+      "upgradeRequirements": [
+        "minecraft,book,1,0",
+        "villagebox,silver_coin,1,0"
+      ],
+      "holdItems": [
+        "minecraft,book,1,0",
+        "villagebox,reset_scroll,1,0"
+      ],
+      "texture": "scholar"
+    },
+    {
+      "id": 11,
+      "name": "carpenter",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "minecraft,log,1,1",
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,planks,8,1"
+        },
+        {
+          "inputs": [
+            "minecraft,log,1,2",
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,planks,8,2"
+        },
+        {
+          "inputs": [
+            "minecraft,log,1,3",
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,planks,8,3"
+        },
+        {
+          "inputs": [
+            "minecraft,log2,1,0",
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,planks,8,4"
+        },
+        {
+          "inputs": [
+            "minecraft,log2,1,1",
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,planks,8,5"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,planks,32,0"
+          ],
+          "rewards": [
+            "minecraft,trapped_chest,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,iron_axe,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        10,
+        17
+      ],
+      "upgradeRequirements": [
+        "architecturecraft,hammer,1,0",
+        "villagebox,silver_coin,2,0"
+      ],
+      "holdItems": [
+        "minecraft,log,1,0"
+      ],
+      "texture": "carpenter"
+    },
+    {
+      "id": 14,
+      "name": "carpetmaker",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_0,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_1,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_2,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_3,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_4,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_5,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_6,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_7,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_8,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_9,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_10,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_11,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_12,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_13,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_14,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,carpet_wool_15,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,wool,6,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        12,
+        13
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,2,0",
+        "minecraft,wool,16,0"
+      ],
+      "holdItems": [
+        "minecraft,wool,1,0"
+      ],
+      "texture": "carpetmaker"
+    },
+    {
+      "id": 32,
+      "name": "builder",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,16,0"
+          ],
+          "output": "immersiveengineering,tool,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,15,0"
+          ],
+          "output": "immersiveengineering,tool,1,1"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,30,0"
+          ],
+          "output": "immersiveengineering,tool,1,2"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,30,0"
+          ],
+          "output": "yurtmod,super_mallet,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,planks,32,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cobblestone,32,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,glass,10,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,stonebrick,32,0",
+        "minecraft,planks,32,0",
+        "villagebox,silver_coin,2,0"
+      ],
+      "holdItems": [
+        "minecraft,planks,1,0",
+        "minecraft,stonebrick,1,0"
+      ],
+      "texture": "builder"
+    },
+    {
+      "id": 8,
+      "name": "blacksmith",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,25,0",
+            "minecraft,soul_sand,2,0",
+            "minecraft,end_stone,2,0",
+            "immersiveengineering,metal,1,8"
+          ],
+          "output": "betterwithmods,material,1,14"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,coal,8,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,furnace,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "betterwithmods,steel_anvil,1,0",
+        "betterwithmods,material,4,14"
+      ],
+      "holdItems": [
+        "minecraft,coal,1,0",
+        "minecraft,lava_bucket,1,0"
+      ],
+      "texture": "blacksmith"
+    },
+    {
+      "id": 4,
+      "name": "miner",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "minecraft,coal,8,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,8,0"
+          ],
+          "output": "minecraft,iron_ore,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,32,0"
+          ],
+          "output": "minecraft,gold_ore,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "minecraft,redstone,8,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,3,0"
+          ],
+          "output": "minecraft,diamond,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,iron_ingot,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,torch,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,minecart,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,torch,6,0",
+        "villagebox,silver_coin,2,0"
+      ],
+      "holdItems": [
+        "minecraft,iron_pickaxe,1,0"
+      ],
+      "texture": "miner"
+    },
+    {
+      "id": 15,
+      "name": "fisherman",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0"
+          ],
+          "output": "harvestcraft,saltItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,seaweedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0"
+          ],
+          "output": "harvestcraft,shrimprawItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0"
+          ],
+          "output": "harvestcraft,crabrawItem,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,fishing_rod,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,12,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,fishing_rod,1,0"
+          ],
+          "rewards": [
+            "harvestcraft,crabrawItem,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,2,0",
+        "minecraft,fishing_rod,1,0"
+      ],
+      "holdItems": [
+        "minecraft,fishing_rod,1,0",
+        "minecraft,fish,1,0"
+      ],
+      "texture": "fisherman"
+    },
+    {
+      "id": 16,
+      "name": "florist",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bonsai,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_heartmushroom,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_gardenia,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_hydrangeas,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_plumblossom,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_ranunculus,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_redrose,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,flower_rosyspiraea,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,flower_pot,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,dirt,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,5,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,flower_pot,1,0",
+            "minecraft,dirt,3,0"
+          ],
+          "rewards": [
+            "villagebox,bonsai,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,flower_pot,2,0",
+        "minecraft,dirt,16,0",
+        "villagebox,silver_coin,2,0"
+      ],
+      "holdItems": [
+        "minecraft,flower_pot,1,0",
+        "villagebox,bonsai,1,0",
+        "villagebox,flower_redrose,1,0"
+      ],
+      "texture": "florist"
+    },
+    {
+      "id": 27,
+      "name": "farmer",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,artichokeseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,asparagusseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,bambooshootseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,barleyseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,beanseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,beetseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,bellpepperseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,blackberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,blueberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,broccoliseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,brusselsproutseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cabbageseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cactusfruitseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,candleberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cantaloupeseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cauliflowerseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,celeryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,chilipepperseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,coffeeseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cornseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cottonseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cranberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cucumberseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,curryleafseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,eggplantseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,garlicseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,gingerseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,grapeseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,kiwiseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,leekseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,lettuceseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,mustardseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,oatsseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,okraseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,onionseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,parsnipseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,peanutseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,peasseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,pineappleseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,radishseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,raspberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,rhubarbseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,riceseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,rutabagaseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,ryeseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,scallionseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,seaweedseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,sesameseedsseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,soybeanseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,spiceleafseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,spinachseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,strawberryseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,sweetpotatoseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,teaseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,tomatoseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,turnipseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,waterchestnutseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,whitemushroomseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,wintersquashseedItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,zucchiniseedItem,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,wheat_seed,4,0"
+          ],
+          "rewards": [
+            "harvestcraft,cornItem,3,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,carrot,16,0"
+          ],
+          "rewards": [
+            "harvestcraft,soybeanItem,3,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        22
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,1,0",
+        "minecraft,carrot,8,0"
+      ],
+      "holdItems": [
+        "minecraft,golden_hoe,1,0"
+      ],
+      "texture": "farmer"
+    },
+    {
+      "id": 18,
+      "name": "orchardist",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,lemonItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,orangeItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,bananaItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,strawberryItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "minecraft,melon,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,grapeItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,pineappleItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,1"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,2"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,3"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,4"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,5"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,6"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,7"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,8"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "terraqueous,sapling,1,9"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,wheat_seeds,8,0"
+          ],
+          "rewards": [
+            "harvestcraft,strawberryItem,3,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        22
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,1,0",
+        "minecraft,sapling,1,0"
+      ],
+      "holdItems": [
+        "minecraft,sapling,1,0"
+      ],
+      "texture": "orchardist"
+    },
+    {
+      "id": 20,
+      "name": "rancher",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,cheeseItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "harvestcraft,mayoItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "villagebox,ball_of_wool,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0",
+            "minecraft,wool,1,0"
+          ],
+          "output": "villagebox,ball_of_wool,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,bucket,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,12,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,shears,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,12,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,wheat_seeds,10,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,6,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,wheat,10,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,bucket,1,0"
+          ],
+          "rewards": [
+            "harvestcraft,mayoItem,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,shears,1,0"
+          ],
+          "rewards": [
+            "villagebox,ball_of_wool,3,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,1,0",
+        "minecraft,bucket,1,0",
+        "minecraft,shears,1,0"
+      ],
+      "holdItems": [
+        "minecraft,bucket,1,0",
+        "minecraft,shears,1,0"
+      ],
+      "texture": "rancher"
+    },
+    {
+      "id": 26,
+      "name": "cookassistant",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,cornItem,1,0"
+          ],
+          "output": "harvestcraft,oliveoilItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,riceItemplant,2,0"
+          ],
+          "output": "harvestcraft,riceItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,riceItemplant,3,0"
+          ],
+          "output": "harvestcraft,riceItem_flour,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "minecraft,wheat,5,0"
+          ],
+          "output": "betterwithmods,material,1,37"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,soybeanItem,3,0"
+          ],
+          "output": "harvestcraft,soysauceItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0",
+            "minecraft,egg,1,0"
+          ],
+          "output": "harvestcraft,boiledeggItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,soybeanItem,5,0"
+          ],
+          "output": "harvestcraft,firmtofuItem,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,wheat,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,chicken,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        30,
+        31
+      ],
+      "upgradeRequirements": [
+        "minecraft,wheat,10,0",
+        "minecraft,chicken,3,0",
+        "villagebox,silver_coin,2,0"
+      ],
+      "holdItems": [
+        "minecraft,chicken,1,0",
+        "minecraft,wheat,1,0"
+      ],
+      "texture": "cookassistant"
+    },
+    {
+      "id": 28,
+      "name": "bookseller",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,50,0"
+          ],
+          "output": "bibliocraft,BiblioRedBook,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "bqt,bqbook,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,30,0"
+          ],
+          "output": "tconstruct,book,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,30,0"
+          ],
+          "output": "immersiveengineering,tool,1,3"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,30,0"
+          ],
+          "output": "immcraft,manual,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,reset_scroll,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,reset_scroll,3,0",
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,dismissal_scroll,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,15,0"
+          ],
+          "output": "villagebox,village_book,1,0"
+        }
+      ],
+      "quests": [],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,1,0",
+        "minecraft,book,10,0"
+      ],
+      "holdItems": [
+        "minecraft,book,1,0"
+      ],
+      "texture": "bookseller"
+    },
+    {
+      "id": 24,
+      "name": "mage",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,40,0"
+          ],
+          "output": "minecraft,blaze_rod,1,0"
+        },
+        {
+          "inputs": [
+            "minecraft,snowball,16,0",
+            "villagebox,silver_coin,40,0"
+          ],
+          "output": "toughasnails,freeze_rod,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,sand,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,book,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        5,
+        6
+      ],
+      "upgradeRequirements": [
+        "minecraft,book,1,0",
+        "villagebox,silver_coin,3,0"
+      ],
+      "holdItems": [
+        "minecraft,blaze_rod,1,0"
+      ],
+      "texture": "mage"
+    },
+    {
+      "id": 19,
+      "name": "painter",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,painting,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,paper,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,silver_coin,2,0",
+        "minecraft,paper,64,0"
+      ],
+      "holdItems": [
+        "minecraft,dye,1,10",
+        "minecraft,dye,1,11",
+        "minecraft,dye,1,14"
+      ],
+      "texture": "painter"
+    },
+    {
+      "id": 5,
+      "name": "alchemist",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "minecraft,rabbit_foot,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "minecraft,gunpowder,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,30,0"
+          ],
+          "output": "minecraft,fish,1,3"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "minecraft,sugar,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,50,0"
+          ],
+          "output": "minecraft,speckled_melon,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,gold_coin,1,0"
+          ],
+          "output": "minecraft,fermented_spider_eye,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,glass_bottle,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,cauldron,1,0",
+        "villagebox,silver_coin,15,0"
+      ],
+      "holdItems": [
+        "minecraft,glass_bottle,1,0",
+        "minecraft,spider_eye,1,0"
+      ],
+      "texture": "alchemist"
+    },
+    {
+      "id": 6,
+      "name": "shaman",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,15,0",
+            "minecraft,book,1,0"
+          ],
+          "output": "totemic,totempedia,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,15,0",
+            "minecraft,log,1,0",
+            "minecraft,torch,1,0"
+          ],
+          "output": "totemic,totemTorch,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,15,0",
+            "minecraft,log,1,0"
+          ],
+          "output": "totemic,totemDrum,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,3,0",
+            "minecraft,stick,1,0"
+          ],
+          "output": "totemic,flute,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,gold_coin,1,0",
+            "minecraft,magma_cream,1,0"
+          ],
+          "output": "villagebox,sun_stone,3,0"
+        },
+        {
+          "inputs": [
+            "villagebox,gold_coin,1,0",
+            "minecraft,ghast_tear,1,0"
+          ],
+          "output": "villagebox,rain_stone,3,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,log,8,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,lava_bucket,1,0",
+        "minecraft,water_bucket,1,0",
+        "villagebox,silver_coin,12,0"
+      ],
+      "holdItems": [
+        "villagebox,sun_stone,1,0",
+        "villagebox,rain_stone,1,0"
+      ],
+      "texture": "shaman"
+    },
+    {
+      "id": 7,
+      "name": "armorsmith",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0",
+            "betterwithmods,material,3,6"
+          ],
+          "output": "minecraft,leather_helmet,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,20,0",
+            "betterwithmods,material,5,6"
+          ],
+          "output": "minecraft,leather_chestplate,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,15,0",
+            "betterwithmods,material,5,6"
+          ],
+          "output": "minecraft,leather_leggings,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0",
+            "betterwithmods,material,3,6"
+          ],
+          "output": "minecraft,leather_boots,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "harvestcraft,hardenedleatherItem,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,anvil,1,0"
+          ],
+          "rewards": [
+            "villagebox,silver_coin,25,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,coal,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,iron_ingot,24,0"
+          ],
+          "rewards": [
+            "minecraft,anvil,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "betterwithmods,material,4,50",
+        "villagebox,silver_coin,12,0"
+      ],
+      "holdItems": [
+        "minecraft,coal,1,0",
+        "minecraft,lava_bucket,1,0"
+      ],
+      "texture": "armorsmith"
+    },
+    {
+      "id": 9,
+      "name": "toolsmith",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "immersiveengineering,toolupgrade,1,7"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "bibliocraft,maptool,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "tconstruct,tooltables,1,3"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,crafting_table,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,coal,8,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,furnace,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        7,
+        23,
+        8
+      ],
+      "upgradeRequirements": [
+        "minecraft,iron_ingot,6,0",
+        "villagebox,silver_coin,12,0"
+      ],
+      "holdItems": [
+        "minecraft,coal,1,0",
+        "minecraft,lava_bucket,1,0"
+      ],
+      "texture": "toolsmith"
+    },
+    {
+      "id": 10,
+      "name": "bowmaker",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,25,0"
+          ],
+          "output": "minecraft,bow,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,15,0"
+          ],
+          "output": "minecraft,arrow,20,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,string,5,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,stick,20,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,10,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,feather,5,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,string,10,0",
+        "villagebox,silver_coin,12,0"
+      ],
+      "holdItems": [
+        "minecraft,string,1,0"
+      ],
+      "texture": "bowmaker"
+    },
+    {
+      "id": 12,
+      "name": "carpetmakeradv",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_20,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_21,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_22,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_23,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_24,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_25,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_26,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_27,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_28,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_29,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_30,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_31,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "villagebox,ball_of_wool,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,24,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,ball_of_wool,10,0",
+        "villagebox,silver_coin,10,0"
+      ],
+      "holdItems": [
+        "villagebox,ball_of_wool,1,0"
+      ],
+      "texture": "carpetmakeradv"
+    },
+    {
+      "id": 13,
+      "name": "carpetmakercartoony",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_0,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_1,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_2,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_3,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_4,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_5,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_6,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_7,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_8,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_9,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_10,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_11,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_12,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_13,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_14,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_15,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_16,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_17,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_18,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "villagebox,ball_of_wool,2,0"
+          ],
+          "output": "villagebox,carpet_19,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "villagebox,ball_of_wool,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,24,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "villagebox,ball_of_wool,10,0",
+        "villagebox,silver_coin,10,0"
+      ],
+      "holdItems": [
+        "villagebox,ball_of_wool,1,0"
+      ],
+      "texture": "carpetmakercartoony"
+    },
+    {
+      "id": 17,
+      "name": "furnituremaker",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "furniture,stool_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "furniture,cabinet_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "furniture,chair_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,4,0"
+          ],
+          "output": "furniture,blinds,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,6,0"
+          ],
+          "output": "furniture,doorbell,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,4,0"
+          ],
+          "output": "furniture,light_switch,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,6,0"
+          ],
+          "output": "furniture,fan,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,12,0"
+          ],
+          "output": "furniture,fan_light_off,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,10,0"
+          ],
+          "output": "furniture,lightbulb_off,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "furniture,fancy_fence,8,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_acacia,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_birch,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_big_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_jungle,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,2,0"
+          ],
+          "output": "villagebox,table_spruce,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_acacia,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_birch,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_big_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_jungle,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,chair_spruce,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_acacia,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_birch,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_big_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_jungle,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_oak,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,bench_spruce,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,planks,32,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,1"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,2"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,3"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,4"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,5"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,planks,32,0"
+          ],
+          "rewards": [
+            "villagebox,chair_oak,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,planks,64,0",
+        "villagebox,silver_coin,10,0"
+      ],
+      "holdItems": [
+        "minecraft,planks,1,0",
+        "villagebox,chair_oak,1,0"
+      ],
+      "texture": "furnituremaker"
+    },
+    {
+      "id": 22,
+      "name": "vintner",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "villagebox,cooking_wine,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,grapeItem,1,0"
+          ],
+          "output": "harvestcraft,grapeItem_wine,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "villagebox,cocktail,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,5,0",
+            "harvestcraft,riceItemplant,1,0"
+          ],
+          "output": "villagebox,beer,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "villagebox,whisky,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0"
+          ],
+          "output": "villagebox,vodka,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,planks,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,8,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,glass_bottle,8,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,5,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,glass_bottle,8,0"
+          ],
+          "rewards": [
+            "villagebox,beer,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "harvestcraft,grapeItem,5,0",
+        "harvestcraft,riceItemplant,5,0",
+        "villagebox,silver_coin,1,0"
+      ],
+      "holdItems": [
+        "harvestcraft,grapeItem,1,0",
+        "harvestcraft,grapeItem_wine,1,0"
+      ],
+      "texture": "vintner"
+    },
+    {
+      "id": 23,
+      "name": "weaponsmith",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,50,0"
+          ],
+          "output": "immersiveengineering,toolupgrade,1,4"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "villagebox,wooden_club,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0"
+          ],
+          "output": "animania,carving_knife,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,5,0"
+          ],
+          "output": "minecraft,poisonous_potato,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,anvil,1,0"
+          ],
+          "rewards": [
+            "villagebox,silver_coin,2,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,coal,16,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,20,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "betterwithmods,material,8,47",
+        "villagebox,silver_coin,15,0"
+      ],
+      "holdItems": [
+        "minecraft,coal,1,0",
+        "minecraft,lava_bucket,1,0"
+      ],
+      "texture": "weaponsmith"
+    },
+    {
+      "id": 30,
+      "name": "chef",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "minecraft,porkchop,1,0",
+            "betterwithmods,material,1,37",
+            "harvestcraft,soysauceItem,1,0"
+          ],
+          "output": "villagebox,pork_ramen,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "minecraft,beef,1,0",
+            "betterwithmods,material,1,37"
+          ],
+          "output": "villagebox,beef_noodle_soup,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "betterwithmods,material,1,37",
+            "harvestcraft,saltItem,1,0"
+          ],
+          "output": "villagebox,noodle_soup,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,50,0",
+            "minecraft,beef,1,0",
+            "harvestcraft,cheeseItem,1,0",
+            "harvestcraft,cabbageItem,1,0"
+          ],
+          "output": "harvestcraft,hamburgerItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,40,0",
+            "harvestcraft,riceItem,1,0",
+            "harvestcraft,saltItem,1,0"
+          ],
+          "output": "villagebox,congee,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "harvestcraft,chilipepperItem,1,0",
+            "minecraft,fish,1,0",
+            "harvestcraft,oliveoilItem,1,0"
+          ],
+          "output": "villagebox,boiled_fish,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,30,0",
+            "minecraft,potato,1,0",
+            "harvestcraft,oliveoilItem,1,0"
+          ],
+          "output": "harvestcraft,friesItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "harvestcraft,firmtofuItem,1,0",
+            "harvestcraft,chilipepperItem,1,0",
+            "harvestcraft,soysauceItem,1,0"
+          ],
+          "output": "villagebox,mapo_tofu,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,30,0",
+            "harvestcraft,cornItem,1,0",
+            "harvestcraft,saltItem,1,0",
+            "harvestcraft,oliveoilItem,1,0"
+          ],
+          "output": "harvestcraft,cornItem_chips,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,1,0",
+            "minecraft,mutton,1,0",
+            "villagebox,cooking_wine,1,0",
+            "harvestcraft,oliveoilItem,1,0"
+          ],
+          "output": "villagebox,roasted_lamb,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,50,0",
+            "harvestcraft,riceItem,1,0",
+            "harvestcraft,soysauceItem,1,0",
+            "minecraft,fish,1,0"
+          ],
+          "output": "villagebox,nigiri,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,80,0",
+            "harvestcraft,riceItem_flour,1,0",
+            "harvestcraft,saltItem,1,0"
+          ],
+          "output": "villagebox,udon,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "harvestcraft,oliveoilItem,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "villagebox,cooking_wine,1,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "villagebox,cooking_wine,1,0"
+          ],
+          "rewards": [
+            "villagebox,pork_ramen,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "harvestcraft,oliveoilItem,5,0",
+        "villagebox,cooking_wine,5,0",
+        "villagebox,silver_coin,12,0"
+      ],
+      "holdItems": [
+        "harvestcraft,oliveoilItem,1,0",
+        "villagebox,cooking_wine,1,0"
+      ],
+      "texture": "chef"
+    },
+    {
+      "id": 31,
+      "name": "chefdessert",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "villagebox,bronze_coin,20,0",
+            "minecraft,carrot,1,0",
+            "betterwithmods,material,1,37"
+          ],
+          "output": "harvestcraft,carrotcakeItem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "minecraft,apple,1,0",
+            "minecraft,sugar,1,0"
+          ],
+          "output": "villagebox,apple_candy,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,cornItem,1,0",
+            "harvestcraft,cheeseItem,1,0"
+          ],
+          "output": "villagebox,creamy_corn,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,15,0",
+            "minecraft,dye,1,3",
+            "harvestcraft,bananaItem,1,0"
+          ],
+          "output": "villagebox,chocolate_banana,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,silver_coin,20,0",
+            "harvestcraft,orangeItem,1,0",
+            "minecraft,sugar,1,0"
+          ],
+          "output": "villagebox,canned_oranges,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,30,0",
+            "harvestcraft,mayoItem,1,0",
+            "harvestcraft,strawberryItem,1,0",
+            "minecraft,snowball,2,0"
+          ],
+          "output": "harvestcraft,strawberryItem_icecream,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "minecraft,sugar,1,0",
+            "harvestcraft,lemonItem,1,0"
+          ],
+          "output": "villagebox,honey_tea,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,10,0",
+            "harvestcraft,pineappleItem,1,0",
+            "minecraft,sugar,1,0"
+          ],
+          "output": "harvestcraft,pineappleItem_canday,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,30,0",
+            "minecraft,melon,1,0",
+            "harvestcraft,mayoItem,1,0",
+            "minecraft,snowball,2,0"
+          ],
+          "output": "minecraft,melon_icecream,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,15,0",
+            "minecraft,melon,1,0",
+            "minecraft,sugar,1,0"
+          ],
+          "output": "minecraft,melon_icebar,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,sugar,3,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "betterwithmods,material,1,37"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,15,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,sugar,3,0"
+          ],
+          "rewards": [
+            "harvestcraft,strawberryItem_icecream,1,0"
+          ]
+        }
+      ],
+      "upgradeRequirements": [
+        "minecraft,sugar,20,0",
+        "betterwithmods,material,5,37",
+        "villagebox,silver_coin,10,0"
+      ],
+      "holdItems": [
+        "minecraft,sugar,1,0",
+        "betterwithmods,material,1,37"
+      ],
+      "texture": "chefdessert"
+    },
+    {
+      "id": 99999,
+      "name": "caveman",
+      "tradingRecipes": [
+        {
+          "inputs": [
+            "minecraft,cobblestone,10,0"
+          ],
+          "output": "minecraft,bone,1,0"
+        },
+        {
+          "inputs": [
+            "minecraft,cobblestone,64,0"
+          ],
+          "output": "villagebox,wooden_club,1,0"
+        }
+      ],
+      "quests": [
+        {
+          "objectives": [
+            "minecraft,cooked_chicken,1,0"
+          ],
+          "rewards": [
+            "minecraft,cobblestone,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_fish,1,0"
+          ],
+          "rewards": [
+            "minecraft,cobblestone,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_porkchop,1,0"
+          ],
+          "rewards": [
+            "minecraft,cobblestone,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,cooked_rabbit,1,0"
+          ],
+          "rewards": [
+            "minecraft,cobblestone,16,0"
+          ]
+        },
+        {
+          "objectives": [
+            "minecraft,beef,1,0"
+          ],
+          "rewards": [
+            "minecraft,cobblestone,16,0"
+          ]
+        }
+      ],
+      "upgradeProfessionIDs": [
+        0,
+        1,
+        2
+      ],
+      "holdItems": [
+        "villagebox,wooden_club,1,0"
+      ],
+      "texture": "caveman"
+    }
+  ]
+}

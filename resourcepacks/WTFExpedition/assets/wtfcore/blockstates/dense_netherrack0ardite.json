@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "minecraft:blocks/netherrack"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/ore_ardite0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/ore_ardite0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/ore_ardite1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/ore_ardite2"}}
+}}}

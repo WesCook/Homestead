@@ -1,0 +1,11 @@
+# Rename Galgadorian to Advanced
+item.SC2:galgadorian_drill.name=Advanced Drill
+item.SC2:galgadorian_farmer.name=Advanced Farmer
+item.SC2:galgadorian_hull.name=Advanced Hull
+item.SC2:galgadorian_wood_cutter.name=Advanced Wood Cutter
+
+# Fix Entity name in TOP
+entity.stevescarts.Minecart.Vswe.0.name=Steve's Cart
+
+# Change Chunk Loader name to clarify it's a module
+item.SC2:chunk_loader.name=Cart Chunk Loader

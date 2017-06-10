@@ -1,0 +1,435 @@
+########
+# Ores #
+########
+
+## Coal
+
+# Igneous
+tile.dense_igneous_stone0coal_ore0.name=Red Granite Coal Ore
+tile.dense_igneous_stone1coal_ore0.name=Black Granite Coal Ore
+tile.dense_igneous_stone2coal_ore0.name=Rhyolite Coal Ore
+tile.dense_igneous_stone3coal_ore0.name=Andesite Coal Ore
+tile.dense_igneous_stone4coal_ore0.name=Gabbro Coal Ore
+tile.dense_igneous_stone5coal_ore0.name=Basalt Coal Ore
+tile.dense_igneous_stone6coal_ore0.name=Komatiite Coal Ore
+tile.dense_igneous_stone7coal_ore0.name=Dacite Coal Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0coal_ore0.name=Gneiss Coal Ore
+tile.dense_metamorphic_stone1coal_ore0.name=Eclogite Coal Ore
+tile.dense_metamorphic_stone2coal_ore0.name=Marble Coal Ore
+tile.dense_metamorphic_stone3coal_ore0.name=Quartzite Coal Ore
+tile.dense_metamorphic_stone4coal_ore0.name=Blue Schist Coal Ore
+tile.dense_metamorphic_stone5coal_ore0.name=Green Schist Coal Ore
+tile.dense_metamorphic_stone6coal_ore0.name=Soapstone Coal Ore
+tile.dense_metamorphic_stone7coal_ore0.name=Migmatite Coal Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0coal_ore0.name=Limestone Coal Ore
+tile.dense_sedimentary_stone1coal_ore0.name=Chalk Coal Ore
+tile.dense_sedimentary_stone2coal_ore0.name=Shale Coal Ore
+tile.dense_sedimentary_stone3coal_ore0.name=Siltstone Coal Ore
+tile.dense_sedimentary_stone4coal_ore0.name=Lignite Coal Ore
+tile.dense_sedimentary_stone5coal_ore0.name=Dolomite Coal Ore
+tile.dense_sedimentary_stone6coal_ore0.name=Greywacke Coal Ore
+tile.dense_sedimentary_stone7coal_ore0.name=Chert Coal Ore
+
+## Iron
+
+# Igneous
+tile.dense_igneous_stone0iron_ore0.name=Red Granite Iron Ore
+tile.dense_igneous_stone1iron_ore0.name=Black Granite Iron Ore
+tile.dense_igneous_stone2iron_ore0.name=Rhyolite Iron Ore
+tile.dense_igneous_stone3iron_ore0.name=Andesite Iron Ore
+tile.dense_igneous_stone4iron_ore0.name=Gabbro Iron Ore
+tile.dense_igneous_stone5iron_ore0.name=Basalt Iron Ore
+tile.dense_igneous_stone6iron_ore0.name=Komatiite Iron Ore
+tile.dense_igneous_stone7iron_ore0.name=Dacite Iron Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0iron_ore0.name=Gneiss Iron Ore
+tile.dense_metamorphic_stone1iron_ore0.name=Eclogite Iron Ore
+tile.dense_metamorphic_stone2iron_ore0.name=Marble Iron Ore
+tile.dense_metamorphic_stone3iron_ore0.name=Quartzite Iron Ore
+tile.dense_metamorphic_stone4iron_ore0.name=Blue Schist Iron Ore
+tile.dense_metamorphic_stone5iron_ore0.name=Green Schist Iron Ore
+tile.dense_metamorphic_stone6iron_ore0.name=Soapstone Iron Ore
+tile.dense_metamorphic_stone7iron_ore0.name=Migmatite Iron Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0iron_ore0.name=Limestone Iron Ore
+tile.dense_sedimentary_stone1iron_ore0.name=Chalk Iron Ore
+tile.dense_sedimentary_stone2iron_ore0.name=Shale Iron Ore
+tile.dense_sedimentary_stone3iron_ore0.name=Siltstone Iron Ore
+tile.dense_sedimentary_stone4iron_ore0.name=Lignite Iron Ore
+tile.dense_sedimentary_stone5iron_ore0.name=Dolomite Iron Ore
+tile.dense_sedimentary_stone6iron_ore0.name=Greywacke Iron Ore
+tile.dense_sedimentary_stone7iron_ore0.name=Chert Iron Ore
+
+## Gold
+
+# Igneous
+tile.dense_igneous_stone0gold_ore0.name=Red Granite Gold Ore
+tile.dense_igneous_stone1gold_ore0.name=Black Granite Gold Ore
+tile.dense_igneous_stone2gold_ore0.name=Rhyolite Gold Ore
+tile.dense_igneous_stone3gold_ore0.name=Andesite Gold Ore
+tile.dense_igneous_stone4gold_ore0.name=Gabbro Gold Ore
+tile.dense_igneous_stone5gold_ore0.name=Basalt Gold Ore
+tile.dense_igneous_stone6gold_ore0.name=Komatiite Gold Ore
+tile.dense_igneous_stone7gold_ore0.name=Dacite Gold Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0gold_ore0.name=Gneiss Gold Ore
+tile.dense_metamorphic_stone1gold_ore0.name=Eclogite Gold Ore
+tile.dense_metamorphic_stone2gold_ore0.name=Marble Gold Ore
+tile.dense_metamorphic_stone3gold_ore0.name=Quartzite Gold Ore
+tile.dense_metamorphic_stone4gold_ore0.name=Blue Schist Gold Ore
+tile.dense_metamorphic_stone5gold_ore0.name=Green Schist Gold Ore
+tile.dense_metamorphic_stone6gold_ore0.name=Soapstone Gold Ore
+tile.dense_metamorphic_stone7gold_ore0.name=Migmatite Gold Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0gold_ore0.name=Limestone Gold Ore
+tile.dense_sedimentary_stone1gold_ore0.name=Chalk Gold Ore
+tile.dense_sedimentary_stone2gold_ore0.name=Shale Gold Ore
+tile.dense_sedimentary_stone3gold_ore0.name=Siltstone Gold Ore
+tile.dense_sedimentary_stone4gold_ore0.name=Lignite Gold Ore
+tile.dense_sedimentary_stone5gold_ore0.name=Dolomite Gold Ore
+tile.dense_sedimentary_stone6gold_ore0.name=Greywacke Gold Ore
+tile.dense_sedimentary_stone7gold_ore0.name=Chert Gold Ore
+
+## Redstone
+
+# Igneous
+tile.dense_igneous_stone0redstone_ore0.name=Red Granite Redstone Ore
+tile.dense_igneous_stone1redstone_ore0.name=Black Granite Redstone Ore
+tile.dense_igneous_stone2redstone_ore0.name=Rhyolite Redstone Ore
+tile.dense_igneous_stone3redstone_ore0.name=Andesite Redstone Ore
+tile.dense_igneous_stone4redstone_ore0.name=Gabbro Redstone Ore
+tile.dense_igneous_stone5redstone_ore0.name=Basalt Redstone Ore
+tile.dense_igneous_stone6redstone_ore0.name=Komatiite Redstone Ore
+tile.dense_igneous_stone7redstone_ore0.name=Dacite Redstone Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0redstone_ore0.name=Gneiss Redstone Ore
+tile.dense_metamorphic_stone1redstone_ore0.name=Eclogite Redstone Ore
+tile.dense_metamorphic_stone2redstone_ore0.name=Marble Redstone Ore
+tile.dense_metamorphic_stone3redstone_ore0.name=Quartzite Redstone Ore
+tile.dense_metamorphic_stone4redstone_ore0.name=Blue Schist Redstone Ore
+tile.dense_metamorphic_stone5redstone_ore0.name=Green Schist Redstone Ore
+tile.dense_metamorphic_stone6redstone_ore0.name=Soapstone Redstone Ore
+tile.dense_metamorphic_stone7redstone_ore0.name=Migmatite Redstone Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0redstone_ore0.name=Limestone Redstone Ore
+tile.dense_sedimentary_stone1redstone_ore0.name=Chalk Redstone Ore
+tile.dense_sedimentary_stone2redstone_ore0.name=Shale Redstone Ore
+tile.dense_sedimentary_stone3redstone_ore0.name=Siltstone Redstone Ore
+tile.dense_sedimentary_stone4redstone_ore0.name=Lignite Redstone Ore
+tile.dense_sedimentary_stone5redstone_ore0.name=Dolomite Redstone Ore
+tile.dense_sedimentary_stone6redstone_ore0.name=Greywacke Redstone Ore
+tile.dense_sedimentary_stone7redstone_ore0.name=Chert Redstone Ore
+
+## Lapis
+
+# Igneous
+tile.dense_igneous_stone0lapis_ore0.name=Red Granite Lapis Ore
+tile.dense_igneous_stone1lapis_ore0.name=Black Granite Lapis Ore
+tile.dense_igneous_stone2lapis_ore0.name=Rhyolite Lapis Ore
+tile.dense_igneous_stone3lapis_ore0.name=Andesite Lapis Ore
+tile.dense_igneous_stone4lapis_ore0.name=Gabbro Lapis Ore
+tile.dense_igneous_stone5lapis_ore0.name=Basalt Lapis Ore
+tile.dense_igneous_stone6lapis_ore0.name=Komatiite Lapis Ore
+tile.dense_igneous_stone7lapis_ore0.name=Dacite Lapis Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0lapis_ore0.name=Gneiss Lapis Ore
+tile.dense_metamorphic_stone1lapis_ore0.name=Eclogite Lapis Ore
+tile.dense_metamorphic_stone2lapis_ore0.name=Marble Lapis Ore
+tile.dense_metamorphic_stone3lapis_ore0.name=Quartzite Lapis Ore
+tile.dense_metamorphic_stone4lapis_ore0.name=Blue Schist Lapis Ore
+tile.dense_metamorphic_stone5lapis_ore0.name=Green Schist Lapis Ore
+tile.dense_metamorphic_stone6lapis_ore0.name=Soapstone Lapis Ore
+tile.dense_metamorphic_stone7lapis_ore0.name=Migmatite Lapis Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0lapis_ore0.name=Limestone Lapis Ore
+tile.dense_sedimentary_stone1lapis_ore0.name=Chalk Lapis Ore
+tile.dense_sedimentary_stone2lapis_ore0.name=Shale Lapis Ore
+tile.dense_sedimentary_stone3lapis_ore0.name=Siltstone Lapis Ore
+tile.dense_sedimentary_stone4lapis_ore0.name=Lignite Lapis Ore
+tile.dense_sedimentary_stone5lapis_ore0.name=Dolomite Lapis Ore
+tile.dense_sedimentary_stone6lapis_ore0.name=Greywacke Lapis Ore
+tile.dense_sedimentary_stone7lapis_ore0.name=Chert Lapis Ore
+
+## Emerald
+
+# Igneous
+tile.dense_igneous_stone0emerald_ore0.name=Red Granite Emerald Ore
+tile.dense_igneous_stone1emerald_ore0.name=Black Granite Emerald Ore
+tile.dense_igneous_stone2emerald_ore0.name=Rhyolite Emerald Ore
+tile.dense_igneous_stone3emerald_ore0.name=Andesite Emerald Ore
+tile.dense_igneous_stone4emerald_ore0.name=Gabbro Emerald Ore
+tile.dense_igneous_stone5emerald_ore0.name=Basalt Emerald Ore
+tile.dense_igneous_stone6emerald_ore0.name=Komatiite Emerald Ore
+tile.dense_igneous_stone7emerald_ore0.name=Dacite Emerald Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0emerald_ore0.name=Gneiss Emerald Ore
+tile.dense_metamorphic_stone1emerald_ore0.name=Eclogite Emerald Ore
+tile.dense_metamorphic_stone2emerald_ore0.name=Marble Emerald Ore
+tile.dense_metamorphic_stone3emerald_ore0.name=Quartzite Emerald Ore
+tile.dense_metamorphic_stone4emerald_ore0.name=Blue Schist Emerald Ore
+tile.dense_metamorphic_stone5emerald_ore0.name=Green Schist Emerald Ore
+tile.dense_metamorphic_stone6emerald_ore0.name=Soapstone Emerald Ore
+tile.dense_metamorphic_stone7emerald_ore0.name=Migmatite Emerald Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0emerald_ore0.name=Limestone Emerald Ore
+tile.dense_sedimentary_stone1emerald_ore0.name=Chalk Emerald Ore
+tile.dense_sedimentary_stone2emerald_ore0.name=Shale Emerald Ore
+tile.dense_sedimentary_stone3emerald_ore0.name=Siltstone Emerald Ore
+tile.dense_sedimentary_stone4emerald_ore0.name=Lignite Emerald Ore
+tile.dense_sedimentary_stone5emerald_ore0.name=Dolomite Emerald Ore
+tile.dense_sedimentary_stone6emerald_ore0.name=Greywacke Emerald Ore
+tile.dense_sedimentary_stone7emerald_ore0.name=Chert Emerald Ore
+
+## Diamond
+
+# Igneous
+tile.dense_igneous_stone0diamond_ore0.name=Red Granite Diamond Ore
+tile.dense_igneous_stone1diamond_ore0.name=Black Granite Diamond Ore
+tile.dense_igneous_stone2diamond_ore0.name=Rhyolite Diamond Ore
+tile.dense_igneous_stone3diamond_ore0.name=Andesite Diamond Ore
+tile.dense_igneous_stone4diamond_ore0.name=Gabbro Diamond Ore
+tile.dense_igneous_stone5diamond_ore0.name=Basalt Diamond Ore
+tile.dense_igneous_stone6diamond_ore0.name=Komatiite Diamond Ore
+tile.dense_igneous_stone7diamond_ore0.name=Dacite Diamond Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0diamond_ore0.name=Gneiss Diamond Ore
+tile.dense_metamorphic_stone1diamond_ore0.name=Eclogite Diamond Ore
+tile.dense_metamorphic_stone2diamond_ore0.name=Marble Diamond Ore
+tile.dense_metamorphic_stone3diamond_ore0.name=Quartzite Diamond Ore
+tile.dense_metamorphic_stone4diamond_ore0.name=Blue Schist Diamond Ore
+tile.dense_metamorphic_stone5diamond_ore0.name=Green Schist Diamond Ore
+tile.dense_metamorphic_stone6diamond_ore0.name=Soapstone Diamond Ore
+tile.dense_metamorphic_stone7diamond_ore0.name=Migmatite Diamond Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0diamond_ore0.name=Limestone Diamond Ore
+tile.dense_sedimentary_stone1diamond_ore0.name=Chalk Diamond Ore
+tile.dense_sedimentary_stone2diamond_ore0.name=Shale Diamond Ore
+tile.dense_sedimentary_stone3diamond_ore0.name=Siltstone Diamond Ore
+tile.dense_sedimentary_stone4diamond_ore0.name=Lignite Diamond Ore
+tile.dense_sedimentary_stone5diamond_ore0.name=Dolomite Diamond Ore
+tile.dense_sedimentary_stone6diamond_ore0.name=Greywacke Diamond Ore
+tile.dense_sedimentary_stone7diamond_ore0.name=Chert Diamond Ore
+
+## Copper
+
+# Igneous
+tile.dense_igneous_stone0copper.name=Red Granite Copper Ore
+tile.dense_igneous_stone1copper.name=Black Granite Copper Ore
+tile.dense_igneous_stone2copper.name=Rhyolite Copper Ore
+tile.dense_igneous_stone3copper.name=Andesite Copper Ore
+tile.dense_igneous_stone4copper.name=Gabbro Copper Ore
+tile.dense_igneous_stone5copper.name=Basalt Copper Ore
+tile.dense_igneous_stone6copper.name=Komatiite Copper Ore
+tile.dense_igneous_stone7copper.name=Dacite Copper Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0copper.name=Gneiss Copper Ore
+tile.dense_metamorphic_stone1copper.name=Eclogite Copper Ore
+tile.dense_metamorphic_stone2copper.name=Marble Copper Ore
+tile.dense_metamorphic_stone3copper.name=Quartzite Copper Ore
+tile.dense_metamorphic_stone4copper.name=Blue Schist Copper Ore
+tile.dense_metamorphic_stone5copper.name=Green Schist Copper Ore
+tile.dense_metamorphic_stone6copper.name=Soapstone Copper Ore
+tile.dense_metamorphic_stone7copper.name=Migmatite Copper Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0copper.name=Limestone Copper Ore
+tile.dense_sedimentary_stone1copper.name=Chalk Copper Ore
+tile.dense_sedimentary_stone2copper.name=Shale Copper Ore
+tile.dense_sedimentary_stone3copper.name=Siltstone Copper Ore
+tile.dense_sedimentary_stone4copper.name=Lignite Copper Ore
+tile.dense_sedimentary_stone5copper.name=Dolomite Copper Ore
+tile.dense_sedimentary_stone6copper.name=Greywacke Copper Ore
+tile.dense_sedimentary_stone7copper.name=Chert Copper Ore
+
+## Aluminum
+
+# Igneous
+tile.dense_igneous_stone0bauxite.name=Red Granite Bauxite Ore
+tile.dense_igneous_stone1bauxite.name=Black Granite Bauxite Ore
+tile.dense_igneous_stone2bauxite.name=Rhyolite Bauxite Ore
+tile.dense_igneous_stone3bauxite.name=Andesite Bauxite Ore
+tile.dense_igneous_stone4bauxite.name=Gabbro Bauxite Ore
+tile.dense_igneous_stone5bauxite.name=Basalt Bauxite Ore
+tile.dense_igneous_stone6bauxite.name=Komatiite Bauxite Ore
+tile.dense_igneous_stone7bauxite.name=Dacite Bauxite Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0bauxite.name=Gneiss Bauxite Ore
+tile.dense_metamorphic_stone1bauxite.name=Eclogite Bauxite Ore
+tile.dense_metamorphic_stone2bauxite.name=Marble Bauxite Ore
+tile.dense_metamorphic_stone3bauxite.name=Quartzite Bauxite Ore
+tile.dense_metamorphic_stone4bauxite.name=Blue Schist Bauxite Ore
+tile.dense_metamorphic_stone5bauxite.name=Green Schist Bauxite Ore
+tile.dense_metamorphic_stone6bauxite.name=Soapstone Bauxite Ore
+tile.dense_metamorphic_stone7bauxite.name=Migmatite Bauxite Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0bauxite.name=Limestone Bauxite Ore
+tile.dense_sedimentary_stone1bauxite.name=Chalk Bauxite Ore
+tile.dense_sedimentary_stone2bauxite.name=Shale Bauxite Ore
+tile.dense_sedimentary_stone3bauxite.name=Siltstone Bauxite Ore
+tile.dense_sedimentary_stone4bauxite.name=Lignite Bauxite Ore
+tile.dense_sedimentary_stone5bauxite.name=Dolomite Bauxite Ore
+tile.dense_sedimentary_stone6bauxite.name=Greywacke Bauxite Ore
+tile.dense_sedimentary_stone7bauxite.name=Chert Bauxite Ore
+
+## Galena
+
+# Igneous
+tile.dense_igneous_stone0galena.name=Red Granite Galena Ore
+tile.dense_igneous_stone1galena.name=Black Granite Galena Ore
+tile.dense_igneous_stone2galena.name=Rhyolite Galena Ore
+tile.dense_igneous_stone3galena.name=Andesite Galena Ore
+tile.dense_igneous_stone4galena.name=Gabbro Galena Ore
+tile.dense_igneous_stone5galena.name=Basalt Galena Ore
+tile.dense_igneous_stone6galena.name=Komatiite Galena Ore
+tile.dense_igneous_stone7galena.name=Dacite Galena Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0galena.name=Gneiss Galena Ore
+tile.dense_metamorphic_stone1galena.name=Eclogite Galena Ore
+tile.dense_metamorphic_stone2galena.name=Marble Galena Ore
+tile.dense_metamorphic_stone3galena.name=Quartzite Galena Ore
+tile.dense_metamorphic_stone4galena.name=Blue Schist Galena Ore
+tile.dense_metamorphic_stone5galena.name=Green Schist Galena Ore
+tile.dense_metamorphic_stone6galena.name=Soapstone Galena Ore
+tile.dense_metamorphic_stone7galena.name=Migmatite Galena Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0galena.name=Limestone Galena Ore
+tile.dense_sedimentary_stone1galena.name=Chalk Galena Ore
+tile.dense_sedimentary_stone2galena.name=Shale Galena Ore
+tile.dense_sedimentary_stone3galena.name=Siltstone Galena Ore
+tile.dense_sedimentary_stone4galena.name=Lignite Galena Ore
+tile.dense_sedimentary_stone5galena.name=Dolomite Galena Ore
+tile.dense_sedimentary_stone6galena.name=Greywacke Galena Ore
+tile.dense_sedimentary_stone7galena.name=Chert Galena Ore
+
+## Silver
+
+# Igneous
+tile.dense_igneous_stone0silver.name=Red Granite Silver Ore
+tile.dense_igneous_stone1silver.name=Black Granite Silver Ore
+tile.dense_igneous_stone2silver.name=Rhyolite Silver Ore
+tile.dense_igneous_stone3silver.name=Andesite Silver Ore
+tile.dense_igneous_stone4silver.name=Gabbro Silver Ore
+tile.dense_igneous_stone5silver.name=Basalt Silver Ore
+tile.dense_igneous_stone6silver.name=Komatiite Silver Ore
+tile.dense_igneous_stone7silver.name=Dacite Silver Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0silver.name=Gneiss Silver Ore
+tile.dense_metamorphic_stone1silver.name=Eclogite Silver Ore
+tile.dense_metamorphic_stone2silver.name=Marble Silver Ore
+tile.dense_metamorphic_stone3silver.name=Quartzite Silver Ore
+tile.dense_metamorphic_stone4silver.name=Blue Schist Silver Ore
+tile.dense_metamorphic_stone5silver.name=Green Schist Silver Ore
+tile.dense_metamorphic_stone6silver.name=Soapstone Silver Ore
+tile.dense_metamorphic_stone7silver.name=Migmatite Silver Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0silver.name=Limestone Silver Ore
+tile.dense_sedimentary_stone1silver.name=Chalk Silver Ore
+tile.dense_sedimentary_stone2silver.name=Shale Silver Ore
+tile.dense_sedimentary_stone3silver.name=Siltstone Silver Ore
+tile.dense_sedimentary_stone4silver.name=Lignite Silver Ore
+tile.dense_sedimentary_stone5silver.name=Dolomite Silver Ore
+tile.dense_sedimentary_stone6silver.name=Greywacke Silver Ore
+tile.dense_sedimentary_stone7silver.name=Chert Silver Ore
+
+## Nickel
+
+# Igneous
+tile.dense_igneous_stone0nickel.name=Red Granite Nickel Ore
+tile.dense_igneous_stone1nickel.name=Black Granite Nickel Ore
+tile.dense_igneous_stone2nickel.name=Rhyolite Nickel Ore
+tile.dense_igneous_stone3nickel.name=Andesite Nickel Ore
+tile.dense_igneous_stone4nickel.name=Gabbro Nickel Ore
+tile.dense_igneous_stone5nickel.name=Basalt Nickel Ore
+tile.dense_igneous_stone6nickel.name=Komatiite Nickel Ore
+tile.dense_igneous_stone7nickel.name=Dacite Nickel Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0nickel.name=Gneiss Nickel Ore
+tile.dense_metamorphic_stone1nickel.name=Eclogite Nickel Ore
+tile.dense_metamorphic_stone2nickel.name=Marble Nickel Ore
+tile.dense_metamorphic_stone3nickel.name=Quartzite Nickel Ore
+tile.dense_metamorphic_stone4nickel.name=Blue Schist Nickel Ore
+tile.dense_metamorphic_stone5nickel.name=Green Schist Nickel Ore
+tile.dense_metamorphic_stone6nickel.name=Soapstone Nickel Ore
+tile.dense_metamorphic_stone7nickel.name=Migmatite Nickel Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0nickel.name=Limestone Nickel Ore
+tile.dense_sedimentary_stone1nickel.name=Chalk Nickel Ore
+tile.dense_sedimentary_stone2nickel.name=Shale Nickel Ore
+tile.dense_sedimentary_stone3nickel.name=Siltstone Nickel Ore
+tile.dense_sedimentary_stone4nickel.name=Lignite Nickel Ore
+tile.dense_sedimentary_stone5nickel.name=Dolomite Nickel Ore
+tile.dense_sedimentary_stone6nickel.name=Greywacke Nickel Ore
+tile.dense_sedimentary_stone7nickel.name=Chert Nickel Ore
+
+## Nitre
+
+# Igneous
+tile.dense_igneous_stone0nitre_ore0.name=Red Granite Nitre Ore
+tile.dense_igneous_stone1nitre_ore0.name=Black Granite Nitre Ore
+tile.dense_igneous_stone2nitre_ore0.name=Rhyolite Nitre Ore
+tile.dense_igneous_stone3nitre_ore0.name=Andesite Nitre Ore
+tile.dense_igneous_stone4nitre_ore0.name=Gabbro Nitre Ore
+tile.dense_igneous_stone5nitre_ore0.name=Basalt Nitre Ore
+tile.dense_igneous_stone6nitre_ore0.name=Komatiite Nitre Ore
+tile.dense_igneous_stone7nitre_ore0.name=Dacite Nitre Ore
+
+# Metamorphic
+tile.dense_metamorphic_stone0nitre_ore0.name=Gneiss Nitre Ore
+tile.dense_metamorphic_stone1nitre_ore0.name=Eclogite Nitre Ore
+tile.dense_metamorphic_stone2nitre_ore0.name=Marble Nitre Ore
+tile.dense_metamorphic_stone3nitre_ore0.name=Quartzite Nitre Ore
+tile.dense_metamorphic_stone4nitre_ore0.name=Blue Schist Nitre Ore
+tile.dense_metamorphic_stone5nitre_ore0.name=Green Schist Nitre Ore
+tile.dense_metamorphic_stone6nitre_ore0.name=Soapstone Nitre Ore
+tile.dense_metamorphic_stone7nitre_ore0.name=Migmatite Nitre Ore
+
+# Sedimentary
+tile.dense_sedimentary_stone0nitre_ore0.name=Limestone Nitre Ore
+tile.dense_sedimentary_stone1nitre_ore0.name=Chalk Nitre Ore
+tile.dense_sedimentary_stone2nitre_ore0.name=Shale Nitre Ore
+tile.dense_sedimentary_stone3nitre_ore0.name=Siltstone Nitre Ore
+tile.dense_sedimentary_stone4nitre_ore0.name=Lignite Nitre Ore
+tile.dense_sedimentary_stone5nitre_ore0.name=Dolomite Nitre Ore
+tile.dense_sedimentary_stone6nitre_ore0.name=Greywacke Nitre Ore
+tile.dense_sedimentary_stone7nitre_ore0.name=Chert Nitre Ore
+
+
+###############
+# Block Fixes #
+###############
+
+# Misc.
+tile.patchWater.name=Puddle
+tile.getnMarker.name=WTFExpedition Generation Marker
+tile.slabClay.name=Clay
+
+################
+# Entity Fixes #
+################
+
+#entity.wtfcore.ZombieFarmer.name=Zombie Farmer

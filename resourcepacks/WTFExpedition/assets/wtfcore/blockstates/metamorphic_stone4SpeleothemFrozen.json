@@ -1,0 +1,23 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block",
+"textures": {"texture": "blocks/stone"}
+},
+"variants": {
+"normal": [{}],
+"inventory0": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_small", "Translucent": "ice#normal" }}],
+"inventory1": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_base", "Translucent": "ice#normal" }}],
+ "inventory2": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_tip", "Translucent": "ice#normal" }}],
+"inventory3": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=column", "Translucent": "ice#normal" }}],
+"inventory4": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_small", "Translucent": "ice#normal" }}],
+"inventory5": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_base", "Translucent": "ice#normal" }}],
+"inventory6": [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_tip", "Translucent": "ice#normal" }}],
+"type=stalactite_small" : [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_small", "Translucent": "ice#normal" }}],
+"type=stalactite_base" 	:[{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_base", "Translucent": "ice#normal" }}],
+"type=stalactite_tip" 	: [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalactite_tip", "Translucent": "ice#normal" }}],
+"type=column" : [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=column", "Translucent": "ice#normal" }}],
+"type=stalagmite_small" :[{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_small", "Translucent": "ice#normal" }}],
+"type=stalagmite_base"	: [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_base", "Translucent": "ice#normal" }}],
+"type=stalagmite_tip"	: [{"custom": { "base": "ice#normal", "Solid": "wtfcore:metamorphic_stone4Speleothem#type=stalagmite_tip", "Translucent": "ice#normal" }}]
+}}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "replace",
+        "transformer": {
+          "id": "remove_enchanting",
+          "sourceExpression": "minecraft:enchanting_table",
+          "destinationPreset": "air",
+          "destination": [
+            {
+              "block": "minecraft:air",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Homestead",
+    "description": [
+      "Tweaking Recurrent Complex structures in the Homestead modpack."
+    ]
+  }
+}

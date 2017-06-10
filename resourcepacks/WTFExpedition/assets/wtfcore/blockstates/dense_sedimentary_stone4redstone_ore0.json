@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "undergroundbiomes:blocks/lignite"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/redstone_ore0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/redstone_ore0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/redstone_ore1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/redstone_ore2"}}
+}}}

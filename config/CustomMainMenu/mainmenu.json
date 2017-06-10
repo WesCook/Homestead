@@ -1,0 +1,141 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/logo.png",
+            "posX" : -92,
+            "posY" : 25,
+            "width" : 185,
+            "height" : 72,
+            "alignment" : "top_center"
+        }
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -102,
+            "posY" : 60,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 60,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -102,
+            "posY" : 84,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "language_":
+        {
+            "text" : "Language",
+            "posX" : 2,
+            "posY" : 84,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -102,
+            "posY" : 108,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "changelog":
+        {
+            "text" : "Changelog",
+            "posX" : 2,
+            "posY" : 108,
+            "width" : 100,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://www.atlauncher.com/pack/Homestead/"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "hoverText": "Nuuuu",
+            "posX" : -102,
+            "posY" : 132,
+            "width" : 204,
+            "height" : 20,
+            "hoverTextColor" : 13680024,
+            "texture" : "custommainmenu:textures/background.png",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "custommainmenu:textures/menu/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 2,
+            "blur" : false,
+            "gradient" : true
+        }
+    }
+}

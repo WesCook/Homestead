@@ -1,0 +1,13 @@
+# Missing localization
+item.tconstruct.clay_cast.blank=Clay Blank Cast
+material.soulforgedsteel.name=Soulforged Steel
+
+# Mining Levels
+ui.mininglevel.0=Wood
+ui.mininglevel.1=Stone, Coal
+ui.mininglevel.2=Iron, Gold, Diamond
+ui.mininglevel.3=Obsidian, Emerald
+ui.mininglevel.4=Ardite, Cobalt
+
+# Potions
+potion.dot=Bleeding

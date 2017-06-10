@@ -1,0 +1,555 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AbandonedBurnable",
+  "items": [
+    {
+      "weight": 0.27027028799057007,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "quark:charcoal_block",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "toughasnails:charcoal_filter",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "betterwithmods:material",
+        "damage": 39,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.028885602951049805,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:frypan",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StatsOriginal": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 350
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.5
+                }
+              }
+            },
+            "Stats": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 350
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.5
+                }
+              }
+            },
+            "Special": {
+              "nbtType": "compound",
+              "nbt": {
+                "Categories": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "weapon"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "tool"
+                    }
+                  ]
+                }
+              }
+            },
+            "TinkerData": {
+              "nbtType": "compound",
+              "nbt": {
+                "Materials": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    }
+                  ]
+                },
+                "Modifiers": {
+                  "nbtType": "list",
+                  "nbt": []
+                }
+              }
+            },
+            "Modifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "autosmelt"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -3386624
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            },
+            "Traits": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "string",
+                  "nbt": "autosmelt"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0403180830180645,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:mattock",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StatsOriginal": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "HarvestLevelAxe": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "HarvestLevelShovel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 350
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 8.5
+                }
+              }
+            },
+            "Stats": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "HarvestLevelAxe": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "HarvestLevelShovel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 350
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 8.5
+                }
+              }
+            },
+            "Special": {
+              "nbtType": "compound",
+              "nbt": {
+                "Categories": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "harvest"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "tool"
+                    }
+                  ]
+                }
+              }
+            },
+            "TinkerData": {
+              "nbtType": "compound",
+              "nbt": {
+                "Materials": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    }
+                  ]
+                },
+                "Modifiers": {
+                  "nbtType": "list",
+                  "nbt": []
+                }
+              }
+            },
+            "Modifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "autosmelt"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -3386624
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            },
+            "Traits": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "string",
+                  "nbt": "autosmelt"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.028885602951049805,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:excavator",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StatsOriginal": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 875
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.5
+                }
+              }
+            },
+            "Stats": {
+              "nbtType": "compound",
+              "nbt": {
+                "AttackSpeedMultiplier": {
+                  "nbtType": "float",
+                  "nbt": 1.0
+                },
+                "MiningSpeed": {
+                  "nbtType": "float",
+                  "nbt": 6.0
+                },
+                "FreeModifiers": {
+                  "nbtType": "int",
+                  "nbt": 3
+                },
+                "Durability": {
+                  "nbtType": "int",
+                  "nbt": 875
+                },
+                "HarvestLevel": {
+                  "nbtType": "int",
+                  "nbt": 0
+                },
+                "Attack": {
+                  "nbtType": "float",
+                  "nbt": 5.5
+                }
+              }
+            },
+            "Special": {
+              "nbtType": "compound",
+              "nbt": {
+                "Categories": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "harvest"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "tool"
+                    }
+                  ]
+                }
+              }
+            },
+            "TinkerData": {
+              "nbtType": "compound",
+              "nbt": {
+                "Materials": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "firewood"
+                    }
+                  ]
+                },
+                "Modifiers": {
+                  "nbtType": "list",
+                  "nbt": []
+                }
+              }
+            },
+            "Modifiers": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "identifier": {
+                      "nbtType": "string",
+                      "nbt": "autosmelt"
+                    },
+                    "color": {
+                      "nbtType": "int",
+                      "nbt": -3386624
+                    },
+                    "level": {
+                      "nbtType": "int",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            },
+            "Traits": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "string",
+                  "nbt": "autosmelt"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "tconstruct:binding",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Material": {
+              "nbtType": "string",
+              "nbt": "firewood"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.028885602951049805,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "tconstruct:sign_head",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Material": {
+              "nbtType": "string",
+              "nbt": "firewood"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

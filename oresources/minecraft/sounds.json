@@ -1,0 +1,212 @@
+{
+
+
+  "entity.generic.splash": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      "random/splash",
+      "random/splash2"
+    ]
+  },
+
+  "entity.player.splash": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      "random/splash",
+      "random/splash2"
+    ]
+  },
+
+  "entity.hostile.splash": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      "random/splash",
+      "random/splash2"
+    ]
+  },
+
+  //Stone pressureplate
+  "block.stone_pressureplate.click_on": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchon",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  "block.stone_pressureplate.click_off": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchoff",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  //Stone button
+  "block.stone_button.click_on": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchon",
+        "pitch": 2.7
+      }
+    ]
+  },
+
+  "block.stone_button.click_off": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchoff",
+        "pitch": 2.7
+      }
+    ]
+  },
+
+  //wood pressureplate
+  "block.wood_pressureplate.click_on": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchon",
+        "pitch": 1.0
+      }
+    ]
+  },
+
+  "block.wood_pressureplate.click_off": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchoff",
+        "pitch": 1.0
+      }
+    ]
+  },
+
+  //wood button
+  "block.wood_button.click_on": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchon",
+        "pitch": 3.0
+      }
+    ]
+  },
+
+  "block.wood_button.click_off": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchoff",
+        "pitch": 3.0
+      }
+    ]
+  },
+
+  //redstone event
+  "block.comparator.click": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchon",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  //redstone event
+  "block.dispenser.fail": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchoff",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  //redstone event
+  "block.dispenser.dispense": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchon",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  //redstone event
+  "block.lever.click": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/woodswitchon",
+        "pitch": 1.5
+      }
+    ]
+  },
+
+  //metal pressureplate
+  "block.metal_pressureplate.click_on": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchon",
+        "pitch": 2.0
+      }
+    ]
+  },
+
+  "block.metal_pressureplate.click_off": 
+  {
+    "replace": true,
+    "sounds": 
+    [
+      {
+        "name": "random/stoneswitchoff",
+        "pitch": 2.0
+      }
+    ]
+  }
+
+
+}

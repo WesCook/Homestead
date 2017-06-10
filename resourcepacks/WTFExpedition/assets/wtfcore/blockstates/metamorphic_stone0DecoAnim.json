@@ -1,0 +1,16 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "undergroundbiomes:blocks/gneiss"}
+},
+"variants": {
+"normal": [{}],
+"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/lava_overlay"}}],
+"inventory1": [{"model": "cube_all"}],
+"inventory2": [{"model": "cube_all"}],
+"type" : {
+"lava_crust" : { "textures" : { "mask" : "wtfcore:blocks/lava_overlay"}},
+"drip_water" : {"model": "cube_all"},
+"drip_lava" : {"model": "cube_all"}},
+"fast" : {"true" : {},"false" : {}}
+}}

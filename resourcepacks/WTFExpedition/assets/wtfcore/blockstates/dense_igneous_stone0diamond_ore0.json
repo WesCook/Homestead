@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "undergroundbiomes:blocks/red_granite"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/diamond_ore0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/diamond_ore0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/diamond_ore1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/diamond_ore2"}}
+}}}

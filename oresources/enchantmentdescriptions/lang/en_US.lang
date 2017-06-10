@@ -1,0 +1,17 @@
+# Bibliocraft - Reading
+enchantment.minecraft.ReadingEnchantment.desc=When placed on helmets, displays additional information from Bibliocraft blocks.
+
+# Double Jump - Double Jump
+enchantment.double_jump.double_jump.desc=When placed on boots, allows you to make an extra jump in the air.
+
+# VTweaks - Step Boost
+enchantment.vtweaks.stepboost.desc=When placed on boots, allows the player to walk up one-block tall slopes without having to jump.
+
+# VTweaks - Imperishable
+enchantment.vtweaks.imperishable.desc=Vanilla tools will never completely break, but become unusable at zero durability.
+
+# Astral Sorcery - Night Vision
+enchantment.astralsorcery.enchantment.as.nightvision.desc=When placed on helmets, enables a permanent night vision effect.
+
+# Astral Sorcery - Scorching Heat
+enchantment.astralsorcery.enchantment.as.smelting.desc=When placed on digging tools, will cook any block drops as if they'd been smelted in a furnace.

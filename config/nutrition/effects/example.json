@@ -1,0 +1,16 @@
+{
+	"name": "example",                // Unique Effect ID
+	"potion": "minecraft:strength",   // Potion's resource location (eg. fire_resistance)
+	"amplifier": 0,                   // Potion strength
+	"minimum": 75,                    // Minimum nutrition level to take effect
+	"maximum": 100,                   // Maximum nutrition level to take effect
+	"detect": "any",                  // Accepted values:
+	                                  //   'any': Any nutrient may be in the threshold
+	                                  //   'average': The average of all nutrients must be in the threshold
+	                                  //   'all': All nutrients must be in the threshold
+	                                  //   'cumulative': For each nutrient within the threshold, the amplifier increases by one
+	                                  //   'nutrient': A specific nutrient must be in the threshold (see below)
+	"nutrient": "",                   // If detect=nutrient, this defines the nutrient ID checked against
+	                                  // If detect!=nutrient, this defines the nutrient ID that is excluded from other detection modes
+	"enabled": false                  // Will this effect be active or not
+}

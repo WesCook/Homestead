@@ -1,0 +1,19 @@
+{"forge_marker": 1,
+"defaults": {"textures": {"texture": "undergroundbiomes:blocks/andesite"}},
+"variants": {
+"normal": [{}],
+"inventory0": [{"model": "wtfcore:stalactite_small" }],
+"inventory1": [{"model": "wtfcore:stalactite_base"}],
+"inventory2": [{"model": "wtfcore:stalactite_tip"}],
+"inventory3": [{"model": "wtfcore:speleothem_column"}],
+"inventory4": [{"model": "wtfcore:stalagmite_small"}],
+"inventory5": [{"model": "wtfcore:stalagmite_base"}],
+"inventory6": [{"model": "wtfcore:stalagmite_tip"}],
+"type=stalactite_small" : [{"model": "wtfcore:stalactite_small"},{"model": "wtfcore:stalactite_small", "y":90},{"model": "wtfcore:stalactite_small", "y":180},{"model": "wtfcore:stalactite_small", "y":270}],
+"type=stalactite_base" 	:[{"model": "wtfcore:stalactite_base"},{"model": "wtfcore:stalactite_base", "y":90},{"model": "wtfcore:stalactite_base", "y":180},{"model": "wtfcore:stalactite_base", "y":270}],
+"type=stalactite_tip" 	: [{"model": "wtfcore:stalactite_tip"},{"model": "wtfcore:stalactite_tip", "y":90},{"model": "wtfcore:stalactite_tip", "y":180},{"model": "wtfcore:stalactite_tip", "y":270}],
+"type=column" : [{"model": "wtfcore:speleothem_column"},{"model": "wtfcore:speleothem_column", "y":90},{"model": "wtfcore:speleothem_column", "y":180},{"model": "wtfcore:speleothem_column", "y":270}],
+"type=stalagmite_small" :[{"model": "wtfcore:stalagmite_small"},{"model": "wtfcore:stalagmite_small", "y":90},{"model": "wtfcore:stalagmite_small", "y":180},{"model": "wtfcore:stalagmite_small", "y":270}],
+"type=stalagmite_base"	: [{"model": "wtfcore:stalagmite_base"},{"model": "wtfcore:stalagmite_base", "y":90},{"model": "wtfcore:stalagmite_base", "y":180},{"model": "wtfcore:stalagmite_base", "y":270}],
+"type=stalagmite_tip"	: [{"model": "wtfcore:stalagmite_tip"},{"model": "wtfcore:stalagmite_tip", "y":90},{"model": "wtfcore:stalagmite_tip", "y":180},{"model": "wtfcore:stalagmite_tip", "y":270}]
+}}

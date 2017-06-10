@@ -1,0 +1,10 @@
+# Detectors
+tile.railcraft.detector_item.name=Cart Detector
+tile.railcraft.detector_animal.name=Animal Detector
+tile.railcraft.detector_tank.name=Tank Detector
+tile.railcraft.detector_advanced.name=Advanced Detector
+tile.railcraft.detector_routing.name=Routing Detector
+tile.railcraft.detector_locomotive.name=Locomotive Detector
+tile.railcraft.detector_villager.name=Villager Detector
+tile.railcraft.detector_sheep.name=Sheep Detector
+tile.railcraft.detector_train.name=Train Detector

@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "minecraft:blocks/stone"}
+},
+"variants": {
+"normal": [{}],
+"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/moss_overlay"}}],
+"inventory1": [{"textures" : { "mask" : "wtfcore:blocks/soul_overlay"}}],
+"inventory2": [{"textures" : { "mask" : "wtfcore:overlays/destroy_stage_2"}}],
+"type" : {
+"moss" : { "textures" : { "mask" : "wtfcore:blocks/moss_overlay"}},
+"soul" : { "textures" : { "mask" : "wtfcore:blocks/soul_overlay"}},
+"cracked" : { "textures" : { "mask" : "wtfcore:overlays/destroy_stage_2"}}
+}}}
