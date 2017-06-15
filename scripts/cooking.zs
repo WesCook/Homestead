@@ -8,10 +8,6 @@ val water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 // Ore Dictionary //
 ////////////////////
 
-// Water
-val clay_bucket_water = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}});
-<ore:listAllwater>.add(clay_bucket_water);
-
 // Remove Pam's flour in favor of BWM
 recipes.remove(<harvestcraft:flouritem>);
 <ore:foodFlour>.remove(<harvestcraft:flouritem>);
@@ -239,20 +235,3 @@ furnace.addRecipe(<ediblebugs:cookedBugs:16>, <ediblebugs:grassBugs:3>); // Gras
 <harvestcraft:market>.addTooltip("Buy saplings for fruit trees");
 <harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
 <harvestcraft:wafflesitem>.addShiftTooltip("Don't you mean carrots?");
-
-
-/////////////////////////
-// Food Groups Oredict //
-/////////////////////////
-
-// Missing smoothie oredicts
-<ore:listAllsmoothie>.add(<harvestcraft:apricotsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:figsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:grapefruitsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:persimmonsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:applesmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:coconutsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:cranberrysmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:grapesmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:pearsmoothieitem>);
-<ore:listAllsmoothie>.add(<harvestcraft:plumsmoothieitem>);

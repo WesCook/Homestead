@@ -5,8 +5,11 @@ recipes.addShaped(<yurtmod:bed_wall_piece>, [[<ore:fabricHemp>, <ore:stickWood>,
 // Make mallets cheaper
 recipes.remove(<yurtmod:mallet>);
 recipes.addShaped(<yurtmod:mallet>, [[null, <ore:plankWood>, <ore:stickWood>], [null, <ore:stickWood>, <ore:plankWood>], [<ore:stickWood>, null, null]]);
-//recipes.remove(<yurtmod:super_mallet>);
 recipes.addShaped(<yurtmod:super_mallet>, [[null, <ore:ingotGold>, <ore:stickTreatedWood>], [null, <ore:stickTreatedWood>, <ore:ingotGold>], [<ore:stickTreatedWood>, null, null]]);
+
+// Creating oredict for quests
+<ore:mallet>.add(<yurtmod:mallet>);
+<ore:mallet>.add(<yurtmod:super_mallet>);
 
 // Canvas can use any wool color
 recipes.remove(<yurtmod:tent_canvas>);
@@ -34,7 +37,8 @@ recipes.addShaped(<architecturecraft:sawbench>, [[<ore:ingotIron>, <ore:ingotIro
 recipes.remove(<villagebox:invitation>);
 
 // VillageBox Tooltips
-<villagebox:invitation>.addTooltip(format.green("Can be found in dungeon loot"));
+<villagebox:invitation>.addTooltip("Send in a Mail Box to invite new villagers to your town");
+<villagebox:invitation>.addTooltip(format.green("Can only be found in dungeon loot"));
 <villagebox:bronze_coin>.addTooltip("Currency for villagers, acquired by killing mobs");
 <villagebox:silver_coin>.addTooltip("Can be traded for with a banker");
 <villagebox:gold_coin>.addTooltip("Can be traded for with a banker");
@@ -110,7 +114,6 @@ recipes.addShaped(<mxtune:block_piano>, [[<minecraft:iron_trapdoor>, <minecraft:
 <ore:chimney>.add(<adchimneys:stonebrick_mossy>);
 <ore:chimney>.add(<adchimneys:stonebrick_cracked>);
 
-
 // Coffee Table Oredict
 <ore:coffeeTable>.add(<furniture:coffee_table_oak>);
 <ore:coffeeTable>.add(<furniture:coffee_table_spruce>);
@@ -118,3 +121,6 @@ recipes.addShaped(<mxtune:block_piano>, [[<minecraft:iron_trapdoor>, <minecraft:
 <ore:coffeeTable>.add(<furniture:coffee_table_jungle>);
 <ore:coffeeTable>.add(<furniture:coffee_table_acacia>);
 <ore:coffeeTable>.add(<furniture:coffee_table_dark_oak>);
+
+// Craft record into gold ingot
+recipes.addShapeless(<minecraft:gold_nugget> * 2, [<ore:record>]);

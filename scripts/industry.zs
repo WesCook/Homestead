@@ -57,7 +57,7 @@ recipes.addShaped(<railcraft:generic:8> * 8, [[<ore:cobblestone>, <ore:cobblesto
 // Quarried Stone recipe
 recipes.addShaped(<railcraft:generic:9> * 8, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
-// Blast Brick uses concentrated hellfire (and divide evenly)
+// Blast Brick uses concentrated hellfire (and divides evenly)
 recipes.removeShaped(<immersiveengineering:stoneDecoration:1>, [[<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>], [<ore:ingotBrick>, <minecraft:blaze_powder>, <ore:ingotBrick>], [<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>]]);
 recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3, [[<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>], [<ore:ingotBrick>, <ore:ingotHellfire>, <ore:ingotBrick>], [<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>]]);
 
@@ -65,9 +65,9 @@ recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 3, [[<ore:ingotBric
 <ore:infiniteBurning>.add(<quark:charcoal_block>);
 <ore:infiniteBurning>.add(<minecraft:netherrack>);
 
-// Coke Brick slightly cheaper (and divide evenly)
+// Coke Brick slightly cheaper, and requires charcoal (and divides evenly)
 recipes.removeShaped(<immersiveengineering:stoneDecoration:0> * 2, [[<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>], [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], [<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>]]);
-recipes.addShaped(<immersiveengineering:stoneDecoration:0> * 3, [[<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>], [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], [<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>]]);
+recipes.addShaped(<immersiveengineering:stoneDecoration:0> * 3, [[<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>], [<ore:ingotBrick>, <ore:charcoal>, <ore:ingotBrick>], [<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>]]);
 
 // Engineer's Hammer
 recipes.remove(<immersiveengineering:tool:0>);

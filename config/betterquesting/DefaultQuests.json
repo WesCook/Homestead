@@ -853,7 +853,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "While the Hand Crank was effective for small jobs, some automation would make things much easier.  You believe you can construct a Windmill to automatically turn the Mill Stone, and maybe other machines too.\n\nThe Windmill will need to be placed high up, with Axles acting as carriers of the mechanical power.  Gearshafts can be used to make turns, or extend the length of axles past 3 blocks.\n\nWindmills do not work well in a storm, and any attached gearboxes may be damaged as a result.  A Water Wheel may offer a more stable alternative in the future.\n\n§7Note: Crouch+Right click will rotate gearboxes.§r"
+          "desc": "While the Hand Crank was effective for small jobs, some automation would make things much easier.  You believe you can construct a Windmill to automatically turn the Mill Stone, and maybe other machines too.\n\nThe Windmill will need to be placed high up, with Axles acting as carriers of the mechanical power.  Gearboxes can be used to make turns, or extend the length of axles past 3 blocks.\n\nWindmills do not work well in a storm, and any attached gearboxes may be damaged as a result.  Disabling the Gearbox with a redstone signal will prevent it from being damaged.\n\nAlternatively, a Water Wheel could offer more stability in the future.\n\n§7Note: Crouch+Right click will rotate gearboxes.§r"
         }
       },
       "tasks": [
@@ -917,7 +917,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You\u0027ll need a source of Lava to power your Smeltery.  A Clay Bucket should be strong enough to move lava, at least once.\n\nIt can be placed directly into the Smeltery\u0027s tank, shortly before disintegrating."
+          "desc": "You\u0027ll need a source of Lava to power your Smeltery.  A Clay Bucket should be strong enough to move lava, at least once.\n\nLava can be found in pools along the surface, deep underground, or in lava-encrusted stone blocks.\n\nA Clay Bucket with lava can be placed directly into the Smeltery\u0027s tank, shortly before disintegrating."
         }
       },
       "tasks": [
@@ -1825,7 +1825,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "With practiced leatherworking skills, you\u0027re able to create a suitable Saddle for horseback riding."
+          "desc": "With practiced leatherworking skills, you\u0027re able to create a suitable Saddle for horseback riding.\n\nNote the saddle is only needed for \"Vanilla\" horses.  Draft Horses require a Riding Crop instead."
         }
       },
       "tasks": [
@@ -1926,7 +1926,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The Nether is fraught with new dangers, but it also grants you access to new resources and discoveries.\n\nA Fire Charge or Flint and Steel can be used to light the portal.\n\n§7§oIf you gaze long into an abyss, the abyss also gazes into you.§r"
+          "desc": "The Nether is fraught with new dangers, but it also grants you access to new resources and discoveries.\n\nThere will be no sources of water inside, so you may want to stock up on supplies first.\n\nA Fire Charge or Flint and Steel can be used to light the portal.\n\n§7§oIf you gaze long into an abyss, the abyss also gazes into you.§r"
         }
       },
       "tasks": [
@@ -2504,6 +2504,39 @@
     {
       "properties": {
         "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Trigger: Tool Time",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        2
+      ],
+      "questID": 41
+    },
+    {
+      "properties": {
+        "betterquesting": {
           "snd_complete": "entity.firework.large_blast",
           "taskLogic": "AND",
           "partySingleReward": false,
@@ -2713,7 +2746,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        127
+        41
       ],
       "questID": 45
     },
@@ -3538,7 +3571,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nCaves are now more volatile, and resources more difficult to find.\n\nMany ores are distributed in large veins across the world.  You may need to explore far to find them, but once located you can mine large quantities at once.\n\n§nOres§r\n§8Coal§r - Small frequent clusters found anywhere.\n§7Iron§r - Medium infrequent clusters found anywhere.\n§6Gold§r - Large sparse veins found deep down/in rivers.\n§4Redstone§r - Large tendrils often found in deserts.\n§1Lapis§r - Small frequent clusters often found in oceans.\n§aEmerald§r - Single infrequent ores often found in hills.\n§cCopper§r - Large infrequent veins found higher up.\n§4Bauxite§r - Large infrequent veins found higher up.\n§8Lead§r - Large infrequent veins found deep down.\n§9Silver§r - Large infrequent veins found deep down.\n§eNickel§r - Large infrequent veins found deep down.\n§8Nitre§r - Single infrequent ores found anywhere.\n\nOres have varying densities, and can often be mined multiple times to extract additional ore.  Mining can cause nearby stone to fracture however, and cobblestone will be affected by gravity.  Falling rocks can be harmful, so be careful when digging upwards.  Fences can be used as supports in a pinch.\n\nWhile it\u0027s possible to branch mine for ores, cave-ins and sparse ore veins make this process more tedious than it\u0027s worth.  Instead, rapidly moving through caves is the most effective way of finding large ore lodes.  Often times a single ore may lead to dozens more, if you look hard enough.\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nCaves are now more volatile, and resources more difficult to find.\n\nMany ores are distributed in large veins across the world.  You may need to explore far to find them, but once located you can mine large quantities at once.\n\n§nOres§r\n§8Coal§r - Small frequent clusters found anywhere.\n§7Iron§r - Medium infrequent clusters found anywhere.\n§6Gold§r - Large sparse veins found deep down/in rivers.\n§4Redstone§r - Large tendrils often found in deserts.\n§1Lapis§r - Small frequent clusters often found in oceans.\n§aEmerald§r - Single infrequent ores often found in hills.\n§bDiamond§r - Small infrequent ores found deep down.\n§cCopper§r - Large infrequent veins found higher up.\n§4Bauxite§r - Large infrequent veins found higher up.\n§8Lead§r - Large infrequent veins found deep down.\n§9Silver§r - Large infrequent veins found deep down.\n§eNickel§r - Large infrequent veins found deep down.\n§8Nitre§r - Single infrequent ores found anywhere.\n\nOres have varying densities, and can often be mined multiple times to extract additional ore.  Mining can cause nearby stone to fracture however, and cobblestone will be affected by gravity.  Falling rocks can be harmful, so be careful when digging upwards.  Fences can be used as supports in a pinch.\n\nWhile it\u0027s possible to branch mine for ores, cave-ins and sparse ore veins make this process more tedious than it\u0027s worth.  Instead, rapidly moving through caves is the most effective way of finding large ore lodes.  Often times a single ore may lead to dozens more, if you look hard enough.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -3563,35 +3596,35 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "toughasnails:water_bottle",
+            "id": "toughasnails:canteen",
             "Count": 1,
             "OreDict": "",
-            "Damage": 1
+            "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Charcoal Filter",
+          "name": "Canteen",
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Charcoal can now be used to purify the water.  Craft a Charcoal Filter, and mix it with your Dirty Water to create Filtered Water."
+          "desc": "The Canteen is able to store three drinks of water at a time, which helps save on inventory space.  As you can\u0027t heat the item directly however, it should first be sanitized with a charcoal filter to purify the water.\n\nThis is slightly less effective than heating in a furnace or campfire, and so some impurities may remain."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "toughasnails:water_bottle",
+              "id": "toughasnails:canteen",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -3600,8 +3633,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        76,
-        117
+        78,
+        27
       ],
       "questID": 59
     },
@@ -4120,7 +4153,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nThe day/night cycle has been modified in this pack.  Nights are shorter, but are also more dangerous.\n\nThe light level at night is based on the phase of the moon.  Full moons will be brighter, whilst new moons will be pitch black.\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nThe day/night cycle is different in this world.  Days appear extended, while nights are shorter and more dangerous.\n\nThe light level at night is based on the phase of the moon.  Full moons will be brighter, whilst new moons will be pitch black.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -4158,7 +4191,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Campfires are your first step in creating light.  They can be crafted with Rocks and Logs, and lit by using Sticks on them.  They may take a considerable number of attempts to light.  A Flint and Steel can later be used more reliably.\n\nTorches can be lit by using a Stick on a burning Campfire.  Placed Torches will burn out after one hour, so upgrading to more permanent sources of light such as Lanterns should be an early priority.\n\nA Matchbox, or another Torch can also be used to relight any Torches that go out."
+          "desc": "Campfires are your first step in creating light.  They can be crafted with Rocks and Logs, and lit by using Sticks on them.  They may take a considerable number of attempts to light.  A Flint and Steel can later be used more reliably.\n\nTorches can be lit by using a Stick on a burning Campfire.  Placed Torches will burn out after four hours, so upgrading to more permanent sources of light such as Lanterns should be an early priority.\n\nA Matchbox, or another Torch can also be used to relight any Torches that go out.\n\nEventially, campfires too will burn out."
         }
       },
       "tasks": [
@@ -4289,7 +4322,7 @@
             {
               "id": "yurtmod:mallet",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "mallet",
               "Damage": 0
             }
           ],
@@ -4549,7 +4582,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "With your Bottle you\u0027re now able to collect sea water.  Unless things are absolutely dire you should not drink this directly, as it will lead to dehydration.  This drains your hunger faster, and in turn your nutrition.\n\nInstead move on to the next step to purify the water."
+          "desc": "With your Bottle you\u0027re now able to collect sea water.  Unless things are absolutely dire you should not drink this directly as it will lead to dehydration.  This drains your hunger faster, and in turn your nutrition.\n\nInstead, we should look into purifying it first."
         }
       },
       "tasks": [
@@ -4603,13 +4636,13 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Finally, place the Filtered Water Bottle in a furnace to boil away the impurities.  This water will now be safe to drink.\n\nIn the future, a Rain Collector may also be a good option for passively collecting water."
+          "desc": "Dirty Water can be purified by boiling it in a campfire.  This allows you to drink it safely.\n\nCharcoal Filters can also be used to automate this process in a Furnace.\n\nIn the future, a Rain Collector may also be a good option for passively collecting water."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -4618,10 +4651,7 @@
               "id": "minecraft:potion",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Potion:8": "minecraft:water"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -4630,7 +4660,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        59
+        76
       ],
       "questID": 77
     },
@@ -4653,7 +4683,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Juices",
+          "name": "Fruit Splash",
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
@@ -4738,7 +4768,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        66
+        94
       ],
       "questID": 79
     },
@@ -6086,7 +6116,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        128
+        95
       ],
       "questID": 104
     },
@@ -7495,7 +7525,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        95
+        94
       ],
       "questID": 128
     },
@@ -8148,6 +8178,12 @@
           "id": 9
         },
         {
+          "size": 12,
+          "x": 96,
+          "y": 78,
+          "id": 41
+        },
+        {
           "size": 30,
           "x": 48,
           "y": 144,
@@ -8229,8 +8265,8 @@
         },
         {
           "size": 30,
-          "x": 360,
-          "y": 48,
+          "x": 108,
+          "y": 192,
           "id": 128
         },
         {
@@ -8254,19 +8290,19 @@
         {
           "size": 30,
           "x": 0,
-          "y": 144,
+          "y": 96,
           "id": 77
         },
         {
           "size": 30,
           "x": 0,
-          "y": 192,
+          "y": 144,
           "id": 78
         },
         {
           "size": 30,
-          "x": 264,
-          "y": 96,
+          "x": 156,
+          "y": 192,
           "id": 79
         },
         {
@@ -8283,7 +8319,7 @@
         },
         {
           "size": 30,
-          "x": 156,
+          "x": 312,
           "y": 144,
           "id": 17
         },
@@ -8307,19 +8343,19 @@
         },
         {
           "size": 30,
-          "x": 108,
+          "x": 264,
           "y": 192,
           "id": 20
         },
         {
           "size": 30,
-          "x": 156,
+          "x": 312,
           "y": 192,
           "id": 21
         },
         {
           "size": 30,
-          "x": 204,
+          "x": 360,
           "y": 192,
           "id": 22
         },
@@ -8337,8 +8373,8 @@
         },
         {
           "size": 30,
-          "x": 48,
-          "y": 192,
+          "x": 108,
+          "y": 144,
           "id": 28
         },
         {
@@ -8368,13 +8404,13 @@
         {
           "size": 30,
           "x": 360,
-          "y": 144,
+          "y": 96,
           "id": 97
         },
         {
           "size": 30,
           "x": 360,
-          "y": 96,
+          "y": 48,
           "id": 104
         },
         {
@@ -8397,8 +8433,8 @@
         },
         {
           "size": 30,
-          "x": 0,
-          "y": 96,
+          "x": 24,
+          "y": 192,
           "id": 59
         }
       ],

@@ -24,3 +24,7 @@ recipes.addShaped(<betterwithmods:material:11>, [[hemp_fiber, hemp_fiber, hemp_f
 recipes.remove(<betterwithmods:platform>);
 recipes.addShaped(<betterwithmods:platform> * 3, [[<ore:plankWood>, <betterwithmods:pane:2>, <ore:plankWood>], [null, <ore:plankWood>, null], [<ore:plankWood>, <betterwithmods:pane:2>, <ore:plankWood>]]);
 recipes.addShaped(<betterwithmods:platform> * 3, [[<betterwithmods:wood_moulding>, <betterwithmods:pane:2>, <betterwithmods:wood_moulding>], [null, <betterwithmods:wood_moulding>, null], [<betterwithmods:wood_moulding>, <betterwithmods:pane:2>, <betterwithmods:wood_moulding>]]);
+
+// Break down Broken Gearbox into gears
+recipes.addShapeless(wooden_gear * 2, [<betterwithmods:broken_gearbox>]);
+<betterwithmods:broken_gearbox>.addTooltip("Can be broken down into gears");
