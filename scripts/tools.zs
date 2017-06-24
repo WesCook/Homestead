@@ -4,10 +4,6 @@ recipes.addShaped(<minecraft:arrow> * 4, [[<immcraft:rock>], [<ore:stickWood>], 
 // Remove slime sling (sorry!)
 recipes.remove(<tconstruct:slimesling>);
 
-// Hang Glider requires Diamond Ingots
-recipes.remove(<openglider:glider_part:2>);
-recipes.addShaped(<openglider:glider_part:2>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<betterwithmods:material:49>, <betterwithmods:material:49>, <betterwithmods:material:49>]]);
-
 // Remove Slime Channels
 furnace.remove(<tconstruct:slime_channel:*>);
 

@@ -1,0 +1,39 @@
+[
+  {
+    "state": {
+      "block": "toughasnails:campfire",
+      "properties": {
+        "age": "*",
+        "burning": "true"
+      }
+    },
+    "temperature": 12.0
+  },
+  {
+    "state": {
+      "block": "minecraft:lit_furnace",
+      "properties": {
+        "facing": "*"
+      }
+    },
+    "temperature": 12.0
+  },
+  {
+    "state": {
+      "block": "minecraft:lava",
+      "properties": {
+        "level": "*"
+      }
+    },
+    "temperature": 1.5
+  },
+  {
+    "state": {
+      "block": "minecraft:flowing_lava",
+      "properties": {
+        "level": "*"
+      }
+    },
+    "temperature": 1.5
+  }
+]

@@ -20,6 +20,10 @@ val tanned_cut_leather = <betterwithmods:material:33>;
 <ore:stepladder>.add(<literalascension:minecraft/iron_stepladder>);
 <ore:stepladder>.add(<literalascension:minecraft/fireworks_stepladder>);
 
+// Hang Glider requires Diamond Ingots
+//recipes.remove(<openglider:glider_part:2>);
+//recipes.addShaped(<openglider:glider_part:2>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<betterwithmods:material:49>, <betterwithmods:material:49>, <betterwithmods:material:49>]]);
+
 // Remove Fairy Lights ladder
 recipes.remove(<fairylights:ladder>);
 

@@ -341,12 +341,6 @@
         },
         {
           "inputs": [
-            "villagebox,silver_coin,1,0"
-          ],
-          "output": "villagebox,bronze_coin,64,0"
-        },
-        {
-          "inputs": [
             "villagebox,gold_coin,1,0"
           ],
           "output": "villagebox,silver_coin,64,0"

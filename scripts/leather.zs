@@ -6,6 +6,16 @@ val tanned_cut_leather = <betterwithmods:material:33>;
 <ore:leather>.add(<betterwithmods:material:6>);
 <ore:leather>.remove(<minecraft:leather>);
 
+// Leather armor oredicts for Combat quest
+<ore:leatherCap>.add(<minecraft:leather_helmet>);
+<ore:leatherCap>.add(<harvestcraft:hardenedleatherhelmitem>);
+<ore:leatherChestplate>.add(<minecraft:leather_chestplate>);
+<ore:leatherChestplate>.add(<harvestcraft:hardenedleatherchestitem>);
+<ore:leatherLeggings>.add(<minecraft:leather_leggings>);
+<ore:leatherLeggings>.add(<harvestcraft:hardenedleatherleggingsitem>);
+<ore:leatherBoots>.add(<minecraft:leather_boots>);
+<ore:leatherBoots>.add(<harvestcraft:hardenedleatherbootsitem>);
+
 // Saddle
 recipes.addShaped(<minecraft:saddle>, [[tanned_cut_leather, null, tanned_cut_leather], [tanned_leather, tanned_leather, tanned_leather]]);
 
@@ -54,3 +64,5 @@ recipes.removeShaped(<minecraft:leather>, [[<terraqueous:item_main:100>, <terraq
 <minecraft:leather>.addTooltip("Raw leather, needs to be scoured");
 <betterwithmods:material:7>.addTooltip("Scoured but not tanned"); // Scoured Leather
 <betterwithmods:material:6>.addTooltip("Useful for crafting or cutting into strips"); // Tanned Leather
+<ore:barkWood>.addTooltip("Can be stripped from a tree with a hatchet,");
+<ore:barkWood>.addTooltip("or by putting logs through a saw");

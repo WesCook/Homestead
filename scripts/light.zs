@@ -21,7 +21,7 @@ recipes.addShapeless(<pumpkincarving:litcarvedpumpkin2:3>, [<pumpkincarving:carv
 <minecraft:pumpkin>.addShiftTooltip("  The orientation decides the face to be carved.");
 <minecraft:pumpkin>.addShiftTooltip("  A torch can then be added to provide light.");
 
-// Remove unlit torch recipes, so they can be lit by campfire (requires companion mod)
+// Remove unlit torch recipes, so they can be lit by campfire (requires Homestead Companion mod)
 recipes.remove(<realistictorches:TorchUnlit>);
 
 // Allow use of lit torches in regular torch recipes
@@ -42,6 +42,10 @@ recipes.addShaped(<bibliocraft:Desk:3>, [[<ore:torch>, null, <ore:feather>], [<m
 recipes.addShaped(<bibliocraft:Desk:4>, [[<ore:torch>, null, <ore:feather>], [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>], [<minecraft:planks:4>, null, <minecraft:planks:4>]]); // Acacia
 recipes.addShaped(<bibliocraft:Desk:5>, [[<ore:torch>, null, <ore:feather>], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], [<minecraft:planks:5>, null, <minecraft:planks:5>]]); // Dark Oak
 recipes.addShaped(<bibliocraft:Desk:6>, [[<ore:torch>, null, <ore:feather>], [<bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>, <bibliocraft:FramingBoard>], [<bibliocraft:FramingSheet>, null, <bibliocraft:FramingSheet>]]); // Framed
+
+// Vanilla Torches are cheaper than Realistic Torches allows
+recipes.remove(<minecraft:torch>);
+recipes.addShaped(<minecraft:torch> * 6, [[<realistictorches:GlowstoneCrystal>], [<ore:stickWood>]]);
 
 // Totem Torch may use any torch
 recipes.remove(<totemic:totemTorch>);

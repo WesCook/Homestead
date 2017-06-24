@@ -1,6 +1,10 @@
 # Rename Hardened to Studded Leather
-item.hardenedleatherhelmItem.name=Studded Leather Helm
-item.hardenedleatherchestItem.name=Studded Leather Chest
-item.hardenedleatherleggingsItem.name=Studded Leather Leggings
-item.hardenedleatherbootsItem.name=Studded Leather Boots
-item.hardenedleatherItem.name=Studded Leather
+item.hardenedleatherhelmitem.name=Studded Leather Helm
+item.hardenedleatherchestitem.name=Studded Leather Chest
+item.hardenedleatherleggingsitem.name=Studded Leather Leggings
+item.hardenedleatherbootsitem.name=Studded Leather Boots
+item.hardenedleatheritem.name=Studded Leather
+
+# Fix foods
+item.lemonmeringueitem.name=Lemon Meringue
+item.lemondrizzlecakeitem.name=Lemon Drizzle Cake

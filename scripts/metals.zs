@@ -49,6 +49,24 @@ recipes.addShaped(<immcraft:furnace>, [[<ore:cobblestone>, <immcraft:rock>, <ore
 <ore:oreEmerald>.remove(<railcraft:ore:3>);
 <ore:oreLapis>.remove(<railcraft:ore:4>);
 
+// Metal armor oredicts for Advanced Combat quest
+<ore:metalCap>.add(<minecraft:iron_helmet>);
+<ore:metalCap>.add(<minecraft:golden_helmet>);
+<ore:metalCap>.add(<minecraft:diamond_helmet>);
+<ore:metalCap>.add(<betterwithmods:steel_helmet>);
+<ore:metalChestplate>.add(<minecraft:iron_chestplate>);
+<ore:metalChestplate>.add(<minecraft:golden_chestplate>);
+<ore:metalChestplate>.add(<minecraft:diamond_chestplate>);
+<ore:metalChestplate>.add(<betterwithmods:steel_chest>);
+<ore:metalLeggings>.add(<minecraft:iron_leggings>);
+<ore:metalLeggings>.add(<minecraft:golden_leggings>);
+<ore:metalLeggings>.add(<minecraft:diamond_leggings>);
+<ore:metalLeggings>.add(<betterwithmods:steel_pants>);
+<ore:metalBoots>.add(<minecraft:iron_boots>);
+<ore:metalBoots>.add(<minecraft:golden_boots>);
+<ore:metalBoots>.add(<minecraft:diamond_boots>);
+<ore:metalBoots>.add(<betterwithmods:steel_boots>);
+
 // Tooltips
 <ore:ingotIron>.addTooltip("Casted in a Tinkers smeltery");
 <ore:nuggetIron>.addTooltip("Melt into an ingot using a Tinkers smeltery");

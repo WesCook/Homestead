@@ -13,6 +13,13 @@ recipes.addShaped(<bqt:bqbook>, [[<ore:stickWood>], [<ore:paper>]]);
 // Questing book tooltip
 <bqt:bqbook>.addTooltip("View your current progress");
 
+// Antique Atlas
+recipes.remove(<antiqueatlas:emptyAntiqueAtlas>);
+recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas>, [<ore:paper>, <ore:charcoal>]);
+
+// Antique Atlas tooltips
+<antiqueatlas:emptyAntiqueAtlas>.addTooltip("Jotting down your surroundings");
+
 // Bibliocraft Atlas
 recipes.removeShaped(<bibliocraft:AtlasBook>, [[<ore:paper>, <bibliocraft:maptool>, <ore:paper>], [<ore:paper>, <bibliocraft:SlottedBook>, <ore:paper>], [<ore:paper>, <minecraft:map>, <ore:paper>]]);
 recipes.addShaped(<bibliocraft:AtlasBook>, [[<bibliocraft:maptool>], [<minecraft:map>]]);

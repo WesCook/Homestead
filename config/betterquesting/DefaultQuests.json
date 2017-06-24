@@ -330,7 +330,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Hemp is a useful material that acts as an early source of String.  It\u0027s also the key to getting started with mechanical power.\n\nPunch Tall Grass to start collecting Wheat and Hemp Seeds.  Craft a Mattock from any material, and use it to cultivate dirt into farmland.\n\nOnce grown, Hemp is best harvested at two blocks tall."
+          "desc": "Hemp is a useful material that acts as an early source of String.  It\u0027s also the key to getting started with mechanical power.\n\nPunch Tall Grass to start collecting Wheat and Hemp Seeds.  A Mattock will act like a hoe to till the earth.  It can be crafted with a Tinkers Axe Head, Shovel Head, and Tool Rod.\n\nOnce grown, Hemp is best harvested at two blocks tall."
         }
       },
       "tasks": [
@@ -1656,12 +1656,12 @@
           "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
-          "name": "Leather Tanning",
+          "name": "Leather Tannin\u0027",
           "isGlobal": "false",
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Once cleaned up, the Leather needs to be tanned in a Cauldron.  Tree Bark will act as a tannin, and can be acquired by using an Iron Knife on a tree, or placing a log through the saw.\n\n§7Note: This requires the \"BetterWithMods\" cauldron.§r"
+          "desc": "Once cleaned up, the Leather needs to be tanned in a Cauldron.  Tree Bark will act as a tannin, and can be acquired in a variety of ways.\n\nAn Iron Knife, Hatchet, or Lumber Axe can be used to strip Bark from a log.  Alternatively, logs can be placed through the Saw to return Bark.\n\n§7Note: This requires the \"BetterWithMods\" cauldron.§r"
         }
       },
       "tasks": [
@@ -1673,9 +1673,9 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterwithmods:knife",
+              "id": "betterwithmods:bark",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "barkWood",
               "Damage": 0
             },
             {
@@ -2735,7 +2735,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nVarious tiers of tools exist in this world.  They can be constructed using a Tinkers Smeltery or Tool Station, once the required materials are available.\n\n[0] §cWood§r, §7Stone§r\n[1] §8Flint§r/§2Cactus§r/§eBone§r - Can mine stone\n[2] §7Iron§r - Can mine iron, gold, diamond\n[3] §7Iron§r §3(+diamond)§r - Can mine obsidian, emerald\n[4] §9Steel§r - Can mine ardite, cobalt\n[5] §cArdite§r/§9Cobalt§r/§dManyullyn§r\n[6] §5Soul Forged Steel§r\n\nWhen a metal tier is required to mine itself, there will be an alternate way to gather that material.  The quest book will elaborate in these cases.\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nVarious tiers of tools exist in this world.  They can be constructed using a Tinkers Smeltery or Tool Station, once the required materials are available.\n\n[0] §cWood§r, §7Stone§r\n[1] §8Flint§r/§2Cactus§r/§eBone§r - Can mine stone\n[2] §7Iron§r - Can mine iron, gold, diamond\n[3] §7Iron§r §3(+diamond)§r - Can mine obsidian\n[4] §9Steel§r - Can mine ardite, cobalt\n[5] §cArdite§r/§9Cobalt§r/§dManyullyn§r\n[6] §5Soul Forged Steel§r\n\nWhen a metal tier is required to mine itself, there will be an alternate way to gather that material.  The quest book will elaborate in these cases.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -2774,7 +2774,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "With the ability to mine Diamonds, it\u0027s now possible to upgrade your Iron Pickaxe a step further.  This will allow you to directly mine Emeralds and Obsidian.\n\nTo do so, simply place your Pickaxe in a Tool Station with a Diamond to upgrade it.\n\n§7§oThey\u0027re minerals§r"
+          "desc": "With the ability to mine Diamonds, it\u0027s now possible to upgrade your Iron Pickaxe a step further.  This will allow you to directly mine Obsidian.\n\nTo do so, simply place your Pickaxe in a Tool Station with a Diamond to upgrade it.\n\n§7§oThey\u0027re minerals§r"
         }
       },
       "tasks": [
@@ -2826,25 +2826,12 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The industrial age is the time for automation and efficiency.  No longer will you need to work your hands to the bone.  It\u0027s time to make the world work for you, rather than you for it."
+          "desc": "The industrial age is the time for automation and efficiency.  No longer will you need to work your hands to the bone.  It\u0027s time to make the world work for you, rather than you for it.\n\nThis task can be completed simply by checking it off."
         }
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "immersiveengineering:tool",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 3
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "taskID": "bq_standard:checkbox",
           "index": 0
         }
       ],
@@ -3719,7 +3706,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Welcome to Homestead!\n\nThis Quest Log will act as a tutorial to take you through the revamped tech tree, and explain modified game mechanics.  If you prefer, you can toss this book away and never look at it.  You won\u0027t miss any real rewards.  However, it can be very helpful in getting to grips with this new world; particularly for first-time players.\n\nTo access the questing menu at any time, you can open this Quest Log, or simply press the tilde (`) key on your keyboard.\n\nThis quest can be completed simply by checking it off."
+          "desc": "Welcome to Homestead!\n\nThis Quest Log will act as a tutorial to take you through the revamped tech tree, and explain modified game mechanics.  If you prefer, you can toss this book away and never look at it.  You won\u0027t miss any real rewards.  However, it can be very helpful in getting to grips with this new world; particularly for first-time players.\n\nTo access the questing menu at any time, you can open this Quest Log, or simply press the tilde (`) key on your keyboard.  This book can be recrafted if you lose it.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -3812,7 +3799,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "As this world can be dangerous, you will need to be proactive in keeping yourself protected.\n\nWhen starting off, you can pick up and throw Rocks to damage mobs.  Rocks can also be used to craft Arrows, and Hemp Fiber to make a bow.\n\nLeather armor can be constructed once tanning is available.  Combined with Iron Ingots, Leather can also be upgraded into Hardened Leather."
+          "desc": "As this world can be dangerous, you will need to be proactive in keeping yourself protected.\n\nWhen starting off, you can pick up and throw Rocks to damage mobs.  Rocks can also be used to craft Arrows, and Hemp Fiber to make a bow.\n\nLeather armor can be constructed once tanning is available.  Combined with Iron Nuggets, Leather can also be upgraded into Studded Leather."
         }
       },
       "tasks": [
@@ -3826,26 +3813,26 @@
             {
               "id": "minecraft:leather_helmet",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32767
+              "OreDict": "leatherCap",
+              "Damage": 0
             },
             {
               "id": "minecraft:leather_chestplate",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32767
+              "OreDict": "leatherChestplate",
+              "Damage": 0
             },
             {
               "id": "minecraft:leather_leggings",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32767
+              "OreDict": "leatherLeggings",
+              "Damage": 0
             },
             {
               "id": "minecraft:leather_boots",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32767
+              "OreDict": "leatherBoots",
+              "Damage": 0
             },
             {
               "id": "minecraft:bow",
@@ -3958,25 +3945,25 @@
             {
               "id": "minecraft:iron_helmet",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "metalCap",
               "Damage": 0
             },
             {
               "id": "minecraft:iron_chestplate",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "metalChestplate",
               "Damage": 0
             },
             {
               "id": "minecraft:iron_leggings",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "metalLeggings",
               "Damage": 0
             },
             {
               "id": "minecraft:iron_boots",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "metalBoots",
               "Damage": 0
             },
             {
@@ -4360,7 +4347,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The hang glider is a fast and effective way of covering large swaths of land at once.\n\nHowever, it does need to be repaired from time to time.  The more damaged your glider is, the more susceptible it is to getting blown around in storms.  It can be patched up in an anvil with leather.\n\nBooster Rockets are an effective, if not dangerous method of launching yourself in the air.  Right click to propel forward, or shift+right click to propel upwards."
+          "desc": "The hang glider is a fast and effective way of covering large swaths of land at once.\n\nOver time however, the Hang Glider may receive wear and tear.  The more damaged your glider is, the more susceptible it is to getting blown around in storms.  It can be patched up in an Anvil with Leather.\n\nAlternatively, the Mending Enchantment can ensure your glider stays in pristine shape.\n\nBooster Rockets are an effective, if not dangerous method of launching yourself in the air.  Right click to propel forward, or shift+right click to propel upwards."
         }
       },
       "tasks": [
@@ -4393,8 +4380,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        46,
-        94
+        94,
+        9
       ],
       "questID": 72
     },
@@ -4445,8 +4432,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        6,
-        94
+        2
       ],
       "questID": 73
     },
@@ -4555,7 +4541,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        2
+        6,
+        94
       ],
       "questID": 75
     },
@@ -4778,7 +4765,7 @@
           "snd_complete": "entity.firework.large_blast",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4791,10 +4778,10 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "The Atlas",
+          "name": "Hidden: Bibliocraft Atlas",
           "lockedProgress": true,
           "autoClaim": false,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "With all this travelling, it\u0027s easy to lose your place.  The Bibliocraft Atlas is the solution.\n\nThe Atlas works like an extremely powerful map.  Unlike with vanilla maps, you don\u0027t need to constantly switch between different map items to try and find your place.  The Atlas stores all your maps in one item.  It uses Blank Maps to chart new areas.\n\nThe Atlas has two settings: Auto-Centering will always update the selected map to your current location, and Auto-Create will consume Blank Maps to map new areas as you walk around.\n\nIf Auto-Centering is disabled, you can select the active map using the middle mouse button.  This will also show map boundaries as colored lines in the map inventory.\n\nThe Atlas supports waypoints to mark unique locations.  If you add a Waypoint Compass to your Atlas, you can then link it with a Waypoint to always point in the appropriate direction.\n\nMap Frames can be used to create immersive map walls.  Sneak+Right Click a Map Frame to copy the selected map piece over.\n\nFinally, the Atlas can be upgraded with the Eternal Compass enchantment.  This grants a special compass upon your death that always points to your body.\n\nFor normal use, the atlas can be put into your offhand to reduce the amount of screen space it takes up."
         }
       },
@@ -4808,6 +4795,12 @@
           "requiredItems": [
             {
               "id": "bibliocraft:AtlasBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:barrier",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -5625,7 +5618,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Sink is an easy source of water.  It allows you to quickly fill buckets, and enables the Cooking Table an automatic source of water for any recipes that require it.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table."
+          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table."
         }
       },
       "tasks": [
@@ -5644,12 +5637,6 @@
             },
             {
               "id": "cookingforblockheads:oven",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "cookingforblockheads:sink",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -5832,8 +5819,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        9,
-        94
+        94,
+        26
       ],
       "questID": 100
     },
@@ -8086,6 +8073,57 @@
         91
       ],
       "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "antiqueatlas:antiqueAtlas",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Atlas",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With a small amount of charcoal and paper, you\u0027re able to start recording landmarks and biomes around you.  Never again will you be unable to find your way home.\n\nThe Atlas will chart all areas around you.  It uses simple tiles to represent each type of biome, and icons to mark out landmarks such as villages.\n\nMarkers can be added to use as waypoints.  These can be customized with a name and icon.\n\nWhile holding the Atlas in either hand, you\u0027re able to glance at it out of the corner of your eye, even while fighting.  This may be crucial if navigating home in the dark."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "antiqueatlas:emptyAntiqueAtlas",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        6,
+        94
+      ],
+      "questID": 138
     }
   ],
   "questLines": [
@@ -8727,12 +8765,6 @@
       "quests": [
         {
           "size": 30,
-          "x": 96,
-          "y": 48,
-          "id": 80
-        },
-        {
-          "size": 30,
           "x": 0,
           "y": 0,
           "id": 19
@@ -8745,32 +8777,32 @@
         },
         {
           "size": 30,
-          "x": 96,
-          "y": 96,
+          "x": 48,
+          "y": 144,
           "id": 100
         },
         {
           "size": 30,
-          "x": 48,
+          "x": 96,
           "y": 96,
           "id": 86
         },
         {
           "size": 30,
-          "x": 48,
+          "x": 0,
           "y": 48,
           "id": 71
         },
         {
           "size": 30,
           "x": 48,
-          "y": 144,
+          "y": 96,
           "id": 72
         },
         {
           "size": 30,
-          "x": 0,
-          "y": 48,
+          "x": 96,
+          "y": 0,
           "id": 73
         },
         {
@@ -8781,8 +8813,14 @@
         },
         {
           "size": 30,
+          "x": 48,
+          "y": 48,
+          "id": 138
+        },
+        {
+          "size": 30,
           "x": 96,
-          "y": 0,
+          "y": 48,
           "id": 75
         }
       ],

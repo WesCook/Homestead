@@ -3,6 +3,7 @@ import minetweaker.item.IItemStack;
 
 // Constants
 val water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
+val clay_water_bucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}});
 
 ////////////////////
 // Ore Dictionary //
@@ -59,6 +60,11 @@ recipes.addShapeless(<harvestcraft:boiledeggitem>, [<harvestcraft:potitem>, <ore
 /////////////
 // Recipes //
 /////////////
+
+// Regular and clay buckets grant 4 fresh water
+recipes.remove(<harvestcraft:freshwateritem>);
+recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [<minecraft:water_bucket>]);
+recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [clay_water_bucket]);
 
 // Remove Cooking for Blockheads books
 recipes.remove(<cookingforblockheads:recipeBook:*>);

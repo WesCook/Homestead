@@ -19,8 +19,8 @@ recipes.addShaped(<toughasnails:campfire>, [[null, <ore:logWood>, null], [<ore:l
 
 // Cheaper charcoal filters
 recipes.remove(<toughasnails:charcoal_filter>);
-recipes.addShapeless(<toughasnails:charcoal_filter> * 3, [<ore:charcoal>, <ore:paper>]);
-recipes.addShapeless(<toughasnails:charcoal_filter> * 3, [<ore:charcoal>, <ore:fabricHemp>]);
+recipes.addShaped(<toughasnails:charcoal_filter> * 3, [[<ore:paper>], [<ore:charcoal>], [<ore:paper>]]);
+recipes.addShaped(<toughasnails:charcoal_filter> * 6, [[<ore:fabricHemp>], [<ore:charcoal>], [<ore:fabricHemp>]]);
 
 // Rain collector
 recipes.remove(<toughasnails:rain_collector>);
