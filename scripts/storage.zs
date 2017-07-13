@@ -71,3 +71,35 @@ recipes.addShapeless(<refinedrelocation:sorting_iron_chest:4>, [<ironchest:Block
 recipes.addShapeless(<refinedrelocation:sorting_iron_chest:5>, [<ironchest:BlockIronChest:5>, <refinedrelocation:sortingUpgrade>]);
 recipes.addShapeless(<refinedrelocation:sorting_iron_chest:6>, [<ironchest:BlockIronChest:6>, <refinedrelocation:sortingUpgrade>]);
 recipes.addShapeless(<refinedrelocation:sorting_iron_chest:7>, [<ironchest:BlockIronChest:7>, <refinedrelocation:sortingUpgrade>]);
+
+// Iron Chests (halve metal cost)
+// Wood > Iron > Gold > Diamond (8 iron, 8 gold, 2 diamond)
+// Wood > Copper > Silver > Diamond (8 copper, 8 silver, 3 diamond)
+// Remove recipes
+recipes.remove(<ironchest:BlockIronChest:0>); // Iron
+recipes.remove(<ironchest:BlockIronChest:1>); // Gold
+recipes.remove(<ironchest:BlockIronChest:3>); // Copper
+recipes.remove(<ironchest:BlockIronChest:4>); // Silver
+recipes.remove(<ironchest:woodCopperUpgrade>);
+recipes.remove(<ironchest:woodIronUpgrade>);
+recipes.remove(<ironchest:copperIronUpgrade>);
+recipes.remove(<ironchest:copperSilverUpgrade>);
+recipes.remove(<ironchest:ironGoldUpgrade>);
+recipes.remove(<ironchest:silverGoldUpgrade>);
+
+// Add back chest recipes
+recipes.addShaped(<ironchest:BlockIronChest:3>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:chestWood>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]); // Wood to copper (8)
+recipes.addShaped(<ironchest:BlockIronChest:0>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]); // Wood to iron (8)
+recipes.addShaped(<ironchest:BlockIronChest:0>, [[null, <ore:plankWood>, null], [<ore:ingotIron>, <ironchest:BlockIronChest:3>, <ore:ingotIron>], [null, <ore:plankWood>, null]]); // Copper to iron (4)
+recipes.addShaped(<ironchest:BlockIronChest:4>, [[null, <ore:ingotSilver>, null], [<ore:ingotSilver>, <ironchest:BlockIronChest:3>, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]); // Copper to silver (8)
+recipes.addShaped(<ironchest:BlockIronChest:4>, [[null, <ore:plankWood>, null], [<ore:ingotSilver>, <ironchest:BlockIronChest:0>, <ore:ingotSilver>], [null, <ore:plankWood>, null]]); // Iron to silver (4)
+recipes.addShaped(<ironchest:BlockIronChest:1>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ironchest:BlockIronChest:0>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]); // Iron to gold (8)
+recipes.addShaped(<ironchest:BlockIronChest:1>, [[null, <ore:plankWood>, null], [<ore:ingotGold>, <ironchest:BlockIronChest:4>, <ore:ingotGold>], [null, <ore:plankWood>, null]]); // Silver to gold (4)
+
+// Add direct upgrade recipes
+recipes.addShaped(<ironchest:woodCopperUpgrade>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <tconstruct:pattern>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]); // (8)
+recipes.addShaped(<ironchest:woodIronUpgrade>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <tconstruct:pattern>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]); // (8)
+recipes.addShaped(<ironchest:copperIronUpgrade>, [[null, <ore:plankWood>, null], [<ore:ingotIron>, <tconstruct:pattern>, <ore:ingotIron>], [null, <ore:plankWood>, null]]); // (4)
+recipes.addShaped(<ironchest:copperSilverUpgrade>, [[null, <ore:ingotSilver>, null], [<ore:ingotSilver>, <tconstruct:pattern>, <ore:ingotSilver>], [null, <ore:ingotSilver>, null]]); // (8)
+recipes.addShaped(<ironchest:ironGoldUpgrade>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <tconstruct:pattern>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]); // (8)
+recipes.addShaped(<ironchest:silverGoldUpgrade>, [[null, <ore:plankWood>, null], [<ore:ingotGold>, <tconstruct:pattern>, <ore:ingotGold>], [null, <ore:plankWood>, null]]); // (4)

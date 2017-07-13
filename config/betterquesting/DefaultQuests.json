@@ -16,7 +16,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -68,7 +68,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -120,7 +120,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -211,7 +211,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -248,18 +248,18 @@
                 "Materials:9": {
                   "8": "flint"
                 },
-                "Modifiers:9": {}
+                "Modifiers:9": {
+                  "8": "toolleveling"
+                }
               },
               "Traits:9": {
-                "8": "crude2"
+                "8": "toolleveling"
               },
               "Modifiers:9": {
                 "10": {
-                  "identifier:8": "crude",
-                  "color:3": -9868951,
-                  "level:3": 3,
-                  "crude1:1": 1,
-                  "crude2:1": 1
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
                 }
               }
             }
@@ -309,7 +309,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -361,7 +361,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -419,7 +419,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -477,7 +477,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -559,7 +559,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -617,7 +617,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -716,7 +716,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -768,7 +768,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -832,7 +832,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -896,7 +896,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -917,7 +917,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You\u0027ll need a source of Lava to power your Smeltery.  A Clay Bucket should be strong enough to move lava, at least once.\n\nLava can be found in pools along the surface, deep underground, or in lava-encrusted stone blocks.\n\nA Clay Bucket with lava can be placed directly into the Smeltery\u0027s tank, shortly before disintegrating."
+          "desc": "You\u0027ll need a source of Lava to power your Smeltery.  A Clay Bucket should be strong enough to move lava, at least once.\n\nLava can be found deep underground, or in lava-encrusted stone blocks.\n\nA Clay Bucket with lava can be placed directly into the Smeltery\u0027s tank, shortly before disintegrating."
         }
       },
       "tasks": [
@@ -948,7 +948,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1006,7 +1006,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1059,7 +1059,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1112,7 +1112,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1176,7 +1176,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1228,7 +1228,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1280,7 +1280,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1343,7 +1343,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1444,7 +1444,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1495,7 +1495,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1533,7 +1533,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1640,7 +1640,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1698,7 +1698,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1752,7 +1752,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1773,7 +1773,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Finally you can cut your tanned leather into finer strips.  This requires an iron knife, which is simple enough to craft with a flint sharpening stone.\n\nLeather strips are useful for more refined leatherworking.  They\u0027re also a key ingredient in creating a saw."
+          "desc": "Finally you can cut your tanned leather into finer strips.  This requires shears or an iron knife.  A knife is simple enough to craft with a flint sharpening stone.\n\nLeather strips are useful for more refined leatherworking.  They\u0027re also a key ingredient in creating a saw."
         }
       },
       "tasks": [
@@ -1804,7 +1804,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1832,6 +1832,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:saddle",
@@ -1840,7 +1843,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
@@ -1853,7 +1856,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1874,7 +1877,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "By using the Saw to cut planks into sidings and corners, you\u0027re able to produce a Filtered Hopper.\n\nUnlike the vanilla Hopper, the Filtered Hopper is able to sift resources through different types of filters."
+          "desc": "By using the Saw to cut planks into sidings and corners, you\u0027re able to produce a Filtered Hopper.\n\nUnlike the vanilla Hopper, the Filtered Hopper is able to sift resources through different types of filters.\n\nMost Filtered Hopper recipes do not require mechanical power be applied.  Though for those that do, power must be supplied from the side."
         }
       },
       "tasks": [
@@ -1905,7 +1908,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -1952,7 +1955,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2004,7 +2007,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2056,7 +2059,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2114,7 +2117,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2166,7 +2169,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2218,7 +2221,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2271,7 +2274,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2323,7 +2326,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2399,7 +2402,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2451,7 +2454,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2537,7 +2540,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2590,7 +2593,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2648,7 +2651,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2714,7 +2717,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2753,7 +2756,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2805,7 +2808,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2844,7 +2847,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2932,7 +2935,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -2984,7 +2987,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3043,7 +3046,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3101,7 +3104,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3140,7 +3143,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3240,7 +3243,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3261,7 +3264,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The Improved Blast Furnace has a number of improvements over its predecessor.  It allows for complete automation, and will automatically output Steel and slag to nearby inventories or Conveyors.\n\nThe Improved Blast Furnace is also able to use Blast Furnace Preheaters, which use electrical power to increase the speed of each operation.\n\nAssemble Improved Blast Bricks in a 3x3x3 with a Hopper on top, and right click any face with the Engineer\u0027s Hammer."
+          "desc": "The Improved Blast Furnace offers a number of upgrades over its predecessor.  It allows for complete automation, and will automatically output Steel and slag to nearby inventories or Conveyors.\n\nThe Improved Blast Furnace is also able to use Blast Furnace Preheaters, which use electrical power to increase the speed of each operation.\n\nAssemble Improved Blast Bricks in a 3x3x3 with a Hopper on top, and right click any face with the Engineer\u0027s Hammer."
         }
       },
       "tasks": [
@@ -3298,7 +3301,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3386,7 +3389,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3468,7 +3471,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3497,7 +3500,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -3537,7 +3540,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3576,7 +3579,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3628,7 +3631,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3686,7 +3689,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3706,7 +3709,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Welcome to Homestead!\n\nThis Quest Log will act as a tutorial to take you through the revamped tech tree, and explain modified game mechanics.  If you prefer, you can toss this book away and never look at it.  You won\u0027t miss any real rewards.  However, it can be very helpful in getting to grips with this new world; particularly for first-time players.\n\nTo access the questing menu at any time, you can open this Quest Log, or simply press the tilde (`) key on your keyboard.  This book can be recrafted if you lose it.\n\nThis quest can be completed simply by checking it off."
+          "desc": "Welcome to Homestead!\n\nThis Quest Log will act as a tutorial to take you through the revamped tech tree, and explain modified game mechanics.  If you prefer, you can toss this book away and never look at it.  You won\u0027t miss any real rewards.  However, it can be very helpful in getting to grips with this new world; particularly for first-time players.\n\nTo access the questing menu at any time, you can open this Quest Log, or simply press the tilde (`) key on your keyboard.  Alternatively, this book can be recrafted if you lose it.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -3722,7 +3725,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3779,7 +3782,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3854,7 +3857,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3911,7 +3914,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -3992,7 +3995,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4063,7 +4066,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4120,7 +4123,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4158,7 +4161,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4215,7 +4218,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4261,7 +4264,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4327,7 +4330,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4347,7 +4350,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The hang glider is a fast and effective way of covering large swaths of land at once.\n\nOver time however, the Hang Glider may receive wear and tear.  The more damaged your glider is, the more susceptible it is to getting blown around in storms.  It can be patched up in an Anvil with Leather.\n\nAlternatively, the Mending Enchantment can ensure your glider stays in pristine shape.\n\nBooster Rockets are an effective, if not dangerous method of launching yourself in the air.  Right click to propel forward, or shift+right click to propel upwards."
+          "desc": "The hang glider is a fast and effective way of covering large swaths of land at once.\n\nOver time however, the Hang Glider may receive wear and tear.  The more damaged your glider is, the more susceptible it is to getting blown around in storms.  It can be patched up in an Anvil with Leather.\n\nAlternatively, the Mending Enchantment can ensure your glider stays in pristine shape."
         }
       },
       "tasks": [
@@ -4363,15 +4366,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "boosterrockets:booster",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "CHARGE:3": 1
-              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -4388,7 +4382,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4439,7 +4433,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4491,7 +4485,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4549,7 +4543,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4600,7 +4594,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4654,7 +4648,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4705,7 +4699,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4762,7 +4756,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -4820,7 +4814,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4858,7 +4852,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4909,7 +4903,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -4960,7 +4954,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5017,7 +5011,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5074,7 +5068,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5132,7 +5126,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5183,7 +5177,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5265,7 +5259,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5316,7 +5310,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -5349,7 +5343,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -5384,7 +5378,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -5417,7 +5411,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5468,7 +5462,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -5501,7 +5495,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5552,7 +5546,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -5598,7 +5592,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5618,7 +5612,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table."
+          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table.\n\nThe Sink is an easy source of water.  It allows you to quickly fill buckets, and offers the Cooking Table an automatic source of water for any recipe that require it."
         }
       },
       "tasks": [
@@ -5649,6 +5643,12 @@
             },
             {
               "id": "cookingforblockheads:counter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "cookingforblockheads:sink",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -5706,7 +5706,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5757,7 +5757,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5827,7 +5827,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5879,7 +5879,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5908,7 +5908,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -5948,7 +5948,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -5977,7 +5977,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -6017,7 +6017,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6110,7 +6110,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6192,10 +6192,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6253,7 +6253,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6311,7 +6311,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6362,7 +6362,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6414,7 +6414,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6465,7 +6465,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6522,7 +6522,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6579,7 +6579,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6631,10 +6631,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6820,10 +6820,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6836,7 +6836,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Fancy Blocks",
+          "name": "Home Decor",
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
@@ -6871,10 +6871,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6922,7 +6922,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -6985,10 +6985,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7036,7 +7036,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -7069,7 +7069,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7126,10 +7126,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7162,6 +7162,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:woodenDevice0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -7177,7 +7183,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -7226,7 +7232,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7277,10 +7283,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7328,7 +7334,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7379,10 +7385,10 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7448,7 +7454,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "HIDDEN",
@@ -7481,7 +7487,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7519,7 +7525,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7570,7 +7576,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7630,7 +7636,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7699,7 +7705,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7756,7 +7762,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7807,7 +7813,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7858,7 +7864,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -7951,7 +7957,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",
@@ -8026,7 +8032,7 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "entity.firework.large_blast",
+          "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
           "visibility": "UNLOCKED",

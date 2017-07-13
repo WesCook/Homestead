@@ -56,6 +56,19 @@ recipes.addShapeless(<harvestcraft:boiledeggitem>, [<harvestcraft:potitem>, <ore
 <ore:mushroom>.add(<minecraft:brown_mushroom>);
 <ore:mushroom>.add(<minecraft:red_mushroom>);
 
+// Add all smoothies to oredict
+<ore:listAllsmoothie>.add(<harvestcraft:apricotsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:figsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:grapefruitsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:persimmonsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:applesmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:coconutsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:cranberrysmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:grapesmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:pearsmoothieitem>);
+<ore:listAllsmoothie>.add(<harvestcraft:plumsmoothieitem>);
+<ore:listAllsmoothie>.add(<rockhounding_surface:purplepear_smoothie>);
+
 
 /////////////
 // Recipes //
@@ -238,6 +251,4 @@ furnace.addRecipe(<ediblebugs:cookedBugs:16>, <ediblebugs:grassBugs:3>); // Gras
 
 // Tooltips
 <betterwithmods:creeper_oyster>.addTooltip("Sheared from creepers");
-<harvestcraft:market>.addTooltip("Buy saplings for fruit trees");
-<harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
 <harvestcraft:wafflesitem>.addShiftTooltip("Don't you mean carrots?");

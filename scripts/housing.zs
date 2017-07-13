@@ -124,3 +124,7 @@ recipes.addShaped(<mxtune:block_piano>, [[<minecraft:iron_trapdoor>, <minecraft:
 
 // Craft record into gold ingot
 recipes.addShapeless(<minecraft:gold_nugget> * 2, [<ore:record>]);
+
+// Craft rock path from rocks
+recipes.remove(<furniture:rock_path>);
+recipes.addShapeless(<furniture:rock_path> * 16, [<immcraft:rock>, <immcraft:rock>]);

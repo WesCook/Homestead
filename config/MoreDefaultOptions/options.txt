@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:80
 fboEnable:true
-difficulty:1
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -85,14 +85,14 @@ key_of.key.zoom:46
 key_presets.cfg.keybind.Presets:0
 key_cfg.keybind.SelectionBox:0
 key_cfg.keybind.Volume:0
-key_cfg.keybind.LightLevel:0
+key_cfg.keybind.LightLevel:65
 key_cfg.keybind.ChunkBorders:0
 key_key.OpenBag:0
 key_key.betterquesting.quests:41
 key_Toggle Magnetism Suppressor:0
 key_itemscroller.desc.toggledisable:0
 key_itemscroller.desc.recipe:0
-key_key.moreoverlays.lightoverlay.desc:65
+key_key.moreoverlays.lightoverlay.desc:0
 key_key.moreoverlays.chunkbounds.desc:0
 key_key.wearablebackpacks.open:0
 key_key.jei.toggleOverlay:24:CONTROL

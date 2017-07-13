@@ -21,6 +21,7 @@ val table_nether_bridge = LootTables.getTable("minecraft:chests/nether_bridge");
 val table_end_city_treasure = LootTables.getTable("minecraft:chests/end_city_treasure");
 val table_igloo_chest = LootTables.getTable("minecraft:chests/igloo_chest");
 val table_spawn_bonus_chest = LootTables.getTable("minecraft:chests/spawn_bonus_chest");
+val table_wearablebackpacks = LootTables.getTable("wearablebackpacks:backpack/default");
 
 ////////////////
 // Loot Pools //
@@ -42,6 +43,7 @@ val pool_end_city_treasure_main = table_end_city_treasure.getPool("main");
 val pool_igloo_chest_main = table_igloo_chest.getPool("main");
 val pool_spawn_bonus_chest_main = table_spawn_bonus_chest.getPool("main");
 val pool_spawn_bonus_chest_pool1 = table_spawn_bonus_chest.getPool("pool1");
+val pool_wearablebackpacks_main = table_wearablebackpacks.getPool("main");
 
 /////////////
 // Entries //
@@ -96,13 +98,18 @@ pool_village_blacksmith_main.removeItemEntry(<minecraft:iron_boots>);
 
 // Remove tools
 pool_spawn_bonus_chest_pool1.removeItemEntry(<minecraft:wooden_pickaxe>);
+pool_wearablebackpacks_main.removeItemEntry(<minecraft:wooden_pickaxe>);
 pool_spawn_bonus_chest_pool1.removeItemEntry(<minecraft:stone_pickaxe>);
+pool_wearablebackpacks_main.removeItemEntry(<minecraft:stone_pickaxe>);
 pool_abandoned_mineshaft_main.removeItemEntry(<minecraft:iron_pickaxe>);
 pool_stronghold_corridor_main.removeItemEntry(<minecraft:iron_pickaxe>);
 pool_stronghold_crossing_main.removeItemEntry(<minecraft:iron_pickaxe>);
 pool_village_blacksmith_main.removeItemEntry(<minecraft:iron_pickaxe>);
 pool_end_city_treasure_main.removeItemEntry(<minecraft:iron_pickaxe>);
+pool_wearablebackpacks_main.removeItemEntry(<minecraft:iron_pickaxe>);
 pool_end_city_treasure_main.removeItemEntry(<minecraft:diamond_pickaxe>);
+pool_wearablebackpacks_main.removeItemEntry(<minecraft:wooden_sword>);
+pool_wearablebackpacks_main.removeItemEntry(<minecraft:stone_sword>);
 pool_stronghold_corridor_main.removeItemEntry(<minecraft:iron_sword>);
 pool_village_blacksmith_main.removeItemEntry(<minecraft:iron_sword>);
 pool_end_city_treasure_main.removeItemEntry(<minecraft:iron_sword>);

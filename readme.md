@@ -16,5 +16,7 @@ The source files for Homestead are available on Github.  The pack can be downloa
 
 Please use the Github issue tracker to report any problems.
 
+Note: Existing worlds will not automatically receive quest changes on pack updates. Please copy the file /config/betterquesting/DefaultQuests.json over /world/betterquesting/QuestDatabase.json to update existing worlds.
+
 https://github.com/WesCook/Homestead  
 https://www.atlauncher.com/pack/Homestead

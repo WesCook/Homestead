@@ -1,5 +1,4 @@
 // Constants
-val water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 val wooden_gear = <betterwithmods:material:0>;
 
 // Camp fire uses rocks instead of cobble
@@ -35,7 +34,9 @@ recipes.remove(<toughasnails:temperature_coil:1>);
 recipes.addShaped(<toughasnails:temperature_coil:1>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:blockGlass>, <betterwithmods:material:27>, <ore:blockGlass>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 // Thirst Amounts
-water_bottle.addTooltip("Restores 3.5 thirst"); // Water Bottle
+<minecraft:potion>.addTooltip("Restores 3.5 thirst");
+//<minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip("Purified water, can be upgraded into juice"); // Water Bottle, as purified in furnace
+//<minecraft:potion>.withEmptyTag().addTooltip("Tap water, cannot be upgraded into juice"); // Water bottle, as filled from Sink
 <minecraft:milk_bucket>.addTooltip("Restores 3 thirst"); // Milk Bucket
 <toughasnails:water_bottle:0>.addTooltip("Restores 1.5 thirst"); // Dirty Water
 <toughasnails:water_bottle:1>.addTooltip("Restores 2.5 thirst"); // Filtered Water

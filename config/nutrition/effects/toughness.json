@@ -5,6 +5,5 @@
 	"minimum": 90,
 	"maximum": 100,
 	"detect": "cumulative",
-	"nutrient": "",
 	"enabled": true
 }

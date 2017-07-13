@@ -36,6 +36,27 @@ recipes.removeShaped(<ore:ingotSilver>, [[<ore:nuggetSilver>, <ore:nuggetSilver>
 recipes.removeShaped(<ore:ingotAluminum>, [[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]]);
 recipes.removeShaped(<ore:ingotNickel>, [[<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>], [<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>], [<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>]]);
 
+// Remove tripwire hook > iron from Stoked Crucible
+mods.betterwithmods.StokedCrucible.remove(<minecraft:tripwire_hook>);
+
+// Nuggets can be melted down in Stoked Crucible
+mods.betterwithmods.StokedCrucible.add(<minecraft:gold_ingot>, null, [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]);
+mods.betterwithmods.StokedCrucible.add(<betterwithmods:material:14>, null, [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:0>, null, [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:1>, null, [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:2>, null, [<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:3>, null, [<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:4>, null, [<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:6>, null, [<ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>, <ore:nuggetConstantan>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:7>, null, [<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>]);
+mods.betterwithmods.StokedCrucible.add(<immersiveengineering:metal:8>, null, [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:0>, null, [<ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:1>, null, [<ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:2>, null, [<ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>, <ore:nuggetManyullyn>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:3>, null, [<ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>, <ore:nuggetKnightslime>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:4>, null, [<ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>, <ore:nuggetPigiron>]);
+mods.betterwithmods.StokedCrucible.add(<tconstruct:ingots:5>, null, [<ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>, <ore:nuggetAlubrass>]);
+
 // Furnace requires iron
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);

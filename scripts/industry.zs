@@ -99,18 +99,47 @@ recipes.addShaped(<va:blockplacer>, [[<ore:ingotIron>, <betterwithmods:material:
 // Filtering Hopper has no recipe, for some reason
 recipes.addShaped(<expindustry:machine_filter>, [[<ore:ingotGold>, null, <ore:ingotGold>], [<ore:ingotGold>, <minecraft:hopper>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 
-// Normal metal stick recipes are more expensive, to encourage use of Metal Press
+// Steel rod recipes are cheaper in Metal Press
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:1>); // Iron Rod
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:2>); // Steel Rod
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:3>); // Aluminum Rod
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:1> * 4, <ore:ingotIron>, <immersiveengineering:mold:2>, 500, 1); // Iron Rod
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:2> * 4, <ore:ingotSteel>, <immersiveengineering:mold:2>, 500, 1); // Steel Rod
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:3> * 4, <ore:ingotAluminum>, <immersiveengineering:mold:2>, 500, 1); // Aluminum Rod
 recipes.remove(<immersiveengineering:material:1>); // Iron Rod
 recipes.remove(<immersiveengineering:material:2>); // Steel Rod
 recipes.remove(<immersiveengineering:material:3>); // Aluminum Rod
-recipes.addShaped(<immersiveengineering:material:1>, [[<ore:ingotIron>], [<ore:ingotIron>]]); // Iron Rod
-recipes.addShaped(<immersiveengineering:material:2>, [[<ore:ingotSteel>], [<ore:ingotSteel>]]); // Steel Rod
-recipes.addShaped(<immersiveengineering:material:3>, [[<ore:ingotAluminum>], [<ore:ingotAluminum>]]); // Aluminum Rod
+recipes.addShaped(<immersiveengineering:material:1> * 2, [[<ore:ingotIron>], [<ore:ingotIron>]]); // Iron Rod
+recipes.addShaped(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>], [<ore:ingotSteel>]]); // Steel Rod
+recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminum>], [<ore:ingotAluminum>]]); // Aluminum Rod
+<immersiveengineering:material:1>.addTooltip("Constructed more efficiently in a Metal Press");
+<immersiveengineering:material:2>.addTooltip("Constructed more efficiently in a Metal Press");
+<immersiveengineering:material:3>.addTooltip("Constructed more efficiently in a Metal Press");
+
+// Engineering blocks are cheaper
+recipes.remove(<immersiveengineering:metalDecoration0:3>); // Redstone Engineering Block
+recipes.remove(<immersiveengineering:metalDecoration0:4>); // Light Engineering Block
+recipes.remove(<immersiveengineering:metalDecoration0:5>); // Heavy Engineering Block
+recipes.addShaped(<immersiveengineering:metalDecoration0:3> * 4, [[null, <ore:dustRedstone>, null], [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [null, <ore:dustRedstone>, null]]); // Redstone Engineering Block
+recipes.addShaped(<immersiveengineering:metalDecoration0:4> * 2, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:ingotIron>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]); // Light Engineering Block
+recipes.addShaped(<immersiveengineering:metalDecoration0:5> * 2, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:ingotElectrum>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]); // Heavy Engineering Block
+
+// Scaffolding is cheaper
+recipes.remove(<immersiveengineering:woodenDecoration:1>); // Treated wood
+recipes.remove(<immersiveengineering:metalDecoration1:1>); // Steel Scaffolding
+recipes.remove(<immersiveengineering:metalDecoration1:5>); // Aluminium Scaffolding
+recipes.addShaped(<immersiveengineering:woodenDecoration:1>, [[<ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>]]); // Treated wood
+recipes.addShaped(<immersiveengineering:metalDecoration1:1>, [[<ore:stickSteel>, <ore:stickSteel>], [<ore:stickSteel>, <ore:stickSteel>]]); // Steel Scaffolding
+recipes.addShaped(<immersiveengineering:metalDecoration1:5>, [[<ore:stickAluminum>, <ore:stickAluminum>], [<ore:stickAluminum>, <ore:stickAluminum>]]); // Aluminium Scaffolding
 
 // Radiator blocks (late game Immersive Engineering) requires Soulforged Steel
 recipes.remove(<immersiveengineering:metalDecoration0:7>);
 recipes.addShaped(<immersiveengineering:metalDecoration0:7> * 3, [[<ore:ingotSoulforgedSteel>, <ore:ingotCopper>, <ore:ingotSoulforgedSteel>], [<ore:ingotCopper>, <ore:listAllwater>, <ore:ingotCopper>], [<ore:ingotSoulforgedSteel>, <ore:ingotCopper>, <ore:ingotSoulforgedSteel>]]);
 <immersiveengineering:metalDecoration0:7>.addTooltip("Used in several late-game machines");
+
+// Steel fence is cheaper
+recipes.remove(<immersiveengineering:metalDecoration1:0>);
+recipes.addShaped(<immersiveengineering:metalDecoration1:0> * 6, [[<ore:ingotSteel>, <ore:stickSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:stickSteel>, <ore:ingotSteel>]]);
 
 // Cheaper LV Capacitor
 recipes.remove(<immersiveengineering:metalDevice0:0>);

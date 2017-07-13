@@ -53,7 +53,7 @@ recipes.addShaped(<totemic:totemTorch>, [[<ore:stickWood>, <ore:torch>, <ore:sti
 
 // Harvestcraft Candle
 recipes.remove(<harvestcraft:candledeco1>);
-recipes.addShaped(<harvestcraft:candledeco1>, [[<ore:string>], [<rustic:beeswax>], [<ore:ingotSilver>]]);
+recipes.addShaped(<harvestcraft:candledeco1> * 4, [[<ore:string>], [<rustic:beeswax>], [<ore:ingotSilver>]]);
 
 // Rustic Candle
 recipes.removeShaped(<rustic:candle>);

@@ -7,8 +7,9 @@ recipes.remove(<tconstruct:slimesling>);
 // Remove Slime Channels
 furnace.remove(<tconstruct:slime_channel:*>);
 
-// Remove Piggybackpack (can move mobs)
+// Piggybackpack is more expensive (can move mobs)
 recipes.remove(<tconstruct:piggybackpack>);
+recipes.addShaped(<tconstruct:piggybackpack>, [[<betterwithmods:material:49>, null, <betterwithmods:material:49>], [<ore:leather>, <ore:leather>, <ore:leather>]]);
 
 // Remove Poke Stick (automatic right clicks)
 recipes.remove(<va:pokestick>);

@@ -58,6 +58,10 @@ recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <min
 <animania:bucket_slop>.addShiftTooltip("- Fresh milk can also be used, but requires");
 <animania:bucket_slop>.addShiftTooltip("  an empty bucket to mix slop with");
 
+// Harvestcraft tooltips
+<harvestcraft:market>.addTooltip("Buy seeds and saplings");
+<harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
+
 // Corn compatibility
 //<ore:cropCorn>.add(<simplecorn:corncob>);
 //<ore:listAllveggie>.add(<simplecorn:corncob>);
