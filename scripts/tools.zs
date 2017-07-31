@@ -1,3 +1,7 @@
+/////////////
+// Recipes //
+/////////////
+
 // Rock in arrow recipe
 recipes.addShaped(<minecraft:arrow> * 4, [[<immcraft:rock>], [<ore:stickWood>], [<ore:feather>]]);
 
@@ -43,6 +47,26 @@ recipes.addShaped(<railcraft:tool_spike_maul_steel>, [[<ore:nuggetSteel>, <ore:i
 // Remove sharpened flint
 recipes.remove(<flintmod:toolPartFlint>);
 
+// Fishing Rods can use hemp instead of string
+recipes.remove(<jaff:wooden_fishing_rod>);
+recipes.remove(<jaff:iron_fishing_rod>);
+recipes.remove(<jaff:golden_fishing_rod>);
+recipes.remove(<jaff:diamond_fishing_rod>);
+recipes.addShaped(<jaff:wooden_fishing_rod>, [[null, null, <ore:plankWood>], [null, <ore:plankWood>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
+recipes.addShaped(<jaff:iron_fishing_rod>, [[null, null, <ore:ingotIron>], [null, <ore:ingotIron>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
+recipes.addShaped(<jaff:golden_fishing_rod>, [[null, null, <ore:ingotGold>], [null, <ore:ingotGold>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
+recipes.addShaped(<jaff:diamond_fishing_rod>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, <ore:string>], [<ore:stickTreatedWood>, null, <jaff:iron_hook>]]);
+
+
+////////////////////
+// Ore Dictionary //
+////////////////////
+
+// Fishing rod
+<ore:fishingRods>.add(<jaff:wooden_fishing_rod>);
+<ore:fishingRods>.add(<jaff:iron_fishing_rod>);
+<ore:fishingRods>.add(<jaff:golden_fishing_rod>);
+<ore:fishingRods>.add(<jaff:diamond_fishing_rod>);
 
 ///////////////////
 // Disable Tools //
@@ -112,6 +136,9 @@ recipes.addShapeless(<betterwithmods:material:47>, [<betterwithmods:knife>.anyDa
 // Broadhead Arrows made from Treated Wood
 recipes.remove(<betterwithmods:broadhead_arrow>);
 recipes.addShaped(<betterwithmods:broadhead_arrow> * 4, [[<betterwithmods:material:47>], [<ore:stickTreatedWood>], [<ore:feather>]]);
+
+// Fishing Rod
+recipes.remove(<minecraft:fishing_rod>);
 
 
 //////////////

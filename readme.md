@@ -18,6 +18,6 @@ Homestead was designed to work as a base for new survival-focused packs.  It rem
 
 Please use the Github [issue tracker](https://github.com/WesCook/Homestead/issues) to report any problems.
 
-**Note:** Existing worlds will not automatically receive quest changes on pack updates. Please copy the file `/config/betterquesting/DefaultQuests.json` over `/world/betterquesting/QuestDatabase.json` to update existing worlds.
+**Note:** Existing worlds will not automatically receive quest changes on pack updates.  On clients, you can run `/bq_admin default load` as an op to update existing worlds.  On servers, please copy the file `/config/betterquesting/DefaultQuests.json` over `/world/betterquesting/QuestDatabase.json`.
 
 ![Farm](screenshots/farm3.png)

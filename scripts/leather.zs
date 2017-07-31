@@ -28,6 +28,9 @@ recipes.addShapeless(<betterwithmods:material:33> * 2, [<betterwithmods:knife>.a
 recipes.addShapeless(<betterwithmods:material:34> * 2, [<betterwithmods:knife>.anyDamage(), <betterwithmods:material:7>]); // Cut leather (Scoured)
 recipes.addShapeless(<betterwithmods:material:8> * 4, [<betterwithmods:knife>.anyDamage(), <betterwithmods:material:33>]); // Leather strip
 
+// Remove leather strap > cut leather duplication
+mods.betterwithmods.Mill.remove(<betterwithmods:material:34>, [<betterwithmods:material:8>]);
+
 // Hardened Leather requires Iron (makes it slightly cheaper than regular iron armor (34 vs 24 ingots))
 recipes.remove(<harvestcraft:hardenedleatheritem>);
 recipes.addShaped(<harvestcraft:hardenedleatheritem>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:leather>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);

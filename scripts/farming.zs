@@ -58,25 +58,19 @@ recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <min
 <animania:bucket_slop>.addShiftTooltip("- Fresh milk can also be used, but requires");
 <animania:bucket_slop>.addShiftTooltip("  an empty bucket to mix slop with");
 
+// New market recipes
+recipes.remove(<harvestcraft:market>);
+recipes.remove(<farmingforblockheads:market>);
+
+// Market retains original Harvestcraft recipe
+recipes.addShaped(<farmingforblockheads:market>, [[<ore:plankWood>, <ore:wool>, <ore:plankWood>], [<ore:wool>, <ore:gemEmerald>, <ore:wool>], [<ore:plankWood>, <ore:wool>, <ore:plankWood>]]);
+
+// Allow conversion between Harvestcraft Market and FarmingForBlockheads market
+// Leaving in the old item for those servers who don't update their quest books
+recipes.addShapeless(<farmingforblockheads:market>, [<harvestcraft:market>]);
+recipes.addShapeless(<harvestcraft:market>, [<farmingforblockheads:market>]);
+
 // Harvestcraft tooltips
-<harvestcraft:market>.addTooltip("Buy seeds and saplings");
+<harvestcraft:market>.addTooltip(format.red("Outdated. Can be crafted into improved market."));
+<farmingforblockheads:market>.addTooltip("Buy seeds and saplings");
 <harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
-
-// Corn compatibility
-//<ore:cropCorn>.add(<simplecorn:corncob>);
-//<ore:listAllveggie>.add(<simplecorn:corncob>);
-//<ore:listAllveggie>.add(<simplecorn:roastedcorn>);
-//<ore:listAllveggie>.add(<simplecorn:cornchowder>);
-//<ore:listAllveggie>.add(<simplecorn:chickencornchowder>);
-//<ore:seedCorn>.add(<simplecorn:kernels>);
-//<ore:listAllseed>.add(<simplecorn:kernels>);
-
-// Redo Simple Corn recipes to support corn oredict
-//furnace.remove(<simplecorn:roastedcorn>);
-//furnace.addRecipe(<simplecorn:roastedcorn>, <ore:cropCorn>);
-//recipes.remove(<simplecorn:cornchowder>);
-//recipes.addShapeless(<simplecorn:cornchowder>, [<minecraft:bowl>, <ore:listAllmilk>, <ore:seedCorn>, <ore:seedCorn>]);
-//recipes.remove(<simplecorn:chickencornchowder>);
-//recipes.addShapeless(<simplecorn:chickencornchowder>, [<minecraft:bowl>, <ore:listAllmilk>, <ore:seedCorn>, <ore:seedCorn>, <ore:listAllchickencooked>]);
-//recipes.addShapeless(<simplecorn:chickencornchowder>, [<simplecorn:cornchowder>, <ore:listAllchickencooked>]);
-//mods.betterwithmods.Cauldron.remove(<harvestcraft:popcornitem>);

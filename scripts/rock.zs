@@ -1,3 +1,7 @@
+// Craft rock path from rocks
+recipes.remove(<furniture:rock_path>);
+recipes.addShapeless(<furniture:rock_path> * 64, [<immcraft:rock>, <immcraft:rock>]);
+
 // Rock tooltips
 <undergroundbiomes:igneous_stone:*>.addTooltip("Igneous rock formed from cooled magma.");
 <undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");

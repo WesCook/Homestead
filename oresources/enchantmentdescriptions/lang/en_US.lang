@@ -15,3 +15,6 @@ enchantment.astralsorcery.enchantment.as.nightvision.desc=When placed on helmets
 
 # Astral Sorcery - Scorching Heat
 enchantment.astralsorcery.enchantment.as.smelting.desc=When placed on digging tools, will cook any block drops as if they'd been smelted in a furnace.
+
+# Just a Few Fish
+enchantment.jaff.roasting.desc=When placed on a fishing rod, will cook any caught fish.

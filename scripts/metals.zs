@@ -20,10 +20,12 @@ furnace.remove(<minecraft:coal>);
 // Remove duplicate iron nugget recipes (prefer Better With Mods)
 recipes.remove(<immersiveengineering:metal:29>); // Immersive Engineering
 recipes.remove(<totemic:subItems:0>); // Totemic
+recipes.remove(<jaff:iron_nugget>); // Just a Few Fish
 
 // Remove duplicate iron nugget oredicts
 <ore:nuggetIron>.remove(<immersiveengineering:metal:29>); // Immersive Engineering
 <ore:nuggetIron>.remove(<totemic:subItems:0>); // Totemic
+<ore:nuggetIron>.remove(<jaff:iron_nugget>); // Just a Few Fish
 
 // Remove Nugget > Ingot crafting
 recipes.removeShaped(<ore:ingotIron>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);

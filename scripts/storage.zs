@@ -56,21 +56,21 @@ recipes.addShapeless(<bibliocraft:FramedChest:4>, [<quark:custom_chest:3>, <bibl
 recipes.addShapeless(<bibliocraft:FramedChest:5>, [<quark:custom_chest:4>, <bibliocraft:Label:5>]); // Dark Oak
 
 // Refined Relocation
-recipes.remove(<refinedrelocation:sortingUpgrade>); // Cheaper recipe for sorting upgrade
-recipes.addShaped(<refinedrelocation:sortingUpgrade>, [[<stevescarts:ModuleComponents:9>], [<va:filteredhopper>]]);
-recipes.remove(<refinedrelocation:sortingChest>); // Remove chest recipes
-recipes.remove(<refinedrelocation:sorting_iron_chest:*>); // Remove chest recipes
+//recipes.remove(<refinedrelocation:sortingUpgrade>); // Cheaper recipe for sorting upgrade
+//recipes.addShaped(<refinedrelocation:sortingUpgrade>, [[<stevescarts:ModuleComponents:9>], [<va:filteredhopper>]]);
+//recipes.remove(<refinedrelocation:sortingChest>); // Remove chest recipes
+//recipes.remove(<refinedrelocation:sorting_iron_chest:*>); // Remove chest recipes
 
 // Add back Sorting Chest recipes
-recipes.addShapeless(<refinedrelocation:sortingChest>, [<ore:chestWood>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:0>, [<ironchest:BlockIronChest:0>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:1>, [<ironchest:BlockIronChest:1>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:2>, [<ironchest:BlockIronChest:2>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:3>, [<ironchest:BlockIronChest:3>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:4>, [<ironchest:BlockIronChest:4>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:5>, [<ironchest:BlockIronChest:5>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:6>, [<ironchest:BlockIronChest:6>, <refinedrelocation:sortingUpgrade>]);
-recipes.addShapeless(<refinedrelocation:sorting_iron_chest:7>, [<ironchest:BlockIronChest:7>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sortingChest>, [<ore:chestWood>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:0>, [<ironchest:BlockIronChest:0>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:1>, [<ironchest:BlockIronChest:1>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:2>, [<ironchest:BlockIronChest:2>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:3>, [<ironchest:BlockIronChest:3>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:4>, [<ironchest:BlockIronChest:4>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:5>, [<ironchest:BlockIronChest:5>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:6>, [<ironchest:BlockIronChest:6>, <refinedrelocation:sortingUpgrade>]);
+//recipes.addShapeless(<refinedrelocation:sorting_iron_chest:7>, [<ironchest:BlockIronChest:7>, <refinedrelocation:sortingUpgrade>]);
 
 // Iron Chests (halve metal cost)
 // Wood > Iron > Gold > Diamond (8 iron, 8 gold, 2 diamond)

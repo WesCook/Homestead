@@ -1249,7 +1249,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "To move large numbers of animals, Boats can be tied together with a Lead to create a caravan.\n\nChest Boats can also be created for additional storage."
+          "desc": "To move large numbers of animals, Boats can be tied together with a Lead to create a caravan.\n\nChest Boats can also be created for additional storage.\n\nIn the future, a Motor Boat upgrade may be available to you."
         }
       },
       "tasks": [
@@ -3864,7 +3864,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "harvestcraft:market",
+            "id": "farmingforblockheads:market",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -3889,7 +3889,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "harvestcraft:market",
+              "id": "farmingforblockheads:market",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -4257,7 +4257,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        81
+        94
       ],
       "questID": 70
     },
@@ -4563,7 +4563,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "With your Bottle you\u0027re now able to collect sea water.  Unless things are absolutely dire you should not drink this directly as it will lead to dehydration.  This drains your hunger faster, and in turn your nutrition.\n\nInstead, we should look into purifying it first."
+          "desc": "With your Bottle you\u0027re now able to collect sea water.  Unless things are absolutely dire you should not drink this directly as it will lead to dehydration.\n\nInstead, we should look into purifying it first."
         }
       },
       "tasks": [
@@ -4617,7 +4617,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Dirty Water can be purified by boiling it in a campfire.  This allows you to drink it safely.\n\nCharcoal Filters can also be used to automate this process in a Furnace.\n\nIn the future, a Rain Collector may also be a good option for passively collecting water."
+          "desc": "Dirty Water can be purified by boiling it on a campfire.  This allows you to drink it safely.\n\nCharcoal Filters can also be used to automate this process in a Furnace."
         }
       },
       "tasks": [
@@ -5431,7 +5431,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Eventually you will get thirsty.  Water cannot be safely drank from the sea.  Instead you must capture it in a Bottle, then purify it before it is safe.\n\nStart by crafting a Glass Bottle.  This can be made from Glass, or by using Sand directly on a Campfire."
+          "desc": "Eventually you will get thirsty.  You will be able to drink directly from deep pools of water by right clicking with an open hand.  However, unpurified water will also leave you dehydrated.\n\nTo purify water, you must first capture it in a Bottle.  A Glass Bottle can be crafted from Glass, or by using Sand directly on a Campfire."
         }
       },
       "tasks": [
@@ -5612,7 +5612,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table.\n\nThe Sink is an easy source of water.  It allows you to quickly fill buckets, and offers the Cooking Table an automatic source of water for any recipe that require it."
+          "desc": "The various Kitchen blocks will make it much easier to manage your cooking tools and foods.\n\nThe Cooking Table allows you to easily select the recipe you\u0027d like to cook.  It will examine all food stores in connected inventories to show you available options.\n\nThe Oven allows you to cook food in batch.  It requires a source of fuel such as Coal or Cooking Oil.\n\nThe Tool Rack provides storage for any additional kitchen tools you have.  It enables the Cooking Table to make use of the tools hung on it.\n\nKitchen Counters and the Fridge provide additional storage for any foods to be made available to the Cooking Table.\n\nThe Sink is an easy source of water.  It allows you to quickly fill buckets, and offers the Cooking Table an automatic source of water for any recipe that require it.\n\nWhile safe to drink, Bottled Water from a Sink cannot be upgrade into Juices."
         }
       },
       "tasks": [
@@ -6246,7 +6246,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        62
       ],
       "questID": 106
     },
@@ -6915,7 +6915,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        124
+        62
       ],
       "questID": 116
     },
@@ -7029,7 +7029,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        62
       ],
       "questID": 118
     },
@@ -7119,7 +7119,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        81
+        94
       ],
       "questID": 120
     },
@@ -7283,14 +7283,13 @@
     {
       "properties": {
         "betterquesting": {
-          "snd_complete": "random.levelup",
+          "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "refinedrelocation:sorting_iron_chest",
+            "id": "mowziesmobs:barakoa_mask_fury",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -7299,35 +7298,22 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Sorting Storage",
-          "lockedProgress": true,
+          "name": "Placing Items",
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "As the number of items in your storage begins to mount, you admit that some organization would go a long way.\n\nWhen combined with a Filtered Hopper and some Redstone, chests seem to become much smarter.  They allow you to filter by mod name, certain presets, or existing inventory.\n\nThese chests also seem able to create a network.  By placing them next to each other, they will sort items automatically into neighboring chests.  Very useful!\n\n§7§oBlicks and blocks§r"
+          "desc": "Whether it\u0027s a trophy you\u0027d like to put on display, or just for a touch of decoration, sometimes it\u0027s nice to place items in the world physically.\n\nThis can be accomplished by looking at a block and pressing the \"P\" key.  The selected item will be placed against the block in a 2x2 grid, allowing additional items to be placed alongside it.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "refinedrelocation:sorting_iron_chest",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "taskID": "bq_standard:checkbox",
           "index": 0
         }
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        62
       ],
       "questID": 124
     },
@@ -7447,7 +7433,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        124
+        62
       ],
       "questID": 126
     },
@@ -8130,6 +8116,56 @@
         94
       ],
       "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "jaff:fish_bucket",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Super Rod",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fish will spawn as swimming entities in the oceans.  While they may be killed with swords or fists, a Fishing Rod is still the best approach to bringing home dinner.\n\nA Fishing Rod can be constructed from a variety of materials with varying durability.  Surrounding the rod with seeds will allow you to bait the hook, and greatly increase your chances of catching a bite.\n\nWhen tossed near a school of fish, you will soon attract their attention.  Reel the fish to shore to collect them.  Be sure to take your time while reeling, as pulling too quickly may snap the line.\n\nIf there are no fish to be found, don\u0027t give up.  Leaving your line in the water will have it behave like an old rod, and you may still catch normal treasure or more unusual fish.\n\nIf you would like to keep your fish friend alive and well, have a water bucket ready in your inventory when you reel it in.  He\u0027ll jump into your bucket and can be kept in a Fish Tank indefinitely.\n\nThis may even be a viable way to farm fish in the future."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "jaff:wooden_fishing_rod",
+              "Count": 1,
+              "OreDict": "fishingRods",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        94
+      ],
+      "questID": 139
     }
   ],
   "questLines": [
@@ -8324,6 +8360,12 @@
           "x": 204,
           "y": 96,
           "id": 70
+        },
+        {
+          "size": 30,
+          "x": 156,
+          "y": 96,
+          "id": 139
         },
         {
           "size": 30,
@@ -8956,7 +8998,7 @@
         {
           "size": 30,
           "x": 48,
-          "y": 48,
+          "y": 96,
           "id": 121
         },
         {
@@ -8968,13 +9010,13 @@
         {
           "size": 30,
           "x": 48,
-          "y": 96,
+          "y": 0,
           "id": 124
         },
         {
           "size": 30,
           "x": 48,
-          "y": 0,
+          "y": 48,
           "id": 62
         },
         {
