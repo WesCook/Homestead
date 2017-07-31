@@ -1,6 +1,6 @@
 <version>
 	<pack>
-		<version>1.4.1</version>
+		<version>1.4.2</version>
 		<minecraft>1.10.2</minecraft>
 		<mainclass>net.minecraft.launchwrapper.Launch</mainclass>
 		<extraarguments>--tweakClass=net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge</extraarguments>
