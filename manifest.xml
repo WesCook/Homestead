@@ -1,6 +1,6 @@
 <version>
 	<pack>
-		<version>1.4.3</version>
+		<version>1.4.4</version>
 		<minecraft>1.10.2</minecraft>
 		<mainclass>net.minecraft.launchwrapper.Launch</mainclass>
 		<extraarguments>--tweakClass=net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge</extraarguments>
@@ -188,7 +188,7 @@
 		<!-- Resources -->
 		<mod name="Critical Resources" version="3" url="packs/Homestead/files/1.10/Homestead-oresources-v3.zip" file="Homestead-oresources-v3.zip" md5="2e0739f9f412e299b40f1b066104dfb0" download="server" type="extract" extractto="root" website="https://www.atlauncher.com/pack/Homestead" description="Resources required for Homestead to function." server="no" />
 		<mod name="Optional Resources" version="1" url="packs/Homestead/files/1.10/Homestead-resources-v1.zip" file="Homestead-resources-v1.zip" md5="8715988348164816907d3a97e08c19bb" download="server" type="extract" extractto="root" website="https://www.atlauncher.com/pack/Homestead" description="Resources which enhance Homestead, but are not required." server="no" />
-		<mod name="CraftTweaker Scripts" version="6" url="packs/Homestead/files/1.10/Homestead-scripts-v6.zip" file="Homestead-scripts-v6.zip" md5="b6ecc4f1c881237d8f1d316daaab3e99" download="server" type="extract" extractto="root" website="https://www.atlauncher.com/pack/Homestead" description="CraftTweaker scripts which modify crafting recipes and other pack functionality." />
+		<mod name="CraftTweaker Scripts" version="7" url="packs/Homestead/files/1.10/Homestead-scripts-v7.zip" file="Homestead-scripts-v7.zip" md5="c77c27b5eef3d8aa127d1e1ed16e4841" download="server" type="extract" extractto="root" website="https://www.atlauncher.com/pack/Homestead" description="CraftTweaker scripts which modify crafting recipes and other pack functionality." />
 		<mod name="Structures" version="1" url="packs/Homestead/files/1.10/Homestead-structures-v1.zip" file="Homestead-structures-v1.zip" md5="31d7c697351a631cfc146e5cf6c609d4" download="server" type="extract" extractto="root" website="https://www.atlauncher.com/pack/Homestead" description="Recurrent Complex structures." />
 		<mod name="WTFExpedition Resources" version="1" url="packs/Homestead/files/1.10/WTFExpedition-resourcepack-v1.zip" file="WTFExpedition-resourcepack-v1.zip" md5="89fceedc7abdab2ffa3fd4e0a4baa6c0" download="server" type="extract" extractto="root" website="https://minecraft.curseforge.com/projects/wtfs-expedition-cavebiomes-ores-trees-and-tweaks" description="Resource pack files required for WTFExpedition.  These would be generated automatically, but would crash the game on first run if not included." server="no" />
 	</mods>
