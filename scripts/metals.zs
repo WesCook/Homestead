@@ -17,16 +17,6 @@ furnace.remove(<ore:gemDiamond>);
 furnace.remove(<ore:dustRedstone>);
 furnace.remove(<minecraft:coal>);
 
-// Remove duplicate iron nugget recipes (prefer Better With Mods)
-recipes.remove(<immersiveengineering:metal:29>); // Immersive Engineering
-recipes.remove(<totemic:subItems:0>); // Totemic
-recipes.remove(<jaff:iron_nugget>); // Just a Few Fish
-
-// Remove duplicate iron nugget oredicts
-<ore:nuggetIron>.remove(<immersiveengineering:metal:29>); // Immersive Engineering
-<ore:nuggetIron>.remove(<totemic:subItems:0>); // Totemic
-<ore:nuggetIron>.remove(<jaff:iron_nugget>); // Just a Few Fish
-
 // Remove Nugget > Ingot crafting
 recipes.removeShaped(<ore:ingotIron>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 recipes.removeShaped(<ore:ingotGold>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
@@ -37,6 +27,16 @@ recipes.removeShaped(<ore:ingotLead>, [[<ore:nuggetLead>, <ore:nuggetLead>, <ore
 recipes.removeShaped(<ore:ingotSilver>, [[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>], [<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>], [<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
 recipes.removeShaped(<ore:ingotAluminum>, [[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]]);
 recipes.removeShaped(<ore:ingotNickel>, [[<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>], [<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>], [<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>]]);
+
+// Remove duplicate iron nugget recipes (prefer Better With Mods)
+recipes.remove(<immersiveengineering:metal:29>); // Immersive Engineering
+recipes.remove(<totemic:subItems:0>); // Totemic
+recipes.remove(<jaff:iron_nugget>); // Just a Few Fish
+
+// Remove duplicate iron nugget oredicts
+<ore:nuggetIron>.remove(<immersiveengineering:metal:29>); // Immersive Engineering
+<ore:nuggetIron>.remove(<totemic:subItems:0>); // Totemic
+<ore:nuggetIron>.remove(<jaff:iron_nugget>); // Just a Few Fish
 
 // Remove tripwire hook > iron from Stoked Crucible
 mods.betterwithmods.StokedCrucible.remove(<minecraft:tripwire_hook>);
