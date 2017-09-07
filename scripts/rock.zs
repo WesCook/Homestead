@@ -17,3 +17,14 @@ recipes.addShapeless(<furniture:rock_path> * 64, [<immcraft:rock>, <immcraft:roc
 
 <undergroundbiomes:sedimentary_stone:*>.addTooltip("Sedimentary rock formed by erosion.");
 <undergroundbiomes:sedimentary_stone:*>.addTooltip("Quick to break.");
+
+// Remove dirt/sand/gravel piles
+recipes.remove(<betterwithmods:dirt_pile>);
+recipes.remove(<betterwithmods:gravel_pile>);
+recipes.remove(<betterwithmods:sand_pile>);
+
+// Remove their reassembly recipes
+recipes.removeShapeless(<betterwithmods:dirt_slab>, [<betterwithmods:dirt_pile>, <betterwithmods:dirt_pile>]);
+recipes.removeShapeless(<minecraft:dirt>, [<betterwithmods:dirt_pile>, <betterwithmods:dirt_pile>, <betterwithmods:dirt_pile>, <betterwithmods:dirt_pile>]);
+recipes.removeShapeless(<minecraft:gravel>, [<betterwithmods:gravel_pile>, <betterwithmods:gravel_pile>, <betterwithmods:gravel_pile>, <betterwithmods:gravel_pile>]);
+recipes.removeShapeless(<minecraft:sand>, [<betterwithmods:sand_pile>, <betterwithmods:sand_pile>, <betterwithmods:sand_pile>, <betterwithmods:sand_pile>]);

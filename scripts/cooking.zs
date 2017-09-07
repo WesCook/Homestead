@@ -79,6 +79,11 @@ recipes.remove(<harvestcraft:freshwateritem>);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [<minecraft:water_bucket>]);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [clay_water_bucket]);
 
+// Salt is easier to make
+recipes.remove(<harvestcraft:saltitem>);
+recipes.addShapeless(<harvestcraft:saltitem> * 4, [<ore:toolPot>, <minecraft:water_bucket>]);
+recipes.addShapeless(<harvestcraft:saltitem>, [<ore:toolPot>, <harvestcraft:freshwateritem>]);
+
 // Remove Cooking for Blockheads books
 recipes.remove(<cookingforblockheads:recipeBook:*>);
 furnace.remove(<cookingforblockheads:recipeBook:*>);
@@ -94,6 +99,10 @@ recipes.addShaped(<cookingforblockheads:oven>, [[<ore:blockGlass>, <ore:blockGla
 // Simplify kitchen counter recipe
 recipes.remove(<cookingforblockheads:counter>);
 recipes.addShaped(<cookingforblockheads:counter>, [[<minecraft:stained_hardened_clay:*>], [<ore:chestWood>]]);
+
+// Simplify fridge recipe
+recipes.remove(<cookingforblockheads:fridge>);
+recipes.addShaped(<cookingforblockheads:fridge> * 2, [[<ore:plankWood>, <ore:ingotIron>], [<ore:plankWood>, <ore:ingotIron>], [<ore:plankWood>, <ore:ingotIron>]]);
 
 // Remove Bakeware Recipe
 recipes.removeShapeless(<minecraft:bread>, [<harvestcraft:bakewareitem>, <harvestcraft:doughitem>]);
@@ -181,6 +190,9 @@ furnace.addRecipe(<harvestcraft:cookedtofeegitem>, <harvestcraft:rawtofeegitem>)
 furnace.addRecipe(<harvestcraft:cookedtofishitem>, <harvestcraft:rawtofishitem>); // Okedtofish
 furnace.addRecipe(<harvestcraft:cookedtofaconitem>, <harvestcraft:rawtofaconitem>); // Edtofacon
 furnace.addRecipe(<harvestcraft:cookedtofeakitem>, <harvestcraft:rawtofeakitem>); // Okedtofeak
+
+// Iced tea uses real ice
+recipes.addShapeless(<harvestcraft:raspberryicedteaitem>, [<harvestcraft:tealeafitem>, <toughasnails:ice_cube>, <harvestcraft:raspberryitem>]);
 
 
 /////////////////

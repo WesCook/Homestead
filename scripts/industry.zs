@@ -148,6 +148,9 @@ recipes.addShaped(<immersiveengineering:metalDevice0:0>, [[<ore:ingotIron>, <ore
 // Add corn to fermenter
 mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 160, <harvestcraft:cornitem>, 80);
 
+// Remove Wood Incubator
+recipes.remove(<rockhounding_surface:woodIncubator>);
+
 // Add harvestcraft seeds to squeezer
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harvestcraft:artichokeseeditem>, 240);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harvestcraft:asparagusseeditem>, 240);

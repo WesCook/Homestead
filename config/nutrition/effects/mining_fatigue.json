@@ -3,7 +3,7 @@
 	"potion": "minecraft:mining_fatigue",
 	"amplifier": 0,
 	"minimum": 0,
-	"maximum": 20,
+	"maximum": 25,
 	"detect": "average",
 	"enabled": true
 }

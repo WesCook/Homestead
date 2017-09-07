@@ -679,7 +679,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "With both a source of iron and a way to cast it, you can finally create iron tools.  A pickaxe should be a top priority.  It will allow you to mine iron and gold ore blocks in the world.\n\nAn iron pickaxe head will require 18 iron nuggets total.\n\nYou might also start thinking about modifiers, such as adding redstone to improve mining speed."
+          "desc": "With both a source of iron and a way to cast it, you can finally create iron tools.  A pickaxe should be a top priority.  It will allow you to mine iron and gold ore blocks in the world.\n\nAn iron pickaxe head will require 18 iron nuggets total.\n\nYou might also start thinking about modifiers, such as adding redstone to improve mining speed.\n\nOther tool upgrades like the Lumber Axe should soon be possible.  While it won\u0027t fell trees in one swoop, it will still remove 3x3 blocks at a time."
         }
       },
       "tasks": [
@@ -2868,7 +2868,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The Excavator is the ultimate way to access limitless resources.  It will require an immense amount of power and supplies to contruct however.\n\nThe Excavator is able to mine ores that regular digging cannot find.  While they\u0027re not infinite, certain chunks appear to contain large samples of ores.  These chunks can be detected using the Core Sample Drill.\n\nAs these machines can run for some time, it may be worth setting up some proper infrastructure to sustain the process.\n\nThe Radiators needed to build this structure will require Soulforged Steel however."
+          "desc": "The Excavator is the ultimate way to access limitless resources.  It will require an immense amount of power and supplies to construct however.\n\nThe Excavator is able to mine ores that regular digging cannot find.  While they\u0027re not infinite, certain chunks appear to contain large samples of ores.  These chunks can be detected using the Core Sample Drill.\n\nAs these machines can run for some time, it may be worth setting up some proper infrastructure to sustain the process.\n\nThe Radiators needed to build this structure will require Soulforged Steel however."
         }
       },
       "tasks": [
@@ -3561,7 +3561,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nCaves are now more volatile, and resources more difficult to find.\n\nMany ores are distributed in large veins across the world.  You may need to explore far to find them, but once located you can mine large quantities at once.\n\n§nOres§r\n§8Coal§r - Small frequent clusters found anywhere.\n§7Iron§r - Medium infrequent clusters found anywhere.\n§6Gold§r - Large sparse veins found deep down/in rivers.\n§4Redstone§r - Large tendrils often found in deserts.\n§1Lapis§r - Small frequent clusters often found in oceans.\n§aEmerald§r - Single infrequent ores often found in hills.\n§bDiamond§r - Small infrequent ores found deep down.\n§cCopper§r - Large infrequent veins found higher up.\n§4Bauxite§r - Large infrequent veins found higher up.\n§8Lead§r - Large infrequent veins found deep down.\n§9Silver§r - Large infrequent veins found deep down.\n§eNickel§r - Large infrequent veins found deep down.\n§8Nitre§r - Single infrequent ores found anywhere.\n\nOres have varying densities, and can often be mined multiple times to extract additional ore.  Mining can cause nearby stone to fracture however, and cobblestone will be affected by gravity.  Falling rocks can be harmful, so be careful when digging upwards.  Fences can be used as supports in a pinch.\n\nWhile it\u0027s possible to branch mine for ores, cave-ins and sparse ore veins make this process more tedious than it\u0027s worth.  Instead, rapidly moving through caves is the most effective way of finding large ore lodes.  Often times a single ore may lead to dozens more, if you look hard enough.\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nCaves are now more volatile, and resources more difficult to find.\n\nMany ores are distributed in large veins across the world.  You may need to explore far to find them, but once located you can mine large quantities at once.\n\n§nOres§r\n§8Coal§r - Small frequent clusters found anywhere.\n§7Iron§r - Medium infrequent clusters found anywhere.\n§6Gold§r - Large sparse veins found deep down/nonflowing rivers.\n§4Redstone§r - Large tendrils often found in deserts.\n§1Lapis§r - Small frequent clusters often found in oceans.\n§aEmerald§r - Single infrequent ores often found in hills.\n§bDiamond§r - Small infrequent ores found deep down.\n§cCopper§r - Large infrequent veins found higher up.\n§4Bauxite§r - Large infrequent veins found higher up.\n§8Lead§r - Large infrequent veins found deep down.\n§9Silver§r - Large infrequent veins found deep down.\n§eNickel§r - Large infrequent veins found deep down.\n§8Nitre§r - Single infrequent ores found anywhere.\n\nOres have varying densities, and can often be mined multiple times to extract additional ore.  Mining can cause nearby stone to fracture however, and cobblestone will be affected by gravity.  Falling rocks can be harmful, so be careful when digging upwards.  Fences can be used as supports in a pinch.\n\nWhile it\u0027s possible to branch mine for ores, cave-ins and sparse ore veins make this process more tedious than it\u0027s worth.  Instead, rapidly moving through caves is the most effective way of finding large ore lodes.  Often times a single ore may lead to dozens more, if you look hard enough.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -4143,7 +4143,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nThe day/night cycle is different in this world.  Days appear extended, while nights are shorter and more dangerous.\n\nThe light level at night is based on the phase of the moon.  Full moons will be brighter, whilst new moons will be pitch black.\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nThe day/night cycle is different in this world.  Days appear extended, while nights are shorter and more dangerous.\n\nThe light level at night is based on the phase of the moon.  Full moons will be brighter, whilst new moons will be pitch black.\n\nTorches are useful for lighting your way during the nights.  They can also be dropped into deep ravines to measure their depth.\n\nThis quest can be completed simply by checking it off.\n\n§7Note: Dynamic lighting requires Optifine be installed.§r"
         }
       },
       "tasks": [
@@ -4668,7 +4668,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "As thankful as you might be for drinkable water, you\u0027re ready for some new variety.  Juices will restore additional thirst, and satisfy your sweet tooth as well.\n\n§7Note: Not all mod drinks will work.  Only those added by Tough as Nails are supported.§r"
+          "desc": "As thankful as you might be for drinkable water, you\u0027re ready for some new variety.  Juices will restore additional thirst, and satisfy your sweet tooth as well.\n\nJuices must be crafted from fully purified water.\n\n§7Note: Not all mod drinks will work.  Only those added by Tough as Nails are supported.§r"
         }
       },
       "tasks": [
@@ -4834,7 +4834,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nAnimals are an essential part of any farm.  Finding and domesticating them will allow you to create Milk, Eggs, and other resources.\n\nOf course, taking care of animals isn\u0027t as simple as throwing them in a pit.  Animals require food, water, and an appropriate environment.  An unhappy animal won\u0027t breed or produce many resources, so meeting their needs is important.\n\nAnimals can be fed and and watered using troughs.  Troughs can hold Water, Wheat, or Slop.  They can also be automated using Droppers, and will output a redstone signal through a Comparator.\n\nAnimals can also be fed by hand using their favorite food, and they will drink from any nearby ponds.\n\nGender matters here, so be sure to bring back both a male and female if you plan to start a farm.\n\nDifferent animal types can be found in different biomes.  Try searching all around the world to find new breeds!\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nAnimals are an essential part of any farm.  Finding and domesticating them will allow you to create Milk, Eggs, and other resources.\n\nOf course, taking care of animals isn\u0027t as simple as throwing them in a pit.  Animals require food, water, and an appropriate environment.  An unhappy animal won\u0027t breed or produce many resources, so meeting their needs is important.\n\nAnimals can be fed and and watered using troughs.  Troughs can hold Water, Wheat, or Slop.  They can also be automated using Droppers, and will output a redstone signal through a Comparator.\n\nAnimals can also be fed by hand using their favorite food, and they will drink from any nearby ponds.\n\nGender matters here, so be sure to bring back both a male and female if you plan to start a farm.\n\nAnimals maintain a mate for life, so be cautious before culling any breeding stock.\n\nDifferent animal types can be found in different biomes.  Try searching all around the world to find new breeds!\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -4872,7 +4872,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Cows are the cornerstone of any farm.  They provide ample amounts of Beef, as well as Milk for cream and cheeses.\n\nDifferent breeds of cows can be found in the world.  Some breeds, like Holstein and Friesian cows, are highly valued for their Milk and Leather.  Similarly, Hereford, Longhorn and Angus cows are prized for the quality of their Beef.  These breeds provide much more nourishing meals.\n\nCows can be fed by hand or through troughs.  Their favorite foods are Wheat, Dandelions, and Poppies.\n\nCows will drink from troughs or from a pond directly."
+          "desc": "Cows are the cornerstone of any farm.  They provide ample amounts of beef, as well as Milk for cream and cheeses.\n\nDifferent breeds of cows can be found in the world.  Some breeds, like Holstein and Friesian cows, are highly valued for their Milk and Leather.  Similarly, Hereford, Longhorn and Angus cows are prized for the quality of their beef.  These breeds provide much more nourishing meals.\n\nHolstein and Friesian cows will only produce premium milk when happy.  This milk can then be combined with a Cheese Mold to produce a Cheese Wheel.  Regular Milk will simply not do.\n\nCows can be fed by hand or through troughs.  Their favorite foods are Wheat, Dandelions, and Poppies.\n\nCows will drink from troughs or from a pond directly."
         }
       },
       "tasks": [
@@ -5971,7 +5971,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "It seems even mining can be automated now.  With the use of a Drill, your carts are able to dig their way through mountains or the underground.\n\nA number of addons will make this endeavor more fruitful:\n\n- A Railer will enable your cart to build Rail in front of it, allowing it to sustain its own path.  The Larger Railer stores 6 slots in of 3.\n- A Bridge Builder allows your cart to cross gaps by placing blocks.  Only a few blocks are accepted: Stone, Stone Bricks, Wooden Planks, and Bricks.\n- The Height Controller lets you specify the height that the cart will try to mine at.\n- The Torch Placer ensures your caves stay lit, to prevent monster spawns.\n\n§7Note: Any combination of Hull, Engine, and Drill will complete this quest.§r"
+          "desc": "It seems even mining can be automated now.  With the use of a Drill, your carts are able to dig their way through mountains or the underground.\n\nA number of addons will make this endeavor more fruitful:\n\n- A Railer will enable your cart to build Rail in front of it, allowing it to sustain its own path.  Railers require regular stone to build.  The Larger Railer stores 6 slots in of 3.\n- A Bridge Builder allows your cart to cross gaps by placing blocks.  Only a few blocks are accepted: Stone, Stone Bricks, Wooden Planks, and Bricks.\n- The Height Controller lets you specify the height that the cart will try to mine at.\n- The Torch Placer ensures your caves stay lit, to prevent monster spawns.  Regular Torches must be used, rather than Lit Torches.\n\n§7Note: Any combination of Hull, Engine, and Drill will complete this quest.§r"
         }
       },
       "tasks": [
@@ -7493,7 +7493,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Nutrition plays an important role in your overall health.  Increasing your nutrition will allow you to take more hits, and improve your own strength and dexterity.\n\nLacking in a balanced diet however will lead to malnourishment; this will impede your ability to mine and defend effectively.\n\nA small number of nutrition points will be lost when you hunger, and a larger number will be lost if you die.\n\nThe five nutrients available are: Dairy, Fruit, Grain, Protein, and Veggie.  Eating different foods will increase one or more of these nutrients, so variation in diet is important.\n\nYou can access your current nutrition from the player inventory, or by pressing the \u0027N\u0027 key.\n\nThis quest can be completed simply by checking it off."
+          "desc": "Nutrition plays an important role in your overall health.\n\nIncreasing your nutrition will allow you to take more hits, and improve your own strength and dexterity.  Particularly, each nutrient kept above 90% will offer a small boost.\n\nLacking in a balanced diet however will lead to malnourishment; this will impede your ability to mine and defend effectively.\n\nA small number of nutrition points will be lost when you hunger, and a larger number will be lost if you die.\n\nThe five nutrients available are: Dairy, Fruit, Grain, Protein, and Veggie.  Eating different foods will increase one or more of these nutrients, so variation in diet is important.\n\nYou can access your current nutrition from the player inventory, or by pressing the \u0027N\u0027 key.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -8146,7 +8146,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -8166,6 +8166,96 @@
         94
       ],
       "questID": 139
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "theoneprobe:probe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Viewing Your Surroundings",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Sometimes you\u0027re curious to learn more about the world in front of you.\n\nCrouching while looking at an object will give you a closer look, letting you learn its name and perhaps more.\n\nThis quest can be completed simply by checking it off."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        0
+      ],
+      "questID": 140
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "totemic:medicineBag",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Medicine Bag",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Medicine Bag allows you to capture the essence of totem effects.\n\nBy shift clicking on a totem poll, it will store one effect and recharge it while you\u0027re in the area.  The bag can then be opened to apply this effect elsewhere."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "totemic:medicineBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        20,
+        21,
+        22
+      ],
+      "questID": 141
     }
   ],
   "questLines": [
@@ -8258,10 +8348,10 @@
           "id": 9
         },
         {
-          "size": 12,
-          "x": 96,
-          "y": 78,
-          "id": 41
+          "size": 30,
+          "x": 192,
+          "y": 0,
+          "id": 140
         },
         {
           "size": 30,
@@ -8272,26 +8362,32 @@
         {
           "size": 30,
           "x": 0,
-          "y": 48,
-          "id": 45
-        },
-        {
-          "size": 30,
-          "x": 0,
           "y": 144,
           "id": 15
-        },
-        {
-          "size": 30,
-          "x": 240,
-          "y": 144,
-          "id": 117
         },
         {
           "size": 12,
           "x": 144,
           "y": 78,
           "id": 90
+        },
+        {
+          "size": 12,
+          "x": 96,
+          "y": 78,
+          "id": 41
+        },
+        {
+          "size": 30,
+          "x": 0,
+          "y": 48,
+          "id": 45
+        },
+        {
+          "size": 30,
+          "x": 240,
+          "y": 144,
+          "id": 117
         },
         {
           "size": 18,
@@ -8381,6 +8477,12 @@
         },
         {
           "size": 30,
+          "x": 360,
+          "y": 144,
+          "id": 141
+        },
+        {
+          "size": 30,
           "x": 0,
           "y": 144,
           "id": 78
@@ -8405,7 +8507,7 @@
         },
         {
           "size": 30,
-          "x": 312,
+          "x": 264,
           "y": 144,
           "id": 17
         },
