@@ -35,9 +35,6 @@ recipes.addShaped(<minecraft:tnt>, [[blasting_oil, blasting_oil], [blasting_oil,
 recipes.addShaped(<betterwithmods:mining_charge> * 4, [[blasting_oil, blasting_oil, blasting_oil]]);
 recipes.addShaped(<immersiveengineering:woodenDevice0:4> * 8, [[blasting_oil, blasting_oil, blasting_oil], [blasting_oil, <immersiveengineering:woodenDevice0:0>, blasting_oil], [blasting_oil, blasting_oil, blasting_oil]]);
 
-// Charcoal dust Immersive Engineering support
-mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:39> * 2, <minecraft:coal:1>, 1000);
-
 // Adding oredict
 <ore:dustSaltpeter>.add(<wtfcore:itemNitre>);
 

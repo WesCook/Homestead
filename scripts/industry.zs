@@ -48,8 +48,17 @@ recipes.addShaped(<railcraft:mow_track_relayer>, [[<ore:dyeYellow>, <minecraft:r
 recipes.remove(<railcraft:mow_undercutter>);
 recipes.addShaped(<railcraft:mow_undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<minecraft:piston>, <ore:blockSteel>, <minecraft:piston>], [<tconstruct:shovel_head:*>, <minecraft:minecart>, <tconstruct:shovel_head:*>]]);
 
-// Remove obsidian dust
-mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:0>);
+// Remove some unused dusts
+recipes.remove(<railcraft:dust:7>); // Void Powder
+recipes.remove(<terraqueous:item_main:251>); // Burnium Dust
+<ore:dustCoal>.remove(<railcraft:dust:5>); // Railcraft - Coal Dust
+<ore:dustCoal>.remove(<terraqueous:item_main:207>); // Terraqueous - Coal Dust
+<ore:dustCharcoal>.remove(<railcraft:dust:3>); // Railcraft - Charcoal Dust
+mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:0>); // Railcraft - Obsidian dust
+
+// IE Crusher more efficient for coal/charcoal dust
+mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:18> * 2, <minecraft:coal:0>, 1000); // Coal
+mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:39> * 2, <minecraft:coal:1>, 1000); // Charcoal
 
 // Abyssal Stone recipe
 recipes.addShaped(<railcraft:generic:8> * 8, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:charcoal>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);

@@ -90,7 +90,7 @@ furnace.remove(<cookingforblockheads:recipeBook:*>);
 
 // Simplify Cooking Table recipe
 recipes.remove(<cookingforblockheads:cookingTable>);
-recipes.addShaped(<cookingforblockheads:cookingTable>, [[<minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>], [<ore:logWood>, <ore:workbench>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<cookingforblockheads:cookingTable>, [[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>], [<ore:logWood>, <ore:workbench>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 // Simplify Oven recipe
 recipes.remove(<cookingforblockheads:oven>);
@@ -98,7 +98,7 @@ recipes.addShaped(<cookingforblockheads:oven>, [[<ore:blockGlass>, <ore:blockGla
 
 // Simplify kitchen counter recipe
 recipes.remove(<cookingforblockheads:counter>);
-recipes.addShaped(<cookingforblockheads:counter>, [[<minecraft:stained_hardened_clay:*>], [<ore:chestWood>]]);
+recipes.addShaped(<cookingforblockheads:counter>, [[<minecraft:hardened_clay>], [<ore:chestWood>]]);
 
 // Simplify fridge recipe
 recipes.remove(<cookingforblockheads:fridge>);

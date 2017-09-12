@@ -47,7 +47,7 @@
             "minecraft,cooked_fish,1,0"
           ],
           "rewards": [
-            "minecraft,apple,2,0"
+            "minecraft,apple,16,0"
           ]
         },
         {
@@ -97,7 +97,7 @@
             "minecraft,bread,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,3,0"
+            "villagebox,bronze_coin,10,0"
           ]
         },
         {
@@ -113,7 +113,7 @@
             "minecraft,cooked_fish,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,3,0"
+            "villagebox,bronze_coin,8,0"
           ]
         },
         {
@@ -129,7 +129,7 @@
             "minecraft,cooked_chicken,1,0"
           ],
           "rewards": [
-            "minecraft,apple,2,0"
+            "minecraft,apple,10,0"
           ]
         }
       ],
@@ -171,7 +171,7 @@
             "minecraft,bread,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,3,0"
+            "villagebox,bronze_coin,10,0"
           ]
         },
         {
@@ -179,7 +179,7 @@
             "minecraft,cooked_chicken,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,4,0"
+            "villagebox,bronze_coin,10,0"
           ]
         },
         {
@@ -187,7 +187,7 @@
             "minecraft,cooked_fish,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,3,0"
+            "villagebox,bronze_coin,8,0"
           ]
         },
         {
@@ -195,7 +195,7 @@
             "minecraft,cooked_fish,1,0"
           ],
           "rewards": [
-            "minecraft,apple,2,0"
+            "minecraft,apple,15,0"
           ]
         },
         {
@@ -203,7 +203,7 @@
             "minecraft,cooked_chicken,1,0"
           ],
           "rewards": [
-            "minecraft,apple,2,0"
+            "minecraft,apple,20,0"
           ]
         }
       ],
@@ -262,7 +262,7 @@
         },
         {
           "objectives": [
-            "minecraft,wheat_seeds,16,0"
+            "minecraft,wheat_seeds,10,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,8,0"
@@ -303,7 +303,7 @@
             "minecraft,crafting_table,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,8,0"
           ]
         }
       ],
@@ -350,6 +350,18 @@
             "villagebox,silver_coin,1,0"
           ],
           "output": "villagebox,bronze_coin,64,0"
+        },
+        {
+          "inputs": [
+            "minecraft,emerald,1,0"
+          ],
+          "output": "villagebox,bronze_coin,32,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,32,0"
+          ],
+          "output": "minecraft,emerald,1,0"
         }
       ],
       "quests": [
@@ -366,7 +378,7 @@
             "minecraft,emerald,1,0"
           ],
           "rewards": [
-            "villagebox,silver_coin,2,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
@@ -374,7 +386,7 @@
             "minecraft,diamond,1,0"
           ],
           "rewards": [
-            "minecraft,ender_pearl,1,0"
+            "minecraft,ender_pearl,2,0"
           ]
         }
       ],
@@ -491,14 +503,6 @@
           ],
           "rewards": [
             "minecraft,trapped_chest,2,0"
-          ]
-        },
-        {
-          "objectives": [
-            "minecraft,iron_axe,1,0"
-          ],
-          "rewards": [
-            "villagebox,bronze_coin,20,0"
           ]
         }
       ],
@@ -635,7 +639,7 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,wool,6,0"
+            "minecraft,wool,4,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,20,0"
@@ -698,7 +702,7 @@
             "minecraft,cobblestone,32,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,12,0"
           ]
         },
         {
@@ -706,7 +710,7 @@
             "minecraft,glass,10,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,32,0"
           ]
         }
       ],
@@ -727,7 +731,7 @@
       "tradingRecipes": [
         {
           "inputs": [
-            "villagebox,silver_coin,15,0",
+            "villagebox,silver_coin,5,0",
             "minecraft,soul_sand,2,0",
             "minecraft,end_stone,2,0",
             "immersiveengineering,metal,1,8"
@@ -741,7 +745,7 @@
             "minecraft,coal,8,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
@@ -749,7 +753,7 @@
             "minecraft,furnace,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,32,0"
           ]
         }
       ],
@@ -804,12 +808,12 @@
             "minecraft,iron_ingot,3,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,20,0"
+            "villagebox,bronze_coin,48,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,torch,16,0"
+            "minecraft,torch,3,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,8,0"
@@ -820,7 +824,7 @@
             "minecraft,minecart,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,20,0"
+            "villagebox,bronze_coin,24,0"
           ]
         }
       ],
@@ -860,32 +864,52 @@
             "villagebox,bronze_coin,20,0"
           ],
           "output": "harvestcraft,crabrawitem,1,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,16,0"
+          ],
+          "output": "jaff,tank,8,0"
+        },
+        {
+          "inputs": [
+            "villagebox,bronze_coin,48,0"
+          ],
+          "output": "jaff,iron_fishing_rod,1,0"
         }
       ],
       "quests": [
         {
           "objectives": [
-            "minecraft,fishing_rod,1,0"
+            "jaff,wooden_fishing_rod,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,12,0"
+            "villagebox,bronze_coin,24,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,fishing_rod,1,0"
+            "jaff,iron_fishing_rod,1,0"
           ],
           "rewards": [
-            "harvestcraft,crabrawitem,1,0"
+            "villagebox,silver_coin,1,0"
+          ]
+        },
+        {
+          "objectives": [
+            "jaff,iron_hook,1,0"
+          ],
+          "rewards": [
+            "harvestcraft,crabrawitem,16,0"
           ]
         }
       ],
       "upgradeRequirements": [
         "villagebox,silver_coin,2,0",
-        "minecraft,fishing_rod,1,0"
+        "jaff,wooden_fishing_rod,1,0"
       ],
       "holdItems": [
-        "minecraft,fishing_rod,1,0",
+        "jaff,wooden_fishing_rod,1,0",
         "minecraft,fish,1,0"
       ],
       "texture": "fisherman"
@@ -949,7 +973,7 @@
             "minecraft,flower_pot,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,8,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
@@ -957,7 +981,7 @@
             "minecraft,dirt,3,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,5,0"
+            "villagebox,bronze_coin,8,0"
           ]
         },
         {
@@ -994,355 +1018,355 @@
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,asparagusseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,bambooshootseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,barleyseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,beanseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,beetseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,bellpepperseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,blackberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,blueberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,broccoliseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,brusselsproutseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cabbageseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cactusfruitseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,candleberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cantaloupeseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cauliflowerseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,celeryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,chilipepperseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,coffeeseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cornseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cottonseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cranberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,cucumberseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,curryleafseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,eggplantseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,garlicseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,gingerseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,grapeseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,kiwiseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,leekseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,lettuceseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,mustardseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,oatsseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,okraseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,onionseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,parsnipseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,peanutseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,peasseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,pineappleseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,radishseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,raspberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,rhubarbseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,riceseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,rutabagaseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,ryeseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,scallionseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,seaweedseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,sesameseedsseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,soybeanseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,spiceleafseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,spinachseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,strawberryseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,sweetpotatoseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,teaseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,tomatoseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,turnipseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,waterchestnutseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,whitemushroomseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,wintersquashseeditem,1,0"
         },
         {
           "inputs": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,5,0"
           ],
           "output": "harvestcraft,zucchiniseeditem,1,0"
         }
@@ -1358,10 +1382,10 @@
         },
         {
           "objectives": [
-            "minecraft,carrot,16,0"
+            "minecraft,carrot,6,0"
           ],
           "rewards": [
-            "harvestcraft,soybeanitem,3,0"
+            "harvestcraft,soybeanitem,6,0"
           ]
         }
       ],
@@ -1487,10 +1511,10 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,wheat_seeds,8,0"
+            "minecraft,wheat_seeds,6,0"
           ],
           "rewards": [
-            "harvestcraft,strawberryitem,3,0"
+            "harvestcraft,strawberryitem,6,0"
           ]
         }
       ],
@@ -1542,7 +1566,7 @@
             "minecraft,bucket,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,12,0"
+            "villagebox,silver_coin,1,0"
           ]
         },
         {
@@ -1550,20 +1574,12 @@
             "minecraft,shears,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,12,0"
+            "villagebox,bronze_coin,36,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,wheat_seeds,10,0"
-          ],
-          "rewards": [
-            "villagebox,bronze_coin,6,0"
-          ]
-        },
-        {
-          "objectives": [
-            "minecraft,wheat,10,0"
+            "minecraft,wheat_seeds,8,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,10,0"
@@ -1571,7 +1587,15 @@
         },
         {
           "objectives": [
-            "minecraft,bucket,1,0"
+            "minecraft,wheat,8,0"
+          ],
+          "rewards": [
+            "villagebox,bronze_coin,18,0"
+          ]
+        },
+        {
+          "objectives": [
+            "villagebox,bronze_coin,8,0"
           ],
           "rewards": [
             "harvestcraft,mayoitem,2,0"
@@ -1657,7 +1681,7 @@
             "minecraft,chicken,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,22,0"
           ]
         }
       ],
@@ -1746,14 +1770,14 @@
       "tradingRecipes": [
         {
           "inputs": [
-            "villagebox,silver_coin,20,0"
+            "villagebox,silver_coin,16,0"
           ],
           "output": "minecraft,blaze_rod,1,0"
         },
         {
           "inputs": [
             "minecraft,snowball,16,0",
-            "villagebox,silver_coin,20,0"
+            "villagebox,silver_coin,16,0"
           ],
           "output": "toughasnails,freeze_rod,1,0"
         }
@@ -1761,10 +1785,10 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,sand,16,0"
+            "minecraft,sand,8,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,8,0"
+            "villagebox,bronze_coin,24,0"
           ]
         },
         {
@@ -1803,7 +1827,7 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,paper,16,0"
+            "minecraft,paper,4,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,10,0"
@@ -1868,7 +1892,7 @@
             "minecraft,glass_bottle,16,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,40,0"
           ]
         }
       ],
@@ -1917,14 +1941,14 @@
         },
         {
           "inputs": [
-            "villagebox,gold_coin,1,0",
+            "villagebox,silver_coin,8,0",
             "minecraft,magma_cream,1,0"
           ],
           "output": "villagebox,sun_stone,3,0"
         },
         {
           "inputs": [
-            "villagebox,gold_coin,1,0",
+            "villagebox,silver_coin,12,0",
             "minecraft,ghast_tear,1,0"
           ],
           "output": "villagebox,rain_stone,3,0"
@@ -1936,7 +1960,7 @@
             "minecraft,log,8,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,8,0"
+            "villagebox,bronze_coin,16,0"
           ]
         }
       ],
@@ -1996,15 +2020,15 @@
             "minecraft,anvil,1,0"
           ],
           "rewards": [
-            "villagebox,silver_coin,25,0"
+            "villagebox,silver_coin,28,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,coal,16,0"
+            "minecraft,coal,6,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,20,0"
+            "villagebox,bronze_coin,28,0"
           ]
         },
         {
@@ -2055,7 +2079,7 @@
             "minecraft,crafting_table,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,12,0"
           ]
         },
         {
@@ -2063,7 +2087,7 @@
             "minecraft,coal,8,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
@@ -2071,7 +2095,7 @@
             "minecraft,furnace,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,20,0"
           ]
         }
       ],
@@ -2110,18 +2134,18 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,string,5,0"
+            "minecraft,string,4,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,25,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,stick,20,0"
+            "minecraft,stick,64,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,10,0"
+            "villagebox,silver_coin,1,0"
           ]
         },
         {
@@ -2129,7 +2153,7 @@
             "minecraft,feather,5,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,25,0"
           ]
         }
       ],
@@ -2590,50 +2614,50 @@
       "quests": [
         {
           "objectives": [
-            "minecraft,planks,32,0"
+            "minecraft,planks,16,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,planks,32,1"
+            "minecraft,planks,16,1"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,planks,32,2"
+            "minecraft,planks,16,2"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,planks,32,3"
+            "minecraft,planks,16,3"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,planks,32,4"
+            "minecraft,planks,16,4"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
           "objectives": [
-            "minecraft,planks,32,5"
+            "minecraft,planks,16,5"
           ],
           "rewards": [
-            "villagebox,bronze_coin,16,0"
+            "villagebox,bronze_coin,32,0"
           ]
         },
         {
@@ -2647,7 +2671,7 @@
       ],
       "upgradeRequirements": [
         "minecraft,planks,64,0",
-        "villagebox,silver_coin,10,0"
+        "villagebox,silver_coin,5,0"
       ],
       "holdItems": [
         "minecraft,planks,1,0",
@@ -2709,7 +2733,7 @@
         },
         {
           "objectives": [
-            "minecraft,glass_bottle,8,0"
+            "minecraft,glass_bottle,4,0"
           ],
           "rewards": [
             "villagebox,bronze_coin,5,0"
@@ -2778,7 +2802,7 @@
             "minecraft,coal,16,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,20,0"
+            "villagebox,bronze_coin,48,0"
           ]
         }
       ],
@@ -2906,7 +2930,7 @@
             "harvestcraft,oliveoilitem,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,40,0"
           ]
         },
         {
@@ -2914,7 +2938,7 @@
             "villagebox,cooking_wine,1,0"
           ],
           "rewards": [
-            "villagebox,bronze_coin,15,0"
+            "villagebox,bronze_coin,30,0"
           ]
         },
         {
@@ -3084,7 +3108,7 @@
             "minecraft,cooked_chicken,1,0"
           ],
           "rewards": [
-            "minecraft,cobblestone,16,0"
+            "minecraft,cobblestone,32,0"
           ]
         },
         {
@@ -3092,7 +3116,7 @@
             "minecraft,cooked_fish,1,0"
           ],
           "rewards": [
-            "minecraft,cobblestone,16,0"
+            "minecraft,cobblestone,32,0"
           ]
         },
         {
@@ -3100,7 +3124,7 @@
             "minecraft,cooked_porkchop,1,0"
           ],
           "rewards": [
-            "minecraft,cobblestone,16,0"
+            "minecraft,cobblestone,32,0"
           ]
         },
         {
@@ -3108,7 +3132,7 @@
             "minecraft,cooked_rabbit,1,0"
           ],
           "rewards": [
-            "minecraft,cobblestone,16,0"
+            "minecraft,cobblestone,32,0"
           ]
         },
         {
@@ -3116,7 +3140,7 @@
             "minecraft,beef,1,0"
           ],
           "rewards": [
-            "minecraft,cobblestone,16,0"
+            "minecraft,cobblestone,32,0"
           ]
         }
       ],
