@@ -26,6 +26,8 @@ mods.betterwithmods.Mill.add(<betterwithmods:material:37>, null, [<rockhounding_
 <ore:listAllmilk>.add(<minecraft:milk_bucket>);
 <ore:listAllmilk>.add(<animania:friesian_bucket_milk>);
 <ore:listAllmilk>.add(<animania:holstein_bucket_milk>);
+<ore:listAllmilk>.add(<animania:goat_bucket_milk>);
+<ore:listAllmilk>.add(<animania:sheep_bucket_milk>);
 <ore:listAllmilk>.add(<ceramics:clay_bucket:1>);
 <ore:listAllmilk>.remove(<harvestcraft:soymilkitem>);
 
@@ -78,6 +80,14 @@ recipes.addShapeless(<harvestcraft:boiledeggitem>, [<harvestcraft:potitem>, <ore
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [<minecraft:water_bucket>]);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [clay_water_bucket]);
+
+// Remove Animania salt
+recipes.remove(<animania:salt>);
+<ore:salt>.remove(<animania:salt>);
+<ore:listAllsalt>.remove(<animania:salt>);
+<ore:foodSalt>.remove(<animania:salt>);
+<ore:dustSalt>.remove(<animania:salt>);
+<ore:itemSalt>.remove(<animania:salt>);
 
 // Salt is easier to make
 recipes.remove(<harvestcraft:saltitem>);

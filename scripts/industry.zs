@@ -219,3 +219,11 @@ mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harv
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harvestcraft:waterchestnutseeditem>, 240);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harvestcraft:wintersquashseeditem>, 240);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <harvestcraft:zucchiniseeditem>, 240);
+
+// Reduce yield from melted rods to prevent metal duplication
+mods.tconstruct.Smeltery.removeMelting(<immersiveengineering:material:1>);
+mods.tconstruct.Smeltery.removeMelting(<immersiveengineering:material:2>);
+mods.tconstruct.Smeltery.removeMelting(<immersiveengineering:material:3>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 36, <immersiveengineering:material:1>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:steel> * 36, <immersiveengineering:material:2>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:aluminum> * 36, <immersiveengineering:material:3>, 200);

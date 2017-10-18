@@ -1849,7 +1849,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        27
+        27,
+        142
       ],
       "questID": 28
     },
@@ -4749,7 +4750,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        94
+        4
       ],
       "questID": 79
     },
@@ -4834,7 +4835,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "§nInformational Quest§r\n\nAnimals are an essential part of any farm.  Finding and domesticating them will allow you to create Milk, Eggs, and other resources.\n\nOf course, taking care of animals isn\u0027t as simple as throwing them in a pit.  Animals require food, water, and an appropriate environment.  An unhappy animal won\u0027t breed or produce many resources, so meeting their needs is important.\n\nAnimals can be fed and and watered using troughs.  Troughs can hold Water, Wheat, or Slop.  They can also be automated using Droppers, and will output a redstone signal through a Comparator.\n\nAnimals can also be fed by hand using their favorite food, and they will drink from any nearby ponds.\n\nGender matters here, so be sure to bring back both a male and female if you plan to start a farm.\n\nAnimals maintain a mate for life, so be cautious before culling any breeding stock.\n\nDifferent animal types can be found in different biomes.  Try searching all around the world to find new breeds!\n\nThis quest can be completed simply by checking it off."
+          "desc": "§nInformational Quest§r\n\nAnimals are an essential part of any farm.  Finding and domesticating them will allow you to create Milk, Eggs, and other resources.\n\nOf course, taking care of animals isn\u0027t as simple as throwing them in a pit.  Animals require food, water, and an appropriate environment.  An unhappy animal won\u0027t breed or produce many resources, so meeting their needs is important.\n\nAnimals can be fed and and watered using troughs.  Troughs can hold Water, Wheat, or Slop.  They can also be automated using Droppers, and will output a redstone signal through a Comparator.\n\nAnimals can also be fed by hand using their favorite food, and they will drink from any nearby ponds.\n\nGender matters here, so be sure to bring back both a male and female if you plan to start a farm.\n\nDifferent animal types can be found in different biomes.  Try searching all around the world to find new breeds!\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -4859,7 +4860,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "animania:cooked_longhorn_roast",
+            "id": "harvestcraft:freshmilkitem",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -4872,25 +4873,78 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Cows are the cornerstone of any farm.  They provide ample amounts of beef, as well as Milk for cream and cheeses.\n\nDifferent breeds of cows can be found in the world.  Some breeds, like Holstein and Friesian cows, are highly valued for their Milk and Leather.  Similarly, Hereford, Longhorn and Angus cows are prized for the quality of their beef.  These breeds provide much more nourishing meals.\n\nHolstein and Friesian cows will only produce premium milk when happy.  This milk can then be combined with a Cheese Mold to produce a Cheese Wheel.  Regular Milk will simply not do.\n\nCows can be fed by hand or through troughs.  Their favorite foods are Wheat, Dandelions, and Poppies.\n\nCows will drink from troughs or from a pond directly."
+          "desc": "Cows are the cornerstone of any farm.  They provide ample amounts of beef, as well as Milk for cream and cheeses.\n\nDifferent breeds of cows can be found in the world.  Some breeds, like Holstein and Friesian cows, are highly valued for their Milk and Leather.  Similarly, Hereford, Longhorn and Angus cows are prized for the quality of their beef.  These breeds provide much more nourishing meals.\n\nHolstein and Friesian cows will only produce premium milk after they have given birth, and only if kept happy.  This milk can then be combined with a Cheese Mold to produce a Cheese Wheel.  Regular Milk will simply not do.\n\nCows can be fed by hand or through troughs.  Their favorite foods are Wheat, Dandelions, and Poppies.\n\nCows will drink from troughs or from a pond directly."
         }
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "animania:raw_longhorn_steak",
-              "Count": 1,
-              "OreDict": "listAllbeefraw",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "target": "Cow",
+          "range": 8,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:4": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:4": 0,
+            "ForcedAge:4": 0,
+            "FallFlying:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "HandDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "ForgeCaps:10": {
+              "llibrary:ExtendedEntityDataCapability:10": {},
+              "dsurround:emojiData:10": {
+                "as:4": 0,
+                "es:4": 0,
+                "et:4": 0
+              }
+            },
+            "PersistenceRequired:4": 0,
+            "id:8": "Cow",
+            "Age:4": 1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:4": 0,
+            "UUIDLeast:4": -6751315003488094406,
+            "Health:6": 10.0,
+            "LeftHanded:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": {
+              "6": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "ArmorDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "UUIDMost:4": -3363965360991222246,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "Fire:4": 0,
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0
+          },
+          "taskID": "bq_standard:meeting",
           "index": 0
         }
       ],
@@ -4928,20 +4982,74 @@
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "animania:raw_hampshire_bacon",
-              "Count": 1,
-              "OreDict": "listAllporkraw",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "target": "Pig",
+          "range": 8,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:4": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:4": 0,
+            "ForcedAge:4": 0,
+            "FallFlying:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "Saddle:4": 0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "HandDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "ForgeCaps:10": {
+              "llibrary:ExtendedEntityDataCapability:10": {},
+              "dsurround:emojiData:10": {
+                "as:4": 0,
+                "es:4": 0,
+                "et:4": 0
+              }
+            },
+            "PersistenceRequired:4": 0,
+            "id:8": "Pig",
+            "Age:4": 1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:4": 0,
+            "UUIDLeast:4": -6661603942244559854,
+            "Health:6": 10.0,
+            "LeftHanded:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": {
+              "6": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "ArmorDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "UUIDMost:4": 4396955479579053538,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "Fire:4": 0,
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0
+          },
+          "taskID": "bq_standard:meeting",
           "index": 0
         }
       ],
@@ -4961,7 +5069,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "animania:cooked_orpington_chicken",
+            "id": "minecraft:wheat_seeds",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -4979,26 +5087,75 @@
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "animania:raw_wyandotte_chicken",
-              "Count": 1,
-              "OreDict": "listAllchickenraw",
-              "Damage": 0
+          "target": "Chicken",
+          "range": 8,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "IsChickenJockey:4": 0,
+            "HurtByTimestamp:4": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
             },
-            {
-              "id": "minecraft:egg",
-              "Count": 1,
-              "OreDict": "eggUncracked",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+            "Invulnerable:4": 0,
+            "ForcedAge:4": 0,
+            "FallFlying:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "HandDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "ForgeCaps:10": {
+              "llibrary:ExtendedEntityDataCapability:10": {},
+              "dsurround:emojiData:10": {
+                "as:4": 0,
+                "es:4": 0,
+                "et:4": 0
+              }
+            },
+            "PersistenceRequired:4": 0,
+            "id:8": "Chicken",
+            "Age:4": 1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:4": 0,
+            "UUIDLeast:4": -8512212063133176997,
+            "Health:6": 4.0,
+            "LeftHanded:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": {
+              "6": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "EggLayTime:4": 7264,
+            "ArmorDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "UUIDMost:4": 5345289243213188063,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "Fire:4": 0,
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0
+          },
+          "taskID": "bq_standard:meeting",
           "index": 0
         }
       ],
@@ -7076,7 +7233,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:cooked_mutton",
+            "id": "animania:wool_merino_white",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -7085,35 +7242,84 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Sheep",
+          "name": "Sheepish Goats",
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "For the most part, Sheep remain the faithful old fluffballs you\u0027ve always known.  Their wool can be harvested with shears, and they\u0027ll provide mutton upon death.\n\nWool can be sheared automatically via Dispenser.  It also has many uses in various crafting recipes."
+          "desc": "Goats and Sheep are able to provide you with both meat and milk.  Sheep and certain species of goat may also be sheared for wool.\n\nSpecial Cheeses can be made with goat and sheep milk.  This requires that the mother has given birth, and remains happy.\n\nSome species of animals will provide Prime Meat.  This is much more nourishing.\n\nCertain species of sheep will provide unique Wool colors.\n\nBe mindful of your animals!  Rams like to spar when left idle, and Fainting Goats can be easily startled when sprinting.\n\nA sheep\u0027s favorite foods are Wheat, Carrots, and Beets.  Goats enjoy these foods, as well as Apples, String, and delicious Sticks.\n\nWool can be sheared automatically with Shears in a Dispenser."
         }
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:mutton",
-              "Count": 1,
-              "OreDict": "foodMuttonraw",
-              "Damage": 0
+          "target": "Sheep",
+          "range": 8,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:4": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
             },
-            {
-              "id": "minecraft:wool",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+            "Invulnerable:4": 0,
+            "ForcedAge:4": 0,
+            "FallFlying:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "HandDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "ForgeCaps:10": {
+              "llibrary:ExtendedEntityDataCapability:10": {},
+              "dsurround:emojiData:10": {
+                "as:4": 0,
+                "es:4": 0,
+                "et:4": 0
+              }
+            },
+            "PersistenceRequired:4": 0,
+            "id:8": "Sheep",
+            "Age:4": 1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:4": 0,
+            "UUIDLeast:4": -9170640928516130654,
+            "Health:6": 8.0,
+            "Color:4": 0,
+            "LeftHanded:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": {
+              "6": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "ArmorDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "UUIDMost:4": 4239444448217090416,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "Fire:4": 0,
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "CanPickUpLoot:4": 0,
+            "Sheared:4": 0,
+            "HurtTime:4": 0
+          },
+          "taskID": "bq_standard:meeting",
           "index": 0
         }
       ],
@@ -7286,6 +7492,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "NORMAL",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7504,7 +7711,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        94
+        4
       ],
       "questID": 128
     },
@@ -8072,6 +8279,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "UNLOCKED",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8123,6 +8331,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "UNLOCKED",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8136,7 +8345,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Super Rod",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Fish will spawn as swimming entities in the oceans.  While they may be killed with swords or fists, a Fishing Rod is still the best approach to bringing home dinner.\n\nA Fishing Rod can be constructed from a variety of materials with varying durability.  Surrounding the rod with seeds will allow you to bait the hook, and greatly increase your chances of catching a bite.\n\nWhen tossed near a school of fish, you will soon attract their attention.  Reel the fish to shore to collect them.  Be sure to take your time while reeling, as pulling too quickly may snap the line.\n\nIf there are no fish to be found, don\u0027t give up.  Leaving your line in the water will have it behave like an old rod, and you may still catch normal treasure or more unusual fish.\n\nIf you would like to keep your fish friend alive and well, have a water bucket ready in your inventory when you reel it in.  He\u0027ll jump into your bucket and can be kept in a Fish Tank indefinitely.\n\nThis may even be a viable way to farm fish in the future."
@@ -8146,7 +8355,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -8163,7 +8372,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        94
+        4
       ],
       "questID": 139
     },
@@ -8211,6 +8420,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "UNLOCKED",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8256,6 +8466,120 @@
         22
       ],
       "questID": 141
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:riding_crop",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Horses",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There are two different types of horses: Vanilla Horses, and Draft Horses.\n\nVanilla Horses act as they always have.  They must be tamed by manual riding, and feeding them food.\n\nDraft Horses are intended to be work horses.  If they have been fed and watered, they can be ridden by use of a Riding Crop.  A saddle is not required.\n\nYou can use the Riding Crop while riding for a speed boost."
+        }
+      },
+      "tasks": [
+        {
+          "target": "EntityHorse",
+          "range": 8,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:4": 0,
+            "Tame:4": 0,
+            "ForgeData:10": {},
+            "HasReproduced:4": 0,
+            "Attributes:9": {
+              "10": {
+                "Base:6": 0.7,
+                "Name:8": "horse.jumpStrength"
+              }
+            },
+            "Invulnerable:4": 0,
+            "ForcedAge:4": 0,
+            "FallFlying:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "Bred:4": 0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "EatingHaystack:4": 0,
+            "DeathTime:4": 0,
+            "SkeletonTrapTime:4": 0,
+            "HandDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "ForgeCaps:10": {
+              "llibrary:ExtendedEntityDataCapability:10": {},
+              "dsurround:emojiData:10": {
+                "as:4": 0,
+                "es:4": 0,
+                "et:4": 0
+              }
+            },
+            "PersistenceRequired:4": 0,
+            "id:8": "EntityHorse",
+            "Age:4": 1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:4": 0,
+            "UUIDLeast:4": -6584549287865465070,
+            "Health:6": 53.0,
+            "LeftHanded:4": 0,
+            "SkeletonTrap:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": {
+              "6": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "Variant:4": 0,
+            "ArmorDropChances:9": {
+              "6": 0.08500000089406967
+            },
+            "Type:4": 0,
+            "UUIDMost:4": -7271953255832728727,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "ChestedHorse:4": 0,
+            "Fire:4": 0,
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "Temper:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0
+          },
+          "taskID": "bq_standard:meeting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        94
+      ],
+      "questID": 142
     }
   ],
   "questLines": [
@@ -8459,8 +8783,8 @@
         },
         {
           "size": 30,
-          "x": 156,
-          "y": 96,
+          "x": 204,
+          "y": 192,
           "id": 139
         },
         {
@@ -8486,6 +8810,12 @@
           "x": 0,
           "y": 144,
           "id": 78
+        },
+        {
+          "size": 30,
+          "x": 108,
+          "y": 96,
+          "id": 142
         },
         {
           "size": 30,
@@ -8615,7 +8945,7 @@
         },
         {
           "size": 30,
-          "x": 108,
+          "x": 156,
           "y": 96,
           "id": 120
         },

@@ -57,6 +57,17 @@ recipes.addShaped(<jaff:iron_fishing_rod>, [[null, null, <ore:ingotIron>], [null
 recipes.addShaped(<jaff:golden_fishing_rod>, [[null, null, <ore:ingotGold>], [null, <ore:ingotGold>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
 recipes.addShaped(<jaff:diamond_fishing_rod>, [[null, null, <ore:gemDiamond>], [null, <ore:gemDiamond>, <ore:string>], [<ore:stickTreatedWood>, null, <jaff:iron_hook>]]);
 
+// Carrot on a Stick uses JAFF rod
+recipes.remove(<minecraft:carrot_on_a_stick>);
+recipes.addShaped(<minecraft:carrot_on_a_stick>, [[<ore:fishingRods>, null], [null, <ore:cropCarrot>]]);
+
+// Water Trap uses JAFF rod
+recipes.remove(<harvestcraft:watertrap>);
+recipes.addShaped(<harvestcraft:watertrap>, [[<ore:stickWood>, <ore:fishingRods>, <ore:stickWood>], [<ore:string>, <ore:chestWood>, <ore:string>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
+
+// Ground Trap requires leather
+recipes.remove(<harvestcraft:groundtrap>);
+recipes.addShaped(<harvestcraft:groundtrap>, [[<ore:stickWood>, <ore:trapdoorWood>, <ore:stickWood>], [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>], [<ore:stickWood>, <betterwithmods:material:8>, <ore:stickWood>]]);
 
 ////////////////////
 // Ore Dictionary //
