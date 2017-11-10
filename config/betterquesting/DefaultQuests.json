@@ -4236,7 +4236,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Wolves",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "A wolf can be a faithful companion.  Though at times they are a bit... dull.  Few other creatures will gleefully walk into a cactus.\n\nThankfully wolves too can be domesticated.  Giving a tamed wolf a Dog Treat should be enough to teach them new tricks.  These new, Sophisticated Wolves will know how to growl at nearby creepers, avoid friendly fire, and teleport away when drowning.\n\nDog treats can also be used for breeding sophisticated wolves.  Zombie flesh just isn\u0027t high brow enough for these pups.\n\nArmor can be added to help keep your wolves alive, and a chest can be added to offer you additional mobile storage.\n\nFinally, a Name Tag helps differentiate between each faithful companion."
@@ -4870,7 +4870,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Cows",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Cows are the cornerstone of any farm.  They provide ample amounts of beef, as well as Milk for cream and cheeses.\n\nDifferent breeds of cows can be found in the world.  Some breeds, like Holstein and Friesian cows, are highly valued for their Milk and Leather.  Similarly, Hereford, Longhorn and Angus cows are prized for the quality of their beef.  These breeds provide much more nourishing meals.\n\nHolstein and Friesian cows will only produce premium milk after they have given birth, and only if kept happy.  This milk can then be combined with a Cheese Mold to produce a Cheese Wheel.  Regular Milk will simply not do.\n\nCows can be fed by hand or through troughs.  Their favorite foods are Wheat, Dandelions, and Poppies.\n\nCows will drink from troughs or from a pond directly."
@@ -4974,7 +4974,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pigs",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "If you\u0027re looking for a rich source of meat, pigs are an excellent choice.  Some species are ideal for Roasts, while others can be turned into delicious crispy Bacon.  What\u0027s not to love about pigs?\n\nPigs are happiest when rolling around in the Mud or swimming in water.  Mud can be easily crafted with Dirt and Water.  Be sure to keep your §mdinner§r piggies happy to maximize yields.\n\nPigs have one ability that no other animals have: they are able to dig up truffles hidden inside forest biomes.  Truffles are used in a variety of high-saturation meals, and so it may be worth staying their execution for now.\n\nA pigs favorite food is Slop or Carrots.  Buckets of Slop can be crafted from Milk and Vegetables, and thrown into a trough to keep your pigs fed."
@@ -5079,7 +5079,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Chickens",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Chickens are not only adorable, but also a source of meat and eggs.\n\nFor a Hen to lay eggs, it must have a Nest to roost in.  If kept happy, the hen will begin to lay eggs which can then be collected.\n\nIf a Rooster is also nearby, the laid egg may be fertilized and the egg will hatch new chicks.  Be mindful of this when considering putting a rooster and hen together.\n\nChickens require both water and seeds to stay happy.  They\u0027ll drink smaller amounts of water from troughs than cows, and will eat seeds that have been placed on the ground by right clicking.\n\nCertain species of chickens may produce brown eggs, while others are renowned for their meat."
@@ -5659,7 +5659,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:wheat_seeds",
+            "id": "harvestcraft:lettuceseeditem",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -7243,7 +7243,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Sheepish Goats",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Goats and Sheep are able to provide you with both meat and milk.  Sheep and certain species of goat may also be sheared for wool.\n\nSpecial Cheeses can be made with goat and sheep milk.  This requires that the mother has given birth, and remains happy.\n\nSome species of animals will provide Prime Meat.  This is much more nourishing.\n\nCertain species of sheep will provide unique Wool colors.\n\nBe mindful of your animals!  Rams like to spar when left idle, and Fainting Goats can be easily startled when sprinting.\n\nA sheep\u0027s favorite foods are Wheat, Carrots, and Beets.  Goats enjoy these foods, as well as Apples, String, and delicious Sticks.\n\nWool can be sheared automatically with Shears in a Dispenser."
@@ -7700,7 +7700,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Nutrition plays an important role in your overall health.\n\nIncreasing your nutrition will allow you to take more hits, and improve your own strength and dexterity.  Particularly, each nutrient kept above 90% will offer a small boost.\n\nLacking in a balanced diet however will lead to malnourishment; this will impede your ability to mine and defend effectively.\n\nA small number of nutrition points will be lost when you hunger, and a larger number will be lost if you die.\n\nThe five nutrients available are: Dairy, Fruit, Grain, Protein, and Veggie.  Eating different foods will increase one or more of these nutrients, so variation in diet is important.\n\nYou can access your current nutrition from the player inventory, or by pressing the \u0027N\u0027 key.\n\nThis quest can be completed simply by checking it off."
+          "desc": "Nutrition plays an important role in your overall health.\n\nIncreasing your nutrition will allow you to take more hits, and improve your own strength and dexterity.  Particularly, each nutrient kept above 90％ will offer a small boost.\n\nLacking in a balanced diet however will lead to malnourishment; this will impede your ability to mine and defend effectively.\n\nA small number of nutrition points will be lost when you hunger, and a larger number will be lost if you die.\n\nThe five nutrients available are: Dairy, Fruit, Grain, Protein, and Veggie.  Eating different foods will increase one or more of these nutrients, so variation in diet is important.\n\nYou can access your current nutrition from the player inventory, or by pressing the \u0027N\u0027 key.\n\nThis quest can be completed simply by checking it off."
         }
       },
       "tasks": [
@@ -8487,7 +8487,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Horses",
-          "lockedProgress": true,
+          "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
           "desc": "There are two different types of horses: Vanilla Horses, and Draft Horses.\n\nVanilla Horses act as they always have.  They must be tamed by manual riding, and feeding them food.\n\nDraft Horses are intended to be work horses.  If they have been fed and watered, they can be ridden by use of a Riding Crop.  A saddle is not required.\n\nYou can use the Riding Crop while riding for a speed boost."
