@@ -48,8 +48,8 @@ mods.betterwithmods.Mill.add(<minecraft:dye:15> * 4, null, [<ore:bone>]);
 
 // Slop recipe
 recipes.remove(<animania:bucket_slop>);
-recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>.noReturn(), <ore:listAllveggie>, <ore:listAllveggie>]);
-recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>.noReturn(), <ore:listAllveggie>, <ore:bread>]);
+recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>, <ore:listAllveggie>, <ore:listAllveggie>]);
+recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>, <ore:listAllveggie>, <ore:bread>]);
 recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <minecraft:bucket>, <ore:listAllveggie>, <ore:listAllveggie>]);
 recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <minecraft:bucket>, <ore:listAllveggie>, <ore:bread>]);
 
@@ -74,3 +74,7 @@ recipes.addShapeless(<harvestcraft:market>, [<farmingforblockheads:market>]);
 <harvestcraft:market>.addTooltip(format.red("Outdated. Can be crafted into improved market."));
 <farmingforblockheads:market>.addTooltip("Buy seeds and saplings");
 <harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
+
+// Disable Compost Bin due to crashes
+recipes.remove(<rockhounding_surface:compostBin>);
+<rockhounding_surface:compostBin>.addTooltip(format.red("Disabled due to crashes"));
