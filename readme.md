@@ -2,7 +2,7 @@
 
 [Download through ATLauncher.](https://www.atlauncher.com/pack/Homestead)
 
-Homestead is a quest-based hardcore survival pack.  Highly inspired by TerraFirmaPack, it offers a revamped tech tree and new game mechanics.
+Homestead is a quest-based hardcore survival pack.  Highly inspired by TerraFirmCraft, it offers a revamped tech tree and new game mechanics.
 
 Focusing initially on wilderness survival, you will progress to mechanical energy for early automation and ultimately learn to harness electrical energy.  Different tiers of metals are scattered through the world, and may require unique methods to obtain.
 

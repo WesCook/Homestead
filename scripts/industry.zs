@@ -227,3 +227,18 @@ mods.tconstruct.Smeltery.removeMelting(<immersiveengineering:material:3>);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 36, <immersiveengineering:material:1>, 200);
 mods.tconstruct.Smeltery.addMelting(<liquid:steel> * 36, <immersiveengineering:material:2>, 200);
 mods.tconstruct.Smeltery.addMelting(<liquid:aluminum> * 36, <immersiveengineering:material:3>, 200);
+
+// Remove Railcraft plate oredicts
+<ore:plateIron>.remove(<railcraft:plate>);
+<ore:plateSteel>.remove(<railcraft:plate>);
+<ore:plateTin>.remove(<railcraft:plate>);
+<ore:plateCopper>.remove(<railcraft:plate>);
+<ore:plateLead>.remove(<railcraft:plate>);
+<ore:plateSilver>.remove(<railcraft:plate>);
+<ore:plateBronze>.remove(<railcraft:plate>);
+<ore:plateGold>.remove(<railcraft:plate>);
+<ore:plateNickel>.remove(<railcraft:plate>);
+
+// Cheaper Projector
+recipes.remove(<immersivepetroleum:schematic>);
+recipes.addShaped(<immersivepetroleum:schematic>, [[null, <ore:plankWood>, null], [<ore:paneGlass>, <ore:torch>, <ore:plankWood>], [null, <ore:plankWood>, <ore:plankWood>]]);

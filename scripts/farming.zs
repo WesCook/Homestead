@@ -74,7 +74,3 @@ recipes.addShapeless(<harvestcraft:market>, [<farmingforblockheads:market>]);
 <harvestcraft:market>.addTooltip(format.red("Outdated. Can be crafted into improved market."));
 <farmingforblockheads:market>.addTooltip("Buy seeds and saplings");
 <harvestcraft:shippingbin>.addTooltip("Sell your produce for emeralds");
-
-// Disable Compost Bin due to crashes
-recipes.remove(<rockhounding_surface:compostBin>);
-<rockhounding_surface:compostBin>.addTooltip(format.red("Disabled due to crashes"));

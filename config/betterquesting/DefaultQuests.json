@@ -2816,10 +2816,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "immersiveengineering:tool",
+            "id": "immersivepetroleum:schematic",
             "Count": 1,
             "OreDict": "",
-            "Damage": 3
+            "Damage": 0
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
@@ -2830,12 +2830,25 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The industrial age is the time for automation and efficiency.  No longer will you need to work your hands to the bone.  It\u0027s time to make the world work for you, rather than you for it.\n\nThis task can be completed simply by checking it off."
+          "desc": "The industrial age is the time for automation and efficiency.  No longer will you need to work your hands to the bone.  It\u0027s time to make the world work for you, rather than you for it.\n\nMany of these industrial machines require large multiblock structures to complete.  The Projector will render one layer of the structure at a time to help you construct it in the world.\n\nYou can navigate to the desired structure in your Engineer\u0027s Manual, and then craft it with the Projector to select that design.\n\nWhen using the Projector, Middle Click will rotate the structure and Right Click will lock it in place.  Finally, Ctrl+Right Click when you\u0027re finished to remove the projection."
         }
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],

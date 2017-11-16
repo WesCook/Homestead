@@ -90,6 +90,11 @@ recipes.addShaped(<immcraft:furnace>, [[<ore:cobblestone>, <immcraft:rock>, <ore
 <ore:metalBoots>.add(<minecraft:diamond_boots>);
 <ore:metalBoots>.add(<betterwithmods:steel_boots>);
 
+// IE Crusher can process Tinkers ores
+// No dust or grit, so return nuggets instead
+mods.immersiveengineering.Crusher.addRecipe(<tconstruct:nuggets:0> * 18, <ore:oreCobalt>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<tconstruct:nuggets:1> * 18, <ore:oreArdite>, 8000);
+
 // Tooltips
 <ore:ingotIron>.addTooltip("Casted in a Tinkers smeltery");
 <ore:nuggetIron>.addTooltip("Melt into an ingot using a Tinkers smeltery");
