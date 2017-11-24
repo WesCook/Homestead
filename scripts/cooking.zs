@@ -24,10 +24,6 @@ mods.betterwithmods.Mill.add(<betterwithmods:material:37>, null, [<rockhounding_
 
 // Milk compatibility
 <ore:listAllmilk>.add(<minecraft:milk_bucket>);
-<ore:listAllmilk>.add(<animania:friesian_bucket_milk>);
-<ore:listAllmilk>.add(<animania:holstein_bucket_milk>);
-<ore:listAllmilk>.add(<animania:goat_bucket_milk>);
-<ore:listAllmilk>.add(<animania:sheep_bucket_milk>);
 <ore:listAllmilk>.add(<ceramics:clay_bucket:1>);
 <ore:listAllmilk>.remove(<harvestcraft:soymilkitem>);
 

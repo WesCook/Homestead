@@ -45,6 +45,8 @@ mods.betterwithmods.Mill.add(<minecraft:dye:15> * 4, null, [<ore:bone>]);
 <ore:slopMilk>.add(<minecraft:milk_bucket>);
 <ore:slopMilk>.add(<animania:friesian_bucket_milk>);
 <ore:slopMilk>.add(<animania:holstein_bucket_milk>);
+<ore:slopMilk>.add(<animania:sheep_bucket_milk>);
+<ore:slopMilk>.add(<animania:goat_bucket_milk>);
 
 // Slop recipe
 recipes.remove(<animania:bucket_slop>);
