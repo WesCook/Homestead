@@ -50,8 +50,8 @@ mods.betterwithmods.Mill.add(<minecraft:dye:15> * 4, null, [<ore:bone>]);
 
 // Slop recipe
 recipes.remove(<animania:bucket_slop>);
-recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>, <ore:listAllveggie>, <ore:listAllveggie>]);
-recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>, <ore:listAllveggie>, <ore:bread>]);
+recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>.noReturn(), <ore:listAllveggie>, <ore:listAllveggie>]);
+recipes.addShapeless(<animania:bucket_slop>, [<ore:slopMilk>.noReturn(), <ore:listAllveggie>, <ore:bread>]);
 recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <minecraft:bucket>, <ore:listAllveggie>, <ore:listAllveggie>]);
 recipes.addShapeless(<animania:bucket_slop>, [<harvestcraft:freshmilkitem>, <minecraft:bucket>, <ore:listAllveggie>, <ore:bread>]);
 
@@ -65,7 +65,7 @@ recipes.remove(<harvestcraft:market>);
 recipes.remove(<farmingforblockheads:market>);
 
 // Market retains original Harvestcraft recipe
-recipes.addShaped(<farmingforblockheads:market>, [[<ore:plankWood>, <ore:wool>, <ore:plankWood>], [<ore:wool>, <ore:gemEmerald>, <ore:wool>], [<ore:plankWood>, <ore:wool>, <ore:plankWood>]]);
+recipes.addShaped(<farmingforblockheads:market>, [[<ore:plankWood>, <ore:blockWool>, <ore:plankWood>], [<ore:blockWool>, <ore:gemEmerald>, <ore:blockWool>], [<ore:plankWood>, <ore:blockWool>, <ore:plankWood>]]);
 
 // Allow conversion between Harvestcraft Market and FarmingForBlockheads market
 // Leaving in the old item for those servers who don't update their quest books
