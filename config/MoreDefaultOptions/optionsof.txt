@@ -1,4 +1,3 @@
-ofRenderDistanceChunks:8
 ofFogType:1
 ofFogStart:0.8
 ofMipmapType:0
@@ -55,12 +54,14 @@ ofCustomItems:true
 ofCustomSky:false
 ofShowCapes:true
 ofNaturalTextures:false
+ofEmissiveTextures:true
 ofLazyChunkLoading:true
 ofDynamicFov:true
 ofAlternateBlocks:true
 ofDynamicLights:2
 ofScreenshotSize:1
 ofCustomEntityModels:true
+ofCustomGuis:true
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false

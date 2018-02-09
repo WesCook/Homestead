@@ -82,11 +82,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:46
-key_presets.cfg.keybind.Presets:0
-key_cfg.keybind.SelectionBox:0
-key_cfg.keybind.Volume:0
-key_cfg.keybind.LightLevel:65
-key_cfg.keybind.ChunkBorders:0
 key_key.OpenBag:0
 key_key.betterquesting.quests:41
 key_Toggle Magnetism Suppressor:0
@@ -140,6 +135,11 @@ key_key.craftingtweaks.compressAll:0
 key_key.craftingtweaks.decompressOne:0
 key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
+key_dsurround.cfg.keybind.SelectionBox:0
+key_dsurround.cfg.keybind.Volume:0
+key_dsurround.cfg.keybind.LightLevel:65
+key_dsurround.cfg.keybind.ChunkBorders:0
+key_presets.cfg.keybind.Presets:0
 key_key.nextitem:26
 key_key.previtem:27
 key_key.placeitem:25
