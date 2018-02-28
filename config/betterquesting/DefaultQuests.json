@@ -4990,79 +4990,12 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "If you\u0027re looking for a rich source of meat, pigs are an excellent choice.  Some species are ideal for Roasts, while others can be turned into delicious crispy Bacon.  What\u0027s not to love about pigs?\n\nPigs are happiest when rolling around in the Mud or swimming in water.  Mud can be easily crafted with Dirt and Water.  Be sure to keep your §mdinner§r piggies happy to maximize yields.\n\nPigs have one ability that no other animals have: they are able to dig up truffles hidden inside forest biomes.  Truffles are used in a variety of high-saturation meals, and so it may be worth staying their execution for now.\n\nA pigs favorite food is Slop or Carrots.  Buckets of Slop can be crafted from Milk and Vegetables, and thrown into a trough to keep your pigs fed."
+          "desc": "If you\u0027re looking for a rich source of meat, pigs are an excellent choice.  Some species are ideal for Roasts, while others can be turned into delicious crispy Bacon.  What\u0027s not to love about pigs?\n\nPigs are happiest when rolling around in the Mud or swimming in water.  Mud can be easily crafted with Dirt and Water.  Be sure to keep your §mdinner§r piggies happy to maximize yields.\n\nPigs have one ability that no other animals have: they are able to dig up truffles hidden inside forest biomes.  Truffles are used in a variety of high-saturation meals, and so it may be worth staying their execution for now.\n\nA pigs favorite food is Slop or Carrots.  Buckets of Slop can be crafted from Milk and Vegetables, and thrown into a trough to keep your pigs fed.\n\n§7Note: For technical reasons, this is a checkbox submission quest.§r"
         }
       },
       "tasks": [
         {
-          "target": "Pig",
-          "range": 8,
-          "amount": 1,
-          "subtypes": true,
-          "ignoreNBT": true,
-          "targetNBT": {
-            "HurtByTimestamp:4": 0,
-            "ForgeData:10": {},
-            "Attributes:9": {
-              "10": {
-                "Base:6": 16.0,
-                "Name:8": "generic.followRange"
-              }
-            },
-            "Invulnerable:4": 0,
-            "ForcedAge:4": 0,
-            "FallFlying:4": 0,
-            "PortalCooldown:4": 0,
-            "AbsorptionAmount:6": 0.0,
-            "Saddle:4": 0,
-            "FallDistance:6": 0.0,
-            "InLove:4": 0,
-            "DeathTime:4": 0,
-            "HandDropChances:9": {
-              "6": 0.08500000089406967
-            },
-            "ForgeCaps:10": {
-              "llibrary:ExtendedEntityDataCapability:10": {},
-              "dsurround:emojiData:10": {
-                "as:4": 0,
-                "es:4": 0,
-                "et:4": 0
-              }
-            },
-            "PersistenceRequired:4": 0,
-            "id:8": "Pig",
-            "Age:4": 1,
-            "Motion:9": {
-              "6": 0.0
-            },
-            "Leashed:4": 0,
-            "UUIDLeast:4": -6661603942244559854,
-            "Health:6": 10.0,
-            "LeftHanded:4": 0,
-            "Air:4": 0,
-            "OnGround:4": 0,
-            "Dimension:4": 0,
-            "Rotation:9": {
-              "6": 0.0
-            },
-            "HandItems:9": {
-              "10": {}
-            },
-            "ArmorDropChances:9": {
-              "6": 0.08500000089406967
-            },
-            "UUIDMost:4": 4396955479579053538,
-            "Pos:9": {
-              "6": 0.0
-            },
-            "Fire:4": 0,
-            "ArmorItems:9": {
-              "10": {}
-            },
-            "CanPickUpLoot:4": 0,
-            "HurtTime:4": 0
-          },
-          "taskID": "bq_standard:meeting",
+          "taskID": "bq_standard:checkbox",
           "index": 0
         }
       ],
