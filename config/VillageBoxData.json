@@ -773,33 +773,33 @@
       "tradingRecipes": [
         {
           "inputs": [
-            "minecraft,coal,8,0"
+            "villagebox,bronze_coin,5,0"
           ],
-          "output": "villagebox,bronze_coin,5,0"
+          "output": "minecraft,coal,8,0"
         },
         {
           "inputs": [
-            "minecraft,iron_ore,1,0"
+            "villagebox,bronze_coin,8,0"
           ],
-          "output": "villagebox,bronze_coin,8,0"
+          "output": "minecraft,iron_ore,1,0"
         },
         {
           "inputs": [
-            "minecraft,gold_ore,1,0"
+            "villagebox,bronze_coin,32,0"
           ],
-          "output": "villagebox,bronze_coin,32,0"
+          "output": "minecraft,gold_ore,1,0"
         },
         {
           "inputs": [
-            "minecraft,redstone,8,0"
+            "villagebox,bronze_coin,10,0"
           ],
-          "output": "villagebox,bronze_coin,10,0"
+          "output": "minecraft,redstone,8,0"
         },
         {
           "inputs": [
-            "minecraft,diamond,1,0"
+            "villagebox,silver_coin,3,0"
           ],
-          "output": "villagebox,silver_coin,3,0"
+          "output": "minecraft,diamond,1,0"
         }
       ],
       "quests": [
